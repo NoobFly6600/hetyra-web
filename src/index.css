@@ -1,0 +1,9 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .navbar-dark .navbar-nav .nav-link.dropdown-toggle {
+    color: white !important;
+}
