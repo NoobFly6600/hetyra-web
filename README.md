@@ -1,5 +1,3 @@
-# EDPOL 210: Unessay Project
-
 
 ## Setup
 
