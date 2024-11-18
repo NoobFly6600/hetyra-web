@@ -73,6 +73,7 @@ export default function HETYRA_Navbar(props) {
                         >
                             More Resources
                         </Nav.Link>
+
                     </Nav>
                     
                     <Nav>

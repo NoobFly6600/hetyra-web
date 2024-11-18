@@ -40,9 +40,9 @@ export default function HETYRA() {
                     <div>
                         <span>©2024 HETYRA All Rights Reserved</span>
                         <span style={{ margin: '0 10px' }}>|</span>
-                        <a href="/privacy" style={{ color: '#666', textDecoration: 'none' }}>Privacy Policy</a>
+                        <a href="/PrivacyPage" style={{ color: '#666', textDecoration: 'none' }}>Privacy Policy</a>
                         <span style={{ margin: '0 10px' }}>|</span>
-                        <a href="/rules" style={{ color: '#666', textDecoration: 'none' }}>Rules Center</a>
+                        <a href="/PrivacyPage#rules" style={{ color: '#666', textDecoration: 'none' }}>Rules Center</a>
                     </div>
                 </Container>
             </div>

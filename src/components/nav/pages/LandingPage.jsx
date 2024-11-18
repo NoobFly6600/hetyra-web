@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
+import FrontPage from '../../../Photos/FrontPage.jpg';
 
 export default function LandingPage(props) {
     return (
@@ -38,13 +39,17 @@ export default function LandingPage(props) {
                     </Col>
                 </Row>
 
-                {/* You can add images or icons here similar to Meituan's layout */}
                 <Row className="justify-content-center mt-5">
                     <Col md={8}>
                         <img 
-                            src="/path-to-your-illustration.png" 
+                            src={FrontPage}
                             alt="HETYRA Service Illustration" 
-                            style={{width: '100%', maxWidth: '1200px'}}
+                            style={{
+                                width: '100%',
+                                maxWidth: '1200px',
+                                borderRadius: '10px',
+                                boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
+                            }}
                         />
                     </Col>
                 </Row>
