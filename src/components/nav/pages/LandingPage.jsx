@@ -1,5 +1,7 @@
-import { Col, Container, Row } from "react-bootstrap";
-import FrontPage from '../../../Photos/FrontPage.jpg';
+import { Col, Container, Row, Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import InHomeService from '../../../Photos/InHomeServices.png';
+import BeYourOwnBoss from '../../../Photos/BeYourOwnBoss.png';
 
 export default function LandingPage(props) {
     return (
@@ -12,7 +14,7 @@ export default function LandingPage(props) {
                             fontWeight: 'bold',
                             marginBottom: '30px'
                         }}>
-                            A Tech-driven Massage Service Platform
+                            Relax anywhere, anytime with Hetyra
                         </h1>
                         
                         <h4 style={{
@@ -20,37 +22,104 @@ export default function LandingPage(props) {
                             marginBottom: '30px',
                             lineHeight: '1.6'
                         }}>
-                            Adhering to the 'Wellness + Technology' strategy, HETYRA commits to its mission that 
-                            'We help people relax better, feel better'.
+                            A platform that connects you with massage therapists and bodyworkers
                         </h4>
-                        
-                        <p style={{
-                            color: '#777',
-                            maxWidth: '1000px',
-                            margin: '0 auto',
-                            lineHeight: '1.8'
-                        }}>
-                            Since its establishment in 2024, HETYRA has advanced the digital transformation of massage services 
-                            by connecting certified therapists with customers. Through our innovative platform, we provide 
-                            high-quality on-demand massage services that bring relaxation and wellness directly to your location. 
-                            HETYRA prioritizes customer satisfaction and therapist safety, continuously investing in new technologies 
-                            to enhance the massage service experience.
-                        </p>
                     </Col>
                 </Row>
 
-                <Row className="justify-content-center mt-5">
-                    <Col md={8}>
-                        <img 
-                            src={FrontPage}
-                            alt="HETYRA Service Illustration" 
-                            style={{
-                                width: '100%',
-                                maxWidth: '1200px',
-                                borderRadius: '10px',
-                                boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
-                            }}
-                        />
+                {/* First Card */}
+                <Row className="mb-5">
+                    <Col>
+                        <Card style={{ border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
+                            <Row className="g-0 align-items-center">
+                                <Col md={6}>
+                                    <Card.Img
+                                        src={InHomeService}
+                                        alt="In-Home Massage Service"
+                                        style={{
+                                            borderRadius: '10px 0 0 10px',
+                                            height: '100%',
+                                            objectFit: 'cover'
+                                        }}
+                                    />
+                                </Col>
+                                <Col md={6}>
+                                    <Card.Body className="p-5">
+                                        <Card.Title as="h2" className="mb-4">In-Home Services</Card.Title>
+                                        <Card.Text style={{
+                                            fontSize: '18px',
+                                            lineHeight: '1.6',
+                                            marginBottom: '30px'
+                                        }}>
+                                            Bring relaxation and rejuvenation straight to your doorstep! 
+                                            With Hetyra, you can easily book skilled massage therapists and 
+                                            bodyworkers at a time and place that fits your schedule.
+                                        </Card.Text>
+                                        <Link to="/in-home-services">
+                                            <Button 
+                                                size="lg"
+                                                style={{
+                                                    backgroundColor: 'black',
+                                                    border: 'none',
+                                                    padding: '12px 30px',
+                                                    borderRadius: '5px'
+                                                }}
+                                            >
+                                                Get Started
+                                            </Button>
+                                        </Link>
+                                    </Card.Body>
+                                </Col>
+                            </Row>
+                        </Card>
+                    </Col>
+                </Row>
+
+                {/* Second Card */}
+                <Row>
+                    <Col>
+                        <Card style={{ border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
+                            <Row className="g-0 align-items-center">
+                                <Col md={6}>
+                                    <Card.Body className="p-5">
+                                        <Card.Title as="h2" className="mb-4">Be your own boss</Card.Title>
+                                        <Card.Text style={{
+                                            fontSize: '18px',
+                                            lineHeight: '1.6',
+                                            marginBottom: '30px'
+                                        }}>
+                                            Join Hetyra and take control of your business. Set your availability, 
+                                            define your service areas, manage appointments, and maximize your earning 
+                                            potential—all with ease through the Hetyra Provider App.
+                                        </Card.Text>
+                                        <Link to="/providers">
+                                            <Button 
+                                                size="lg"
+                                                style={{
+                                                    backgroundColor: 'black',
+                                                    border: 'none',
+                                                    padding: '12px 30px',
+                                                    borderRadius: '5px'
+                                                }}
+                                            >
+                                                Become a Provider
+                                            </Button>
+                                        </Link>
+                                    </Card.Body>
+                                </Col>
+                                <Col md={6}>
+                                    <Card.Img
+                                        src={BeYourOwnBoss}
+                                        alt="Be Your Own Boss"
+                                        style={{
+                                            borderRadius: '0 10px 10px 0',
+                                            height: '100%',
+                                            objectFit: 'cover'
+                                        }}
+                                    />
+                                </Col>
+                            </Row>
+                        </Card>
                     </Col>
                 </Row>
             </Container>

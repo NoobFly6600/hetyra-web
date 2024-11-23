@@ -1,14 +1,13 @@
 import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useState } from 'react';
-import crest from '../../assets/uw-crest.svg'
 
 export default function HETYRA_Navbar(props) {
     const [expanded, setExpanded] = useState(false);
 
     return (
         <Navbar 
-            bg="dark" 
+            bg="black" 
             variant="dark" 
             expand="lg"
             expanded={expanded}
@@ -21,59 +20,51 @@ export default function HETYRA_Navbar(props) {
                     to="/" 
                     style={{ 
                         fontSize: '24px',
+                        color: 'white'
                     }}
                 >
-                    {/* <img
-                        alt="Badger Buddies Logo"
-                        src={crest}
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top"
-                    />{' '} */}
                     HETYRA
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="navbar-nav" />
                 
                 <Navbar.Collapse id="navbar-nav">
-                    <Nav className="mx-auto" style={{ fontSize: '18px' }}>
+                    <Nav className="me-auto" style={{ fontSize: '16px' }}>
                         <Nav.Link 
                             as={Link} 
-                            to="/HomePage" 
-                            className="mx-xl-5 mx-lg-4 mx-md-3"
+                            to="/in-home-services" 
+                            className="mx-3"
                             onClick={() => setExpanded(false)}
                             style={{ color: 'white' }}
                         >
-                            Home
+                            In-Home Services
                         </Nav.Link>
                         <Nav.Link 
                             as={Link} 
-                            to="/CooperatePage" 
-                            className="mx-xl-5 mx-lg-4 mx-md-3"
+                            to="/providers" 
+                            className="mx-3"
                             onClick={() => setExpanded(false)}
                             style={{ color: 'white' }}
                         >
-                            Cooperate
+                            Providers
                         </Nav.Link>
                         <Nav.Link 
                             as={Link} 
-                            to="/AboutUsPage" 
-                            className="mx-xl-5 mx-lg-4 mx-md-3"
+                            to="/trust-safety" 
+                            className="mx-3"
                             onClick={() => setExpanded(false)}
                             style={{ color: 'white' }}
                         >
-                            About Us
+                            Trust & Safety
                         </Nav.Link>
-                        <Nav.Link 
-                            as={Link} 
-                            to="/ResourcesPage" 
-                            className="mx-xl-5 mx-lg-4 mx-md-3"
-                            onClick={() => setExpanded(false)}
-                            style={{ color: 'white' }}
+                        <NavDropdown 
+                            title="About" 
+                            id="about-nav-dropdown"
+                            className="mx-3"
                         >
-                            More Resources
-                        </Nav.Link>
-
+                            <NavDropdown.Item as={Link} to="/about-us">About Us</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/how-it-works">How Hetyra Works</NavDropdown.Item>
+                        </NavDropdown>
                     </Nav>
                     
                     <Nav>
@@ -81,12 +72,21 @@ export default function HETYRA_Navbar(props) {
                             title="Language" 
                             id="language-nav-dropdown"
                             align="end"
-                            style={{ color: 'white' }}
+                            className="mx-3"
                         >
                             <NavDropdown.Item>English</NavDropdown.Item>
                             <NavDropdown.Item>Español</NavDropdown.Item>
                             <NavDropdown.Item>中文</NavDropdown.Item>
                         </NavDropdown>
+                        <Nav.Link 
+                            as={Link} 
+                            to="/help"
+                            className="mx-3"
+                            onClick={() => setExpanded(false)}
+                            style={{ color: 'white' }}
+                        >
+                            Help
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
