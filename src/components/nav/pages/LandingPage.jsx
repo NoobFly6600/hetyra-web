@@ -5,7 +5,7 @@ import BeYourOwnBoss from '../../../Photos/BeYourOwnBoss.png';
 
 export default function LandingPage(props) {
     return (
-        <div style={{backgroundColor: '#f8f9fa', minHeight: 'calc(100vh - 200px)'}}>
+        <div style={{backgroundColor: 'white', minHeight: 'calc(100vh - 200px)'}}>
             <Container fluid={true} style={{padding: '40px 20px'}}>
                 <Row className="text-center mb-5">
                     <Col>

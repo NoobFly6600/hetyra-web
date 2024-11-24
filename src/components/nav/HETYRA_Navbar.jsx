@@ -14,7 +14,7 @@ export default function HETYRA_Navbar(props) {
             onToggle={(expanded) => setExpanded(expanded)}
             className="py-3"
         >
-            <Container fluid>
+            <Container style={{ maxWidth: '1400px', padding: '0 40px' }}>
                 <Navbar.Brand 
                     as={Link} 
                     to="/" 
@@ -23,7 +23,7 @@ export default function HETYRA_Navbar(props) {
                         color: 'white'
                     }}
                 >
-                    HETYRA
+                    Hetyra
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="navbar-nav" />

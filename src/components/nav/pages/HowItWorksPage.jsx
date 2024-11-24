@@ -31,8 +31,8 @@ export default function HowItWorksPage() {
     ];
 
     return (
-        <div style={{ backgroundColor: '#f8f9fa', padding: '60px 0' }}>
-            <Container>
+        <div style={{ backgroundColor: 'white' }}>
+            <Container style={{ backgroundColor: 'white' }}>
                 {/* Header Section */}
                 <Row className="text-center mb-5">
                     <Col>

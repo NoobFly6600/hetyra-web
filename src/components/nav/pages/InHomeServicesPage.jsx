@@ -5,7 +5,7 @@ import ForthPhoto from '../../../Photos/ForthPhoto.png';
 
 export default function InHomeServicesPage() {
     return (
-        <div style={{ backgroundColor: '#f8f9fa' }}>
+        <div style={{ backgroundColor: 'white' }}>
             {/* Banner Section */}
             <Container fluid style={{ backgroundColor: 'black', color: 'white', padding: '60px 0' }}>
                 <Container>
