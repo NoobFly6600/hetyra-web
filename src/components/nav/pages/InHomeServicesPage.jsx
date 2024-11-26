@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import ThirdPhoto from '../../../Photos/ThirdPhoto.png';
 import ForthPhoto from '../../../Photos/ForthPhoto.png';
-import FrontPhoto from '../../../Photos/FrontPhoto.png';
+import AppPhoto from '../../../Photos/AppPhoto.png';
 
 export default function InHomeServicesPage() {
     return (
@@ -80,11 +80,11 @@ export default function InHomeServicesPage() {
                                 </Col>
                                 <Col md={6} className="d-flex justify-content-center">
                                     <Card.Img
-                                        src={FrontPhoto}
+                                        src={AppPhoto}
                                         alt="Massage Benefits"
                                         style={{
                                             borderRadius: '0 10px 10px 0',
-                                            height: '600px',
+                                            height: '500px',
                                             width: '800px',
                                             objectFit: 'cover'
                                         }}
