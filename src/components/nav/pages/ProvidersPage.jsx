@@ -63,12 +63,12 @@ export default function ProvidersPage() {
                                             height: '450px',
                                             width: '650px',
                                             objectFit: 'cover',
-                                            marginRight: '20px'
+                                            marginRight: '30px'
                                         }}
                                     />
                                 </Col>
                                 <Col md={6}>
-                                    <Card.Body className="p-5">
+                                    <Card.Body className="p-5" style={{ paddingLeft: '40px' }}>
                                         <ul style={{ fontSize: '18px', lineHeight: '1.8' }}>
                                             <li>Set your own schedule and work area</li>
                                             <li>Keep 70-80% of your service fees</li>

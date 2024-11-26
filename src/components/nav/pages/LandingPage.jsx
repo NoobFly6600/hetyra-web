@@ -47,12 +47,12 @@ export default function LandingPage(props) {
                                             height: '450px',
                                             width: '650px',
                                             objectFit: 'cover',
-                                            marginRight: '20px'
+                                            marginRight: '30px'
                                         }}
                                     />
                                 </Col>
                                 <Col md={7}>
-                                    <Card.Body className="p-5">
+                                    <Card.Body className="p-5" style={{ paddingLeft: '40px' }}>
                                         <Card.Title as="h2" className="mb-4">In-Home Services</Card.Title>
                                         <Card.Text style={{
                                             fontSize: '18px',
