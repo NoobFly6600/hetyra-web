@@ -38,7 +38,7 @@ export default function LandingPage(props) {
                             margin: '0 auto'
                         }}>
                             <Row className="g-0 align-items-center">
-                                <Col md={5} className="d-flex justify-content-center">
+                                <Col md={6} className="d-flex justify-content-center">
                                     <Card.Img
                                         src={InHomeService}
                                         alt="In-Home Massage Service"
@@ -51,8 +51,8 @@ export default function LandingPage(props) {
                                         }}
                                     />
                                 </Col>
-                                <Col md={7}>
-                                    <Card.Body className="p-5" style={{ paddingLeft: '40px' }}>
+                                <Col md={6}>
+                                    <Card.Body className="p-5" style={{ paddingLeft: '60px' }}>
                                         <Card.Title as="h2" className="mb-4">In-Home Services</Card.Title>
                                         <Card.Text style={{
                                             fontSize: '18px',

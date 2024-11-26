@@ -53,23 +53,27 @@ export default function ProvidersPage() {
                             maxWidth: '1100px',
                             margin: '0 auto'
                         }}>
-                            <Row className="g-0">
-                                <Col md={6}>
+                            <Row className="g-0 align-items-center">
+                                <Col md={6} className="d-flex justify-content-center">
                                     <Card.Img
                                         src={SixthPhoto}
                                         alt="Provider Benefits"
                                         style={{
                                             borderRadius: '10px 0 0 10px',
-                                            height: '450px',
-                                            width: '650px',
+                                            height: '500px',
+                                            width: '700px',
                                             objectFit: 'cover',
                                             marginRight: '30px'
                                         }}
                                     />
                                 </Col>
-                                <Col md={6}>
-                                    <Card.Body className="p-5" style={{ paddingLeft: '40px' }}>
-                                        <ul style={{ fontSize: '18px', lineHeight: '1.8' }}>
+                                <Col md={6} className="d-flex justify-content-start">
+                                    <Card.Body className="p-5" style={{ marginLeft: '60px' }}>
+                                        <ul style={{ 
+                                            fontSize: '18px', 
+                                            lineHeight: '1.8',
+                                            paddingLeft: '20px'
+                                        }}>
                                             <li>Set your own schedule and work area</li>
                                             <li>Keep 70-80% of your service fees</li>
                                             <li>Access to a growing client base</li>
