@@ -17,7 +17,7 @@ export default function LandingPage(props) {
                         }}>
                             Relax anywhere, anytime with Hetyra
                         </h1>
-                        
+                        <br></br>
                         <h4 style={{
                             color: 'black',
                             marginBottom: '30px',
@@ -31,7 +31,11 @@ export default function LandingPage(props) {
                 {/* First Card */}
                 <Row className="mb-5">
                     <Col>
-                        <Card className="h-100" style={{ border: 'none' }}>
+                        <Card className="h-100" style={{ 
+                            border: 'none',
+                            maxWidth: '1100px',
+                            margin: '0 auto'
+                        }}>
                             <Row className="g-0 align-items-center">
                                 <Col md={5} className="d-flex justify-content-center">
                                     <Card.Img
@@ -39,8 +43,8 @@ export default function LandingPage(props) {
                                         alt="In-Home Massage Service"
                                         style={{
                                             borderRadius: '10px 0 0 10px',
-                                            height: '400px',
-                                            width: '600px',
+                                            height: '450px',
+                                            width: '650px',
                                             objectFit: 'cover'
                                         }}
                                     />

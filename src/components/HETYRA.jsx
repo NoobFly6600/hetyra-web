@@ -15,7 +15,6 @@ export default function HETYRA() {
     return (
         <div style={{backgroundColor: '#f8f9fa'}}>
             <HETYRA_Navbar />
-            <br />
             <div style={{backgroundColor: '#f8f9fa'}}>
                 <GlobalContext.Provider>
                     <Outlet />

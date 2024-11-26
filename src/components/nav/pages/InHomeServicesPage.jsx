@@ -52,8 +52,12 @@ export default function InHomeServicesPage() {
                         {/* Steps Cards */}
                         <Row className="g-4">
                             <Col md={4}>
-                                <Card className="h-100" style={{ border: 'none' }}>
-                                    <Card.Body className="p-4">
+                                <Card className="h-100" style={{ 
+                                    border: 'none',
+                                    maxWidth: '1100px',
+                                    margin: '0 auto'
+                                }}>
+                                    <Card.Body className="p-5">
                                         <h3 className="h4 mb-3">1. Choose Your Preferred Provider</h3>
                                         <p>
                                             Browse and select from skilled, independent massage therapists 
@@ -64,8 +68,12 @@ export default function InHomeServicesPage() {
                                 </Card>
                             </Col>
                             <Col md={4}>
-                                <Card className="h-100" style={{ border: 'none' }}>
-                                    <Card.Body className="p-4">
+                                <Card className="h-100" style={{ 
+                                    border: 'none',
+                                    maxWidth: '1100px',
+                                    margin: '0 auto'
+                                }}>
+                                    <Card.Body className="p-5">
                                         <h3 className="h4 mb-3">2. Your Provider Comes to You</h3>
                                         <p>
                                             A vetted, background-checked professional arrives at your chosen 
@@ -75,8 +83,12 @@ export default function InHomeServicesPage() {
                                 </Card>
                             </Col>
                             <Col md={4}>
-                                <Card className="h-100" style={{ border: 'none' }}>
-                                    <Card.Body className="p-4">
+                                <Card className="h-100" style={{ 
+                                    border: 'none',
+                                    maxWidth: '1100px',
+                                    margin: '0 auto'
+                                }}>
+                                    <Card.Body className="p-5">
                                         <h3 className="h4 mb-3">3. Unwind and Enjoy</h3>
                                         <p>
                                             Relax and savor your personalized session, all in the comfort 

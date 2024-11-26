@@ -48,7 +48,11 @@ export default function ProvidersPage() {
                 <Row className="mb-5">
                     <Col>
                         <h2 className="text-center mb-5">Why become a provider at Hetyra?</h2>
-                        <Card style={{ border: 'none' }}>
+                        <Card style={{ 
+                            border: 'none',
+                            maxWidth: '1100px',
+                            margin: '0 auto'
+                        }}>
                             <Row className="g-0">
                                 <Col md={6}>
                                     <Card.Img
@@ -56,7 +60,8 @@ export default function ProvidersPage() {
                                         alt="Provider Benefits"
                                         style={{
                                             borderRadius: '10px 0 0 10px',
-                                            height: '100%',
+                                            height: '450px',
+                                            width: '650px',
                                             objectFit: 'cover'
                                         }}
                                     />
