@@ -6,7 +6,7 @@ import SeventhPhoto from '../../../Photos/SeventhPhoto.png';
 
 export default function ProvidersPage() {
     return (
-        <div style={{ backgroundColor: '#f8f9fa' }}>
+        <div style={{ backgroundColor: 'white' }}>
             {/* Banner Section */}
             <Container fluid style={{ backgroundColor: 'black', color: 'white', padding: '60px 0' }}>
                 <Container>
@@ -31,7 +31,9 @@ export default function ProvidersPage() {
                                 src={FifthPhoto}
                                 alt="Be Your Own Boss"
                                 style={{
-                                    width: '100%',
+                                    width: '600px',
+                                    height: '400px',
+                                    objectFit: 'cover',
                                     borderRadius: '10px'
                                 }}
                             />
@@ -46,7 +48,7 @@ export default function ProvidersPage() {
                 <Row className="mb-5">
                     <Col>
                         <h2 className="text-center mb-5">Why become a provider at Hetyra?</h2>
-                        <Card style={{ border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
+                        <Card style={{ border: 'none' }}>
                             <Row className="g-0">
                                 <Col md={6}>
                                     <Card.Img
@@ -80,7 +82,7 @@ export default function ProvidersPage() {
                 <Row className="mb-5">
                     <Col>
                         <h2 className="text-center mb-5">How to apply?</h2>
-                        <Card style={{ border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
+                        <Card style={{ border: 'none' }}>
                             <Row className="g-0">
                                 <Col md={6}>
                                     <Card.Body className="p-5">
@@ -116,7 +118,6 @@ export default function ProvidersPage() {
                             className="p-5 mx-auto" 
                             style={{ 
                                 border: 'none', 
-                                boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
                                 maxWidth: '600px'
                             }}
                         >

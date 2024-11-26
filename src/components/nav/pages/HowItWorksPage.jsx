@@ -65,7 +65,6 @@ export default function HowItWorksPage() {
                                 className="mb-4"
                                 style={{ 
                                     border: 'none',
-                                    boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
                                     transition: 'transform 0.2s',
                                     cursor: 'default'
                                 }}

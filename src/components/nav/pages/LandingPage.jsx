@@ -6,19 +6,20 @@ import BeYourOwnBoss from '../../../Photos/BeYourOwnBoss.png';
 export default function LandingPage(props) {
     return (
         <div style={{backgroundColor: 'white', minHeight: 'calc(100vh - 200px)'}}>
-            <Container fluid={true} style={{padding: '40px 20px'}}>
+            <Container style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 20px' }}>
                 <Row className="text-center mb-5">
                     <Col>
                         <h1 style={{
-                            fontSize: '48px',
+                            fontSize: '56px',
                             fontWeight: 'bold',
-                            marginBottom: '30px'
+                            marginBottom: '30px',
+                            color: 'black'
                         }}>
                             Relax anywhere, anytime with Hetyra
                         </h1>
                         
                         <h4 style={{
-                            color: '#666',
+                            color: 'black',
                             marginBottom: '30px',
                             lineHeight: '1.6'
                         }}>
@@ -30,20 +31,21 @@ export default function LandingPage(props) {
                 {/* First Card */}
                 <Row className="mb-5">
                     <Col>
-                        <Card style={{ border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
+                        <Card className="h-100" style={{ border: 'none' }}>
                             <Row className="g-0 align-items-center">
-                                <Col md={6}>
+                                <Col md={5} className="d-flex justify-content-center">
                                     <Card.Img
                                         src={InHomeService}
                                         alt="In-Home Massage Service"
                                         style={{
                                             borderRadius: '10px 0 0 10px',
-                                            height: '100%',
+                                            height: '400px',
+                                            width: '600px',
                                             objectFit: 'cover'
                                         }}
                                     />
                                 </Col>
-                                <Col md={6}>
+                                <Col md={7}>
                                     <Card.Body className="p-5">
                                         <Card.Title as="h2" className="mb-4">In-Home Services</Card.Title>
                                         <Card.Text style={{
@@ -78,7 +80,7 @@ export default function LandingPage(props) {
                 {/* Second Card */}
                 <Row>
                     <Col>
-                        <Card style={{ border: 'none', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}>
+                        <Card className="h-100" style={{ border: 'none' }}>
                             <Row className="g-0 align-items-center">
                                 <Col md={6}>
                                     <Card.Body className="p-5">
