@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import ThirdPhoto from '../../../Photos/ThirdPhoto.png';
 import ForthPhoto from '../../../Photos/ForthPhoto.png';
+import FrontPhoto from '../../../Photos/FrontPhoto.png';
 
 export default function InHomeServicesPage() {
     return (
@@ -45,59 +46,52 @@ export default function InHomeServicesPage() {
 
             {/* Body Section */}
             <Container className="py-5">
+                {/* Steps Section */}
                 <Row className="mb-5">
                     <Col>
                         <h2 className="text-center mb-5">Book anywhere, anytime on Hetyra app</h2>
-                        
-                        {/* Steps Cards */}
-                        <Row className="g-4">
-                            <Col md={4}>
-                                <Card className="h-100" style={{ 
-                                    border: 'none',
-                                    maxWidth: '1100px',
-                                    margin: '0 auto'
-                                }}>
+                        <Card style={{ 
+                            border: 'none',
+                            maxWidth: '1100px',
+                            margin: '0 auto'
+                        }}>
+                            <Row className="g-0 align-items-center">
+                                <Col md={6}>
                                     <Card.Body className="p-5">
-                                        <h3 className="h4 mb-3">1. Choose Your Preferred Provider</h3>
-                                        <p>
-                                            Browse and select from skilled, independent massage therapists 
-                                            and bodyworkers nearby. With providers available 24/7, you can 
-                                            schedule your appointment at a time that works best for you.
-                                        </p>
+                                        <div style={{ fontSize: '18px', lineHeight: '1.8' }}>
+                                            <div className="mb-4">
+                                                <h3 className="h4 mb-3">1. Choose Your Preferred Provider</h3>
+                                                <p>Browse and select from skilled, independent massage therapists 
+                                                and bodyworkers nearby. With providers available 24/7, you can 
+                                                schedule your appointment at a time that works best for you.</p>
+                                            </div>
+                                            <div className="mb-4">
+                                                <h3 className="h4 mb-3">2. Your Provider Comes to You</h3>
+                                                <p>A vetted, background-checked professional arrives at your chosen 
+                                                location, fully equipped to deliver an exceptional experience.</p>
+                                            </div>
+                                            <div>
+                                                <h3 className="h4 mb-3">3. Unwind and Enjoy</h3>
+                                                <p>Relax and savor your personalized session, all in the comfort 
+                                                and privacy of your own space.</p>
+                                            </div>
+                                        </div>
                                     </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col md={4}>
-                                <Card className="h-100" style={{ 
-                                    border: 'none',
-                                    maxWidth: '1100px',
-                                    margin: '0 auto'
-                                }}>
-                                    <Card.Body className="p-5">
-                                        <h3 className="h4 mb-3">2. Your Provider Comes to You</h3>
-                                        <p>
-                                            A vetted, background-checked professional arrives at your chosen 
-                                            location, fully equipped to deliver an exceptional experience.
-                                        </p>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                            <Col md={4}>
-                                <Card className="h-100" style={{ 
-                                    border: 'none',
-                                    maxWidth: '1100px',
-                                    margin: '0 auto'
-                                }}>
-                                    <Card.Body className="p-5">
-                                        <h3 className="h4 mb-3">3. Unwind and Enjoy</h3>
-                                        <p>
-                                            Relax and savor your personalized session, all in the comfort 
-                                            and privacy of your own space.
-                                        </p>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                        </Row>
+                                </Col>
+                                <Col md={6} className="d-flex justify-content-center">
+                                    <Card.Img
+                                        src={FrontPhoto}
+                                        alt="Massage Benefits"
+                                        style={{
+                                            borderRadius: '0 10px 10px 0',
+                                            height: '600px',
+                                            width: '800px',
+                                            objectFit: 'cover'
+                                        }}
+                                    />
+                                </Col>
+                            </Row>
+                        </Card>
                     </Col>
                 </Row>
 
