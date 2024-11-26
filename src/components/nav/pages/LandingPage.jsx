@@ -8,6 +8,7 @@ export default function LandingPage(props) {
         <div style={{backgroundColor: 'white', minHeight: 'calc(100vh - 200px)'}}>
             <Container style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 20px' }}>
                 <Row className="text-center mb-5">
+                    <br/>
                     <Col>
                         <h1 style={{
                             fontSize: '56px',
@@ -17,7 +18,6 @@ export default function LandingPage(props) {
                         }}>
                             Relax anywhere, anytime with Hetyra
                         </h1>
-                        <br></br>
                         <h4 style={{
                             color: 'black',
                             marginBottom: '30px',
@@ -26,6 +26,7 @@ export default function LandingPage(props) {
                             A platform that connects you with massage therapists and bodyworkers
                         </h4>
                     </Col>
+                    <br/>
                 </Row>
 
                 {/* First Card */}
@@ -45,7 +46,8 @@ export default function LandingPage(props) {
                                             borderRadius: '10px 0 0 10px',
                                             height: '450px',
                                             width: '650px',
-                                            objectFit: 'cover'
+                                            objectFit: 'cover',
+                                            marginRight: '20px'
                                         }}
                                     />
                                 </Col>

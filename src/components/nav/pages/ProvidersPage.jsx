@@ -62,7 +62,8 @@ export default function ProvidersPage() {
                                             borderRadius: '10px 0 0 10px',
                                             height: '450px',
                                             width: '650px',
-                                            objectFit: 'cover'
+                                            objectFit: 'cover',
+                                            marginRight: '20px'
                                         }}
                                     />
                                 </Col>
