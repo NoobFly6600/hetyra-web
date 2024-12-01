@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row, Card } from 'react-bootstrap';
 import Component from './Component';
+import AboutUsPhoto from '../../../Photos/AboutUsPhoto.png';  // Import the photo
 
 export default function AboutUsPage() {
     const companyValues = [
@@ -40,50 +41,81 @@ export default function AboutUsPage() {
     ];
 
     return (
-        <Container style={{ backgroundColor: '#f8f9fa' }}>
-            <Row className="mb-4">
-                <Col>
-                    <h1>About HETYRA</h1>
-                    <br/>
-                    <p className="lead">
-                        Founded in 2024, HETYRA is transforming the massage therapy industry through technology. 
-                        We connect certified massage therapists with clients seeking professional massage services, 
-                        making wellness accessible to everyone.
-                    </p>
-                </Col>
-            </Row>
+        <div style={{ backgroundColor: 'white' }}>
+            {/* Banner Section */}
+            <Container fluid style={{ backgroundColor: 'black', color: 'white', padding: '60px 0' }}>
+                <Container style={{ maxWidth: '1200px', margin: '0 auto' }}>
+                    <Row className="align-items-center">
+                        <Col md={6}>
+                            <h1 style={{ 
+                                fontSize: '48px', 
+                                fontWeight: 'bold',
+                                marginBottom: '30px'
+                            }}>
+                                About HETYRA
+                            </h1>
+                            <p style={{ 
+                                fontSize: '18px',
+                                lineHeight: '1.6'
+                            }}>
+                                Founded in 2024, HETYRA is transforming the massage therapy industry through technology. 
+                                We connect certified massage therapists with clients seeking professional massage services, 
+                                making wellness accessible to everyone.
+                            </p>
+                        </Col>
+                        <Col md={6}>
+                            <img 
+                                src={AboutUsPhoto}
+                                alt="About HETYRA"
+                                style={{
+                                    width: '600px',
+                                    height: '400px',
+                                    objectFit: 'cover',
+                                    borderRadius: '10px'
+                                }}
+                            />
+                        </Col>
+                    </Row>
+                </Container>
+            </Container>
 
-            <Row>
-                <Col>
-                    <h3>Our Foundation</h3>
-                </Col>
-            </Row>
-            <br/>
-            {companyValues.map((section, index) => (
-                <Component key={index} title={section.title} photo={section.photo} text={section.text} />
-            ))}
+            {/* Body Section */}
+            <Container className="py-5">
+                {/* Rest of the content */}
+                <Row>
+                    <Col>
+                        <h3 className="mb-4">Our Foundation</h3>
+                        {companyValues.map((section, index) => (
+                            <Component key={index} title={section.title} photo={section.photo} text={section.text} />
+                        ))}
+                    </Col>
+                </Row>
 
-            <Row className="mt-5">
-                <Col>
-                    <h3>What Sets Us Apart</h3>
-                </Col>
-            </Row>
-            <br/>
-            {keyFeatures.map((section, index) => (
-                <Component key={index} title={section.title} photo={section.photo} text={section.text} />
-            ))}
+                <Row className="mt-5">
+                    <Col>
+                        <h3 className="mb-4">What Sets Us Apart</h3>
+                        {keyFeatures.map((section, index) => (
+                            <Component key={index} title={section.title} photo={section.photo} text={section.text} />
+                        ))}
+                    </Col>
+                </Row>
 
-            <Row className="text-center my-5">
-                <Col>
-                    <Card className="p-4" style={{ borderRadius: '15px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }}>
-                        <h4>Join Us in Revolutionizing Wellness</h4>
-                        <p>
-                            Whether you're a client seeking quality massage services or a therapist looking to grow your practice, 
-                            HETYRA provides the platform to connect, engage, and experience wellness in a new way.
-                        </p>
-                    </Card>
-                </Col>
-            </Row>
-        </Container>
+                <Row className="text-center my-5">
+                    <Col>
+                        <Card className="p-4" style={{ 
+                            borderRadius: '15px', 
+                            boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+                            border: 'none'
+                        }}>
+                            <h4>Join Us in Revolutionizing Wellness</h4>
+                            <p>
+                                Whether you're a client seeking quality massage services or a therapist looking to grow your practice, 
+                                HETYRA provides the platform to connect, engage, and experience wellness in a new way.
+                            </p>
+                        </Card>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     );
 }

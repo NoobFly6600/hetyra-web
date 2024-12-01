@@ -6,8 +6,12 @@ import BeYourOwnBoss from '../../../Photos/BeYourOwnBoss.png';
 export default function LandingPage(props) {
     return (
         <div style={{backgroundColor: 'white', minHeight: 'calc(100vh - 200px)'}}>
-            <Container style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 20px' }}>
-                <Row className="text-center mb-5">
+            <Container style={{ 
+                maxWidth: '1200px', 
+                margin: '0 auto', 
+                padding: '80px 20px 40px'
+            }}>
+                <Row className="text-center mb-5" style={{ marginTop: '40px' }}>
                     <br/>
                     <Col>
                         <h1 style={{
@@ -20,7 +24,7 @@ export default function LandingPage(props) {
                         </h1>
                         <h4 style={{
                             color: 'black',
-                            marginBottom: '30px',
+                            marginBottom: '50px',
                             lineHeight: '1.6'
                         }}>
                             A platform that connects you with massage therapists and bodyworkers
