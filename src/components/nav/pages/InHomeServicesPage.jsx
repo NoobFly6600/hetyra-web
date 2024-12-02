@@ -3,6 +3,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import ThirdPhoto from '../../../Photos/ThirdPhoto.png';
 import ForthPhoto from '../../../Photos/ForthPhoto.png';
 import AppPhoto from '../../../Photos/AppPhoto.png';
+import { CalendarOutlined, StarOutlined, HeartOutlined } from '@ant-design/icons';
 
 export default function InHomeServicesPage() {
     return (
@@ -98,19 +99,65 @@ export default function InHomeServicesPage() {
                 {/* Benefits Section */}
                 <Row className="mt-5">
                     <Col>
-                        <h2 className="text-center mb-4">Benefits</h2>
-                        <img 
-                            src={ForthPhoto}
-                            alt="Massage Benefits"
-                            style={{
-                                width: '600px',
-                                height: '400px',
-                                objectFit: 'cover',
-                                borderRadius: '10px',
-                                display: 'block',
-                                margin: '0 auto'
-                            }}
-                        />
+                        <h2 className="text-center mb-5">Benefits</h2>
+                        <Row className="g-4">
+                            <Col md={4}>
+                                <Card className="h-100" style={{ 
+                                    border: 'none',
+                                    padding: '20px'
+                                }}>
+                                    <div className="d-flex align-items-center mb-3">
+                                        <CalendarOutlined style={{ 
+                                            fontSize: '32px', 
+                                            color: 'black',
+                                            marginRight: '15px'
+                                        }} />
+                                        <h3 className="h4 mb-0">Convenient scheduling</h3>
+                                    </div>
+                                    <p style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                                        Enjoy wellness services on your time at your location, 24/7
+                                    </p>
+                                </Card>
+                            </Col>
+
+                            <Col md={4}>
+                                <Card className="h-100" style={{ 
+                                    border: 'none',
+                                    padding: '20px'
+                                }}>
+                                    <div className="d-flex align-items-center mb-3">
+                                        <StarOutlined style={{ 
+                                            fontSize: '32px', 
+                                            color: 'black',
+                                            marginRight: '15px'
+                                        }} />
+                                        <h3 className="h4 mb-0">High quality</h3>
+                                    </div>
+                                    <p style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                                        Access verified independent professionals who offer a premium experience tailored to your needs.
+                                    </p>
+                                </Card>
+                            </Col>
+
+                            <Col md={4}>
+                                <Card className="h-100" style={{ 
+                                    border: 'none',
+                                    padding: '20px'
+                                }}>
+                                    <div className="d-flex align-items-center mb-3">
+                                        <HeartOutlined style={{ 
+                                            fontSize: '32px', 
+                                            color: 'black',
+                                            marginRight: '15px'
+                                        }} />
+                                        <h3 className="h4 mb-0">Relax in Comfort</h3>
+                                    </div>
+                                    <p style={{ fontSize: '16px', lineHeight: '1.6' }}>
+                                        Skip the hassle of traveling to a spa and enjoy ultimate convenience, privacy, and peace—no commuting, no waiting, just pure relaxation.
+                                    </p>
+                                </Card>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
             </Container>

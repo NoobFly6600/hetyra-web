@@ -52,7 +52,7 @@ export default function Footer() {
                         <span>©2024 Hetyra Inc.</span>
                         <div>
                             <Nav.Link as={Link} to="/privacy" className="text-white d-inline me-3">Privacy Policy</Nav.Link>
-                            <Nav.Link as={Link} to="/terms" className="text-white d-inline">Terms and Conditions</Nav.Link>
+                            <Nav.Link as={Link} to="/privacy#terms" className="text-white d-inline">Terms and Conditions</Nav.Link>
                         </div>
                     </div>
                 </Col>

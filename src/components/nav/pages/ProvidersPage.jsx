@@ -44,10 +44,10 @@ export default function ProvidersPage() {
 
             {/* Body Section */}
             <Container className="py-5">
-                {/* Why Become a Provider Section */}
+                {/* Join Network Section */}
                 <Row className="mb-5">
                     <Col>
-                        <h2 className="text-center mb-5">Why become a provider at Hetyra?</h2>
+                        <h2 className="text-center mb-5">Join the Hetyra Provider Network</h2>
                         <Card style={{ 
                             border: 'none',
                             maxWidth: '1100px',
@@ -69,18 +69,15 @@ export default function ProvidersPage() {
                                 </Col>
                                 <Col md={6} className="d-flex justify-content-start">
                                     <Card.Body className="p-5" style={{ marginLeft: '60px' }}>
-                                        <ul style={{ 
+                                        <p style={{ 
                                             fontSize: '18px', 
-                                            lineHeight: '1.8',
-                                            paddingLeft: '20px'
+                                            lineHeight: '1.8'
                                         }}>
-                                            <li>Set your own schedule and work area</li>
-                                            <li>Keep 70-80% of your service fees</li>
-                                            <li>Access to a growing client base</li>
-                                            <li>Professional liability insurance coverage</li>
-                                            <li>In-app tipping and secure payments</li>
-                                            <li>24/7 support team</li>
-                                        </ul>
+                                            As part of a growing community of massage and bodywork professionals, 
+                                            you have the freedom to offer services on your terms—set your own prices 
+                                            and customize your offerings. Choose from in-home table massage, spa 
+                                            opportunities, or chair massage for offices and events.
+                                        </p>
                                     </Card.Body>
                                 </Col>
                             </Row>
@@ -88,30 +85,34 @@ export default function ProvidersPage() {
                     </Col>
                 </Row>
 
-                {/* How to Apply Section */}
+                {/* Earnings Section */}
                 <Row className="mb-5">
                     <Col>
-                        <h2 className="text-center mb-5">How to apply?</h2>
-                        <Card style={{ border: 'none' }}>
-                            <Row className="g-0">
+                        <Card style={{ 
+                            border: 'none',
+                            maxWidth: '1100px',
+                            margin: '0 auto'
+                        }}>
+                            <Row className="g-0 align-items-center">
                                 <Col md={6}>
                                     <Card.Body className="p-5">
-                                        <ol style={{ fontSize: '18px', lineHeight: '1.8' }}>
-                                            <li>Valid massage therapy license</li>
-                                            <li>Minimum 2 years of professional experience</li>
-                                            <li>Clean background check</li>
-                                            <li>Professional liability insurance</li>
-                                            <li>Complete Hetyra's safety training</li>
-                                        </ol>
+                                        <p style={{ fontSize: '18px', lineHeight: '1.8' }}>
+                                            With Hetyra, you can earn up to 90% of the payment for each session, 
+                                            including 100% of the tips. Take control of your schedule by accepting 
+                                            as many or as few appointments as you like—no minimums, no pressure. 
+                                            Get paid weekly and enjoy the ultimate flexibility to grow your business 
+                                            on your own terms.
+                                        </p>
                                     </Card.Body>
                                 </Col>
                                 <Col md={6}>
                                     <Card.Img
                                         src={SeventhPhoto}
-                                        alt="Application Process"
+                                        alt="Earnings Potential"
                                         style={{
                                             borderRadius: '0 10px 10px 0',
-                                            height: '100%',
+                                            height: '500px',
+                                            width: '700px',
                                             objectFit: 'cover'
                                         }}
                                     />
@@ -121,33 +122,172 @@ export default function ProvidersPage() {
                     </Col>
                 </Row>
 
-                {/* Contact Section */}
-                <Row className="text-center mt-5">
+                {/* Get Started Steps */}
+                <Row className="mt-5">
                     <Col>
-                        <Card 
-                            className="p-5 mx-auto" 
-                            style={{ 
-                                border: 'none', 
-                                maxWidth: '600px'
-                            }}
-                        >
-                            <h3 className="mb-4">Ready to get started?</h3>
-                            <p className="mb-4" style={{ fontSize: '18px' }}>
-                                Email us your resume and credentials at:
-                            </p>
-                            <h4>
-                                <a 
-                                    href="mailto:providers@Hetyra.com"
-                                    style={{
-                                        color: 'black',
-                                        textDecoration: 'none',
-                                        fontWeight: 'bold'
-                                    }}
-                                >
-                                    providers@Hetyra.com
-                                </a>
-                            </h4>
-                        </Card>
+                        <h2 className="text-center mb-5">Get Started in 3 Easy Steps</h2>
+                        <Row className="justify-content-center">
+                            <Col md={10}>
+                                {[
+                                    {
+                                        title: "Submit Your Application",
+                                        description: "We'll review your details and verify your identity, insurance, credentials, and experience."
+                                    },
+                                    {
+                                        title: "Join the Team",
+                                        description: "Once approved, you'll receive all the resources and guidance needed to thrive on our platform."
+                                    },
+                                    {
+                                        title: "Begin Earning",
+                                        description: "Take appointments on your schedule with the Hetyra Provider app. Our support team is always here for you."
+                                    }
+                                ].map((step, index) => (
+                                    <Card 
+                                        key={index}
+                                        className="mb-3"
+                                        style={{ 
+                                            border: 'none',
+                                            transition: 'transform 0.2s',
+                                            cursor: 'default',
+                                            fontSize: '16px'
+                                        }}
+                                        onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
+                                        onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+                                    >
+                                        <Card.Body className="p-3">
+                                            <div className="d-flex align-items-center mb-2">
+                                                <div
+                                                    style={{
+                                                        backgroundColor: 'black',
+                                                        color: 'white',
+                                                        width: '40px',
+                                                        height: '40px',
+                                                        borderRadius: '50%',
+                                                        display: 'flex',
+                                                        alignItems: 'center',
+                                                        justifyContent: 'center',
+                                                        marginRight: '15px',
+                                                        flexShrink: 0
+                                                    }}
+                                                >
+                                                    {index + 1}
+                                                </div>
+                                                <h4 className="mb-0" style={{ fontSize: '20px' }}>
+                                                    {step.title}
+                                                </h4>
+                                            </div>
+                                            <p style={{
+                                                fontSize: '16px',
+                                                lineHeight: '1.4',
+                                                marginLeft: '55px',
+                                                marginBottom: 0,
+                                                color: '#666'
+                                            }}>
+                                                {step.description}
+                                            </p>
+                                        </Card.Body>
+                                    </Card>
+                                ))}
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+
+                {/* Why Become a Provider Section */}
+                <Row className="mt-5">
+                    <Col>
+                        <h2 className="text-center mb-5">Why become a provider at Hetyra?</h2>
+                        <Row className="justify-content-center">
+                            <Col md={10}>
+                                {[
+                                    {
+                                        title: "Earn More, On Your Terms",
+                                        description: "Earn 2 to 3 times more than the industry standard while keeping up to 90% of each payment. Get fast payment processing and receive 100% of your tips directly through the app."
+                                    },
+                                    {
+                                        title: "Ultimate Flexibility",
+                                        description: "Take control of your business by setting your own services and prices. Choose when and where to accept appointments, even while traveling."
+                                    },
+                                    {
+                                        title: "Grow Your Business",
+                                        description: "Gain exclusive access to a vast network of wellness clients and app features designed to help you secure more bookings and expand your business."
+                                    },
+                                    {
+                                        title: "Safety at the Forefront",
+                                        description: "Our proprietary check-in/check-out system ensures your safety during appointments. Plus, our Trust & Safety team is always ready to support you."
+                                    },
+                                    {
+                                        title: "Support When You Need It",
+                                        description: "Our dedicated Provider Support team is available 365 days a year via the app, phone, text, or email—whenever you need assistance."
+                                    },
+                                    {
+                                        title: "Manage Everything with Ease",
+                                        description: "Run your business effortlessly using the Hetyra Provider app, available on both iOS and Android, giving you full control at your fingertips."
+                                    }
+                                ].map((item, index) => (
+                                    <Card 
+                                        key={index}
+                                        className="mb-3"
+                                        style={{ 
+                                            border: 'none',
+                                            transition: 'transform 0.2s',
+                                            cursor: 'default',
+                                            fontSize: '16px'  // Smaller font size
+                                        }}
+                                        onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
+                                        onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+                                    >
+                                        <Card.Body className="p-3">
+                                            <div className="d-flex align-items-center mb-2">
+                                                <div
+                                                    style={{
+                                                        backgroundColor: 'black',
+                                                        color: 'white',
+                                                        width: '40px',  // Smaller bullet point
+                                                        height: '40px', // Smaller bullet point
+                                                        borderRadius: '50%',
+                                                        display: 'flex',
+                                                        alignItems: 'center',
+                                                        justifyContent: 'center',
+                                                        marginRight: '15px',
+                                                        flexShrink: 0
+                                                    }}
+                                                >
+                                                    {index + 1}
+                                                </div>
+                                                <h4 className="mb-0" style={{ fontSize: '20px' }}>{item.title}</h4>
+                                            </div>
+                                            <p style={{
+                                                fontSize: '16px',
+                                                lineHeight: '1.4',
+                                                marginLeft: '55px',
+                                                marginBottom: 0,
+                                                color: '#666'
+                                            }}>
+                                                {item.description}
+                                            </p>
+                                        </Card.Body>
+                                    </Card>
+                                ))}
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+
+                {/* How to Apply Section */}
+                <Row className="mt-5">
+                    <Col>
+                        <h2 className="text-center mb-5">How to apply?</h2>
+                        <p style={{
+                            fontSize: '16px',
+                            lineHeight: '1.6',
+                            maxWidth: '800px',
+                            margin: '0 auto',
+                            color: '#666',
+                            textAlign: 'center'
+                        }}>
+                            Interested in joining the Hetyra Provider community? Send your resume to <a href="mailto:providers@hetyra.com">providers@hetyra.com</a> and take the first step toward offering your services on our platform. We look forward to welcoming you!
+                        </p>
                     </Col>
                 </Row>
             </Container>

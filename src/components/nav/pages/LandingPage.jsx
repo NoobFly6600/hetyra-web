@@ -11,7 +11,7 @@ export default function LandingPage(props) {
                 margin: '0 auto', 
                 padding: '80px 20px 40px'
             }}>
-                <Row className="text-center mb-5" style={{ marginTop: '40px' }}>
+                <Row className="text-center mb-5" style={{ marginTop: '4 0px' }}>
                     <br/>
                     <Col>
                         <h1 style={{
@@ -31,14 +31,14 @@ export default function LandingPage(props) {
                         </h4>
                     </Col>
                     <br/>
-                </Row>
+                </Row> 
 
                 {/* First Card */}
                 <Row className="mb-5">
                     <Col>
                         <Card className="h-100" style={{ 
                             border: 'none',
-                            maxWidth: '1100px',
+                            maxWidth: '1200px',
                             margin: '0 auto'
                         }}>
                             <Row className="g-0 align-items-center">
@@ -56,7 +56,7 @@ export default function LandingPage(props) {
                                     />
                                 </Col>
                                 <Col md={6}>
-                                    <Card.Body className="p-5" style={{ paddingLeft: '60px' }}>
+                                    <Card.Body className="p-5" style={{ paddingLeft: '100px' }}>
                                         <Card.Title as="h2" className="mb-4">In-Home Services</Card.Title>
                                         <Card.Text style={{
                                             fontSize: '18px',

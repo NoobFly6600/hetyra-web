@@ -39,6 +39,7 @@ export default function HowItWorksPage() {
                         <h1 style={{
                             fontSize: '48px',
                             fontWeight: 'bold',
+                            marginTop: '60px',
                             marginBottom: '30px'
                         }}>
                             How to use the Hetyra app
@@ -58,45 +59,45 @@ export default function HowItWorksPage() {
 
                 {/* Steps Section */}
                 <Row className="justify-content-center">
-                    <Col md={10}>
+                    <Col md={8}>
                         {steps.map((step, index) => (
                             <Card 
                                 key={index}
-                                className="mb-4"
+                                className="mb-3"
                                 style={{ 
                                     border: 'none',
                                     transition: 'transform 0.2s',
                                     cursor: 'default'
                                 }}
-                                onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'}
+                                onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
                                 onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
                             >
-                                <Card.Body className="p-4">
-                                    <div className="d-flex align-items-center mb-3">
+                                <Card.Body className="p-3">
+                                    <div className="d-flex align-items-center mb-2">
                                         <div
                                             style={{
                                                 backgroundColor: 'black',
                                                 color: 'white',
-                                                width: '60px',
-                                                height: '60px',
+                                                width: '40px',
+                                                height: '40px',
                                                 borderRadius: '50%',
                                                 display: 'flex',
                                                 alignItems: 'center',
                                                 justifyContent: 'center',
-                                                marginRight: '20px',
+                                                marginRight: '15px',
                                                 flexShrink: 0
                                             }}
                                         >
                                             {index + 1}
                                         </div>
-                                        <h3 className="mb-0" style={{ fontSize: '24px' }}>
+                                        <h3 className="mb-0" style={{ fontSize: '20px' }}>
                                             {step.title}
                                         </h3>
                                     </div>
                                     <p style={{
-                                        fontSize: '18px',
-                                        lineHeight: '1.6',
-                                        marginLeft: '80px',
+                                        fontSize: '16px',
+                                        lineHeight: '1.4',
+                                        marginLeft: '60px',
                                         marginBottom: 0,
                                         color: '#666'
                                     }}>

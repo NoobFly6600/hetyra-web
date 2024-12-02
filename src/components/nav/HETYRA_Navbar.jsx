@@ -27,7 +27,7 @@ export default function HETYRA_Navbar(props) {
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="navbar-nav" />
-                
+
                 <Navbar.Collapse id="navbar-nav">
                     <Nav className="me-auto" style={{ fontSize: '16px' }}>
                         <Nav.Link 

@@ -8,17 +8,22 @@ export default function AboutUsPage() {
         {
             title: 'Our Mission',
             photo: '',
-            text: 'HETYRA is committed to revolutionizing the massage therapy industry by connecting qualified therapists with clients through our innovative platform. We aim to make professional massage services more accessible, convenient, and safe for everyone.'
+            text: 'Hetyra is dedicated to redefining the massage therapy industry by empowering clients and therapists alike through our state-of-the-art platform. Our mission is to make high-quality, professional massage services universally accessible, ensuring convenience, safety, and satisfaction at every step.'
         },
         {
             title: 'Our Vision',
             photo: '',
-            text: 'To become the leading on-demand massage service platform, creating a world where wellness and relaxation are just a tap away. We envision a future where both therapists and clients can benefit from seamless, technology-driven massage services.'
+            text: 'We aspire to be the global leader in on-demand wellness, crafting a world where stress relief and relaxation are within everyone\'s reach. Our vision is a future where therapists thrive professionally and clients enjoy unparalleled access to transformative massage experiences, all powered by technology and trust.'
+        },
+        {
+            title: 'Our Values',
+            photo: '',
+            text: 'At Hetyra, our core values shape everything we do. Excellence is at the heart of our mission, driving us to deliver unparalleled service to both therapists and clients. Accessibility guides our commitment to making professional wellness services available to everyone, anytime, anywhere. Safety is foundational to our platform, ensuring a secure and reliable environment for all users. Innovation fuels our journey as we adapt and evolve with advanced technology to meet the ever-changing needs of the wellness industry. Finally, we believe in Empowerment—supporting therapists to build successful careers while enriching clients\' lives with easy access to care.'
         },
         {
             title: 'Our Technology',
             photo: '',
-            text: 'Our platform leverages cutting-edge technology to provide real-time booking, secure payments, and intelligent matching between clients and therapists. We continuously innovate to enhance the user experience and ensure safety for all parties.'
+            text: 'Hetyra is powered by advanced technology, designed to simplify and elevate the massage therapy experience. Our smart matching system uses sophisticated algorithms to connect clients with therapists who best suit their unique preferences and requirements. Real-time booking functionality allows users to schedule appointments effortlessly, avoiding delays and conflicts. We prioritize financial security through robust, seamless transaction systems. Safety is enhanced with tools like identity verification, location tracking, and emergency assistance, ensuring trust and reliability for everyone involved. Constant innovation keeps Hetyra ahead, with our team continuously refining the platform and introducing new features to meet the evolving needs of our users.'
         }
     ];
 
@@ -26,17 +31,17 @@ export default function AboutUsPage() {
         {
             title: 'Safety First',
             photo: '',
-            text: 'We implement rigorous verification processes for all therapists, including background checks, license verification, and ongoing performance monitoring. Our platform includes real-time tracking and emergency assistance features.'
+            text: 'At Hetyra, safety is our highest priority. We conduct thorough background checks, verify licenses, and continuously monitor the performance of all therapists to ensure professionalism and trust. Our platform features real-time appointment tracking, giving clients and therapists transparency and peace of mind throughout the service. Additionally, integrated emergency assistance tools are in place to address unexpected situations quickly and effectively, ensuring a safe and secure experience for everyone.'
         },
         {
-            title: 'Quality Service',
+            title: 'Uncompromising Quality',
             photo: '',
-            text: 'All our therapists are certified professionals with extensive experience. We maintain high service standards through regular training, quality assessments, and client feedback systems.'
+            text: 'Quality defines every aspect of our service. All therapists on the Hetyra platform are certified professionals with extensive training and proven experience. To maintain excellence, we provide regular training sessions and skill development workshops. We also actively gather and analyze client feedback to refine our services continuously. By upholding rigorous standards, we ensure that every session delivered through Hetyra exceeds expectations and provides unparalleled relaxation and wellness.'
         },
         {
-            title: 'Customer Care',
+            title: 'Dedicated Customer Support',
             photo: '',
-            text: 'Our dedicated support team is available 24/7 to assist both clients and therapists. We handle all aspects of customer service, from booking support to post-service follow-up.'
+            text: 'Our commitment to exceptional customer care is reflected in our 24/7 support system. Our dedicated team is always ready to assist, whether it\'s helping clients book or reschedule appointments or following up after a service. We prioritize clear communication and personalized solutions to address individual needs. By managing every detail with care, we ensure a seamless and stress-free experience for both clients and therapists.'
         }
     ];
 
@@ -52,7 +57,7 @@ export default function AboutUsPage() {
                                 fontWeight: 'bold',
                                 marginBottom: '30px'
                             }}>
-                                About HETYRA
+                                About Us
                             </h1>
                             <p style={{ 
                                 fontSize: '18px',
@@ -81,38 +86,56 @@ export default function AboutUsPage() {
 
             {/* Body Section */}
             <Container className="py-5">
-                {/* Rest of the content */}
-                <Row>
+                {/* Our Foundation Section */}
+                <Row className="mb-5">
                     <Col>
-                        <h3 className="mb-4">Our Foundation</h3>
-                        {companyValues.map((section, index) => (
-                            <Component key={index} title={section.title} photo={section.photo} text={section.text} />
+                        <h2 className="mb-4">Our Foundation</h2>
+                        <p className="mb-5" style={{ fontSize: '18px', lineHeight: '1.6' }}>
+                            At Hetyra, we believe in transforming the way people experience wellness and relaxation 
+                            by seamlessly blending innovation, professionalism, and accessibility.
+                        </p>
+                        {companyValues.map((value, index) => (
+                            <Card 
+                                key={index} 
+                                className="mb-4" 
+                                style={{ 
+                                    border: 'none',
+                                    boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+                                    cursor: 'default'
+                                }}
+                            >
+                                <Card.Body className="p-4">
+                                    <h3 className="mb-3">{value.title}</h3>
+                                    <p style={{ fontSize: '16px', lineHeight: '1.6' }}>{value.text}</p>
+                                </Card.Body>
+                            </Card>
                         ))}
                     </Col>
                 </Row>
 
+                {/* What Sets Us Apart Section */}
                 <Row className="mt-5">
                     <Col>
-                        <h3 className="mb-4">What Sets Us Apart</h3>
-                        {keyFeatures.map((section, index) => (
-                            <Component key={index} title={section.title} photo={section.photo} text={section.text} />
+                        <h2 className="mb-4">What Sets Us Apart</h2>
+                        {keyFeatures.map((feature, index) => (
+                            <Card 
+                                key={index} 
+                                className="mb-4" 
+                                style={{ 
+                                    border: 'none',
+                                    boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+                                    cursor: 'default'
+                                }}
+                            >
+                                <Card.Body className="p-4">
+                                    <h3 className="mb-3">{feature.title}</h3>
+                                    <p style={{ fontSize: '16px', lineHeight: '1.6' }}>{feature.text}</p>
+                                </Card.Body>
+                            </Card>
                         ))}
-                    </Col>
-                </Row>
-
-                <Row className="text-center my-5">
-                    <Col>
-                        <Card className="p-4" style={{ 
-                            borderRadius: '15px', 
-                            boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-                            border: 'none'
-                        }}>
-                            <h4>Join Us in Revolutionizing Wellness</h4>
-                            <p>
-                                Whether you're a client seeking quality massage services or a therapist looking to grow your practice, 
-                                HETYRA provides the platform to connect, engage, and experience wellness in a new way.
-                            </p>
-                        </Card>
+                        <p style={{ fontSize: '16px', lineHeight: '1.6', marginTop: '20px' }}>
+                            Hetyra stands apart as a trusted and innovative platform, delivering safety, quality, and care in every interaction. Through our unwavering dedication to these values, we make wellness accessible, reliable, and exceptional for all.
+                        </p>
                     </Col>
                 </Row>
             </Container>
