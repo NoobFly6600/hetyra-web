@@ -7,22 +7,27 @@ import BeYourOwnBoss from '../../../Photos/BeYourOwnBoss.png';
 export default function LandingPage(props) {
     const [titleSize, setTitleSize] = useState('120px');
     const [subtitleSize, setSubtitleSize] = useState('32px');
+    const [marginTop, setMarginTop] = useState('120px');
 
     useEffect(() => {
         // Function to update sizes based on window width
         const updateSizes = () => {
             if (window.innerWidth > 1600) {
-                setTitleSize('130px');
-                setSubtitleSize('36px');
+                setTitleSize('120px');
+                setSubtitleSize('32px');
+                setMarginTop('30px');
             } else if (window.innerWidth > 1200) {
-                setTitleSize('110px');
-                setSubtitleSize('28px');
-            } else if (window.innerWidth > 1050) {
-                setTitleSize('96px');
+                setTitleSize('90px');
+                setSubtitleSize('26px');
+                setMarginTop('20px');
+            } else if (window.innerWidth > 800) {
+                setTitleSize('72px');
                 setSubtitleSize('24px');
+                setMarginTop('10px');
             } else {
-                setTitleSize('64px');
+                setTitleSize('48px');
                 setSubtitleSize('20px');
+                setMarginTop('0px');
             }
         };
 
@@ -39,13 +44,14 @@ export default function LandingPage(props) {
     return (
         <div style={{ backgroundColor: 'white', minHeight: 'calc(100vh - 200px)' }}>
             <Container style={{
-                maxWidth: '1500px',
+                maxWidth: '1600px',
                 margin: '0 auto',
                 padding: '80px 20px 40px'
             }}>
                 <Row className="text-center mb-5" style={{
-                    marginTop: '120px',
-                    marginBottom: '120px'
+                    marginTop: marginTop,
+                    marginBottom: '120px',
+                    transition: 'margin-top 0.3s ease'
                 }}>
                     <Col>
                         <h1 style={{
