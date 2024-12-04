@@ -68,13 +68,14 @@ export default function AboutUsPage() {
                                 making wellness accessible to everyone.
                             </p>
                         </Col>
-                        <Col md={6}>
+                        <Col md={6} className="d-flex justify-content-center">
                             <img 
                                 src={AboutUsPhoto}
                                 alt="About HETYRA"
                                 style={{
-                                    width: '600px',
-                                    height: '400px',
+                                    width: '100%',
+                                    maxWidth: '500px',
+                                    height: 'auto',
                                     objectFit: 'cover',
                                     borderRadius: '10px'
                                 }}

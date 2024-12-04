@@ -29,13 +29,14 @@ export default function InHomeServicesPage() {
                                 begins right at your doorstep.
                             </p>
                         </Col>
-                        <Col md={6}>
+                        <Col md={6} className="d-flex justify-content-center">
                             <img 
                                 src={ThirdPhoto}
                                 alt="In-Home Massage"
                                 style={{
-                                    width: '600px',
-                                    height: '400px',
+                                    width: '100%',
+                                    maxWidth: '500px',
+                                    height: 'auto',
                                     objectFit: 'cover',
                                     borderRadius: '10px'
                                 }}
@@ -99,7 +100,7 @@ export default function InHomeServicesPage() {
                 {/* Benefits Section */}
                 <Row className="mt-5">
                     <Col>
-                        <h2 className="text-center mb-5">Benefits</h2>
+                        <h2 className="text-center mb-5">Main Benefits</h2>
                         <Row className="g-4">
                             <Col md={4}>
                                 <Card className="h-100" style={{ 

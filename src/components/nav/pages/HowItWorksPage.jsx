@@ -78,14 +78,15 @@ export default function HowItWorksPage() {
                                             style={{
                                                 backgroundColor: 'black',
                                                 color: 'white',
-                                                width: '40px',
-                                                height: '40px',
+                                                width: '30px',
+                                                height: '30px',
                                                 borderRadius: '50%',
                                                 display: 'flex',
                                                 alignItems: 'center',
                                                 justifyContent: 'center',
                                                 marginRight: '15px',
-                                                flexShrink: 0
+                                                flexShrink: 0,
+                                                fontSize: '14px'
                                             }}
                                         >
                                             {index + 1}
@@ -108,6 +109,9 @@ export default function HowItWorksPage() {
                         ))}
                     </Col>
                 </Row>
+            </Container>
+            <Container>
+                
             </Container>
         </div>
     );

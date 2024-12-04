@@ -13,9 +13,9 @@ export default function HETYRA() {
 
 
     return (
-        <div style={{backgroundColor: '#f8f9fa'}}>
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', backgroundColor: '#ffffff' }}>
             <HETYRA_Navbar />
-            <div style={{backgroundColor: '#f8f9fa'}}>
+            <div style={{ flex: '1', backgroundColor: '#ffffff' }}>
                 <GlobalContext.Provider>
                     <Outlet />
                 </GlobalContext.Provider>

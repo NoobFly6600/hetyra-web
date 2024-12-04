@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { SafetyOutlined, UserOutlined, CheckCircleOutlined, TeamOutlined } from '@ant-design/icons';
+import TrustPhoto from '../../../Photos/TrustPhoto.png';
 
 export default function TrustSafetyPage() {
     return (
@@ -9,7 +10,7 @@ export default function TrustSafetyPage() {
             <Container fluid style={{ backgroundColor: 'black', color: 'white', padding: '60px 0' }}>
                 <Container>
                     <Row className="align-items-center">
-                        <Col md={8} className="mx-auto text-center">
+                        <Col md={6}>
                             <h1 style={{ 
                                 fontSize: '48px', 
                                 fontWeight: 'bold',
@@ -25,6 +26,19 @@ export default function TrustSafetyPage() {
                                 We are committed to making this process as seamless, safe, and efficient as possible 
                                 for both clients and providers.
                             </p>
+                        </Col>
+                        <Col md={6} className="d-flex justify-content-center">
+                            <img 
+                                src={TrustPhoto}
+                                alt="Trust and Safety"
+                                style={{
+                                    width: '100%',
+                                    maxWidth: '600px',
+                                    height: 'auto',
+                                    objectFit: 'cover',
+                                    borderRadius: '10px'
+                                }}
+                            />
                         </Col>
                     </Row>
                 </Container>

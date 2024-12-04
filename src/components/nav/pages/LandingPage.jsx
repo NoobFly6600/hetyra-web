@@ -1,42 +1,95 @@
 import { Col, Container, Row, Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from 'react';
 import InHomeService from '../../../Photos/InHomeServices.png';
 import BeYourOwnBoss from '../../../Photos/BeYourOwnBoss.png';
 
 export default function LandingPage(props) {
+    const [titleSize, setTitleSize] = useState('120px');
+    const [subtitleSize, setSubtitleSize] = useState('32px');
+
+    useEffect(() => {
+        // Function to update sizes based on window width
+        const updateSizes = () => {
+            if (window.innerWidth > 1600) {
+                setTitleSize('130px');
+                setSubtitleSize('36px');
+            } else if (window.innerWidth > 1200) {
+                setTitleSize('110px');
+                setSubtitleSize('28px');
+            } else if (window.innerWidth > 1050) {
+                setTitleSize('96px');
+                setSubtitleSize('24px');
+            } else {
+                setTitleSize('64px');
+                setSubtitleSize('20px');
+            }
+        };
+
+        // Initial size setup
+        updateSizes();
+
+        // Add event listener for window resize
+        window.addEventListener('resize', updateSizes);
+
+        // Cleanup
+        return () => window.removeEventListener('resize', updateSizes);
+    }, []);
+
     return (
-        <div style={{backgroundColor: 'white', minHeight: 'calc(100vh - 200px)'}}>
-            <Container style={{ 
-                maxWidth: '1200px', 
-                margin: '0 auto', 
+        <div style={{ backgroundColor: 'white', minHeight: 'calc(100vh - 200px)' }}>
+            <Container style={{
+                maxWidth: '1500px',
+                margin: '0 auto',
                 padding: '80px 20px 40px'
             }}>
-                <Row className="text-center mb-5" style={{ marginTop: '4 0px' }}>
-                    <br/>
+                <Row className="text-center mb-5" style={{
+                    marginTop: '120px',
+                    marginBottom: '120px'
+                }}>
                     <Col>
                         <h1 style={{
-                            fontSize: '56px',
-                            fontWeight: 'bold',
-                            marginBottom: '30px',
-                            color: 'black'
+                            fontSize: titleSize,
+
+                            marginBottom: '10px',
+                            color: 'black',
+                            lineHeight: '1.1',
+                            transition: 'font-size 0.3s ease',
+                            padding: '0 20px'
                         }}>
-                            Relax anywhere, anytime with Hetyra
+                            Relax anywhere,
+                        </h1>
+                        <h1 style={{
+                            fontSize: titleSize,
+                            marginBottom: '60px',
+                            color: 'black',
+                            lineHeight: '1.1',
+                            transition: 'font-size 0.3s ease',
+                            padding: '0 20px'
+                        }}>
+                            anytime with Hetyra
                         </h1>
                         <h4 style={{
                             color: 'black',
-                            marginBottom: '50px',
-                            lineHeight: '1.6'
+                            marginBottom: '60px',
+                            lineHeight: '1.4',
+                            fontSize: subtitleSize,
+                            transition: 'font-size 0.3s ease',
+                            maxWidth: '1500px',
+                            margin: '0 auto',
+                            padding: '0 20px'
                         }}>
                             A platform that connects you with massage therapists and bodyworkers
                         </h4>
                     </Col>
-                    <br/>
-                </Row> 
+                </Row>
 
                 {/* First Card */}
-                <Row className="mb-5">
+                <Row className="mb-5" style={{
+                    marginTop: '120px'
+                }}>
                     <Col>
-                        <Card className="h-100" style={{ 
+                        <Card className="h-100" style={{
                             border: 'none',
                             maxWidth: '1200px',
                             margin: '0 auto'
@@ -63,12 +116,12 @@ export default function LandingPage(props) {
                                             lineHeight: '1.6',
                                             marginBottom: '30px'
                                         }}>
-                                            Bring relaxation and rejuvenation straight to your doorstep! 
-                                            With Hetyra, you can easily book skilled massage therapists and 
+                                            Bring relaxation and rejuvenation straight to your doorstep!
+                                            With Hetyra, you can easily book skilled massage therapists and
                                             bodyworkers at a time and place that fits your schedule.
                                         </Card.Text>
                                         <Link to="/in-home-services">
-                                            <Button 
+                                            <Button
                                                 size="lg"
                                                 style={{
                                                     backgroundColor: 'black',
@@ -100,12 +153,12 @@ export default function LandingPage(props) {
                                             lineHeight: '1.6',
                                             marginBottom: '30px'
                                         }}>
-                                            Join Hetyra and take control of your business. Set your availability, 
-                                            define your service areas, manage appointments, and maximize your earning 
+                                            Join Hetyra and take control of your business. Set your availability,
+                                            define your service areas, manage appointments, and maximize your earning
                                             potential—all with ease through the Hetyra Provider App.
                                         </Card.Text>
                                         <Link to="/providers">
-                                            <Button 
+                                            <Button
                                                 size="lg"
                                                 style={{
                                                     backgroundColor: 'black',

@@ -3,6 +3,14 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import FifthPhoto from '../../../Photos/FifthPhoto.png';
 import SixthPhoto from '../../../Photos/SixthPhoto.png';
 import SeventhPhoto from '../../../Photos/SeventhPhoto.png';
+import { 
+    DollarOutlined, 
+    CalendarOutlined, 
+    BuildOutlined,
+    TeamOutlined,
+    ShakeOutlined,
+    SafetyCertificateOutlined 
+} from '@ant-design/icons';
 
 export default function ProvidersPage() {
     return (
@@ -26,13 +34,14 @@ export default function ProvidersPage() {
                                 Set your own services and prices. Earn on your own schedule.
                             </p>
                         </Col>
-                        <Col md={6}>
+                        <Col md={6} className="d-flex justify-content-center">
                             <img 
                                 src={FifthPhoto}
                                 alt="Be Your Own Boss"
                                 style={{
-                                    width: '600px',
-                                    height: '400px',
+                                    width: '100%',
+                                    maxWidth: '600px',
+                                    height: 'auto',
                                     objectFit: 'cover',
                                     borderRadius: '10px'
                                 }}
@@ -71,32 +80,18 @@ export default function ProvidersPage() {
                                     <Card.Body className="p-5" style={{ marginLeft: '60px' }}>
                                         <p style={{ 
                                             fontSize: '18px', 
-                                            lineHeight: '1.8'
+                                            lineHeight: '1.8',
+                                            marginBottom: '20px'
                                         }}>
                                             As part of a growing community of massage and bodywork professionals, 
                                             you have the freedom to offer services on your terms—set your own prices 
                                             and customize your offerings. Choose from in-home table massage, spa 
                                             opportunities, or chair massage for offices and events.
                                         </p>
-                                    </Card.Body>
-                                </Col>
-                            </Row>
-                        </Card>
-                    </Col>
-                </Row>
-
-                {/* Earnings Section */}
-                <Row className="mb-5">
-                    <Col>
-                        <Card style={{ 
-                            border: 'none',
-                            maxWidth: '1100px',
-                            margin: '0 auto'
-                        }}>
-                            <Row className="g-0 align-items-center">
-                                <Col md={6}>
-                                    <Card.Body className="p-5">
-                                        <p style={{ fontSize: '18px', lineHeight: '1.8' }}>
+                                        <p style={{ 
+                                            fontSize: '18px', 
+                                            lineHeight: '1.8' 
+                                        }}>
                                             With Hetyra, you can earn up to 90% of the payment for each session, 
                                             including 100% of the tips. Take control of your schedule by accepting 
                                             as many or as few appointments as you like—no minimums, no pressure. 
@@ -105,43 +100,39 @@ export default function ProvidersPage() {
                                         </p>
                                     </Card.Body>
                                 </Col>
-                                <Col md={6}>
-                                    <Card.Img
-                                        src={SeventhPhoto}
-                                        alt="Earnings Potential"
-                                        style={{
-                                            borderRadius: '0 10px 10px 0',
-                                            height: '500px',
-                                            width: '700px',
-                                            objectFit: 'cover'
-                                        }}
-                                    />
-                                </Col>
                             </Row>
                         </Card>
                     </Col>
                 </Row>
 
-                {/* Get Started Steps */}
-                <Row className="mt-5">
+                {/* Get Started Steps - Moved to second section */}
+                <Row className="mb-5">
                     <Col>
                         <h2 className="text-center mb-5">Get Started in 3 Easy Steps</h2>
-                        <Row className="justify-content-center">
-                            <Col md={10}>
-                                {[
-                                    {
-                                        title: "Submit Your Application",
-                                        description: "We'll review your details and verify your identity, insurance, credentials, and experience."
-                                    },
-                                    {
-                                        title: "Join the Team",
-                                        description: "Once approved, you'll receive all the resources and guidance needed to thrive on our platform."
-                                    },
-                                    {
-                                        title: "Begin Earning",
-                                        description: "Take appointments on your schedule with the Hetyra Provider app. Our support team is always here for you."
-                                    }
-                                ].map((step, index) => (
+                        <Card style={{ 
+                            border: 'none',
+                            maxWidth: '1100px',
+                            margin: '0 auto'
+                        }}>
+                            <Row className="g-0 align-items-center">
+                                <Col md={6}>
+                                    <Card.Body className="p-5">
+                                        <Row className="justify-content-center">
+                                            <Col>
+                                                {[
+                                                    {
+                                                        title: "Submit Your Application",
+                                                        description: "We'll review your details and verify your identity, insurance, credentials, and experience."
+                                                    },
+                                                    {
+                                                        title: "Join the Team",
+                                                        description: "Once approved, you'll receive all the resources and guidance needed to thrive on our platform."
+                                                    },
+                                                    {
+                                                        title: "Begin Earning",
+                                                        description: "Take appointments on your schedule with the Hetyra Provider app. Our support team is always here for you."
+                                                    }
+                                                ].map((step, index) => (
                                     <Card 
                                         key={index}
                                         className="mb-3"
@@ -160,14 +151,15 @@ export default function ProvidersPage() {
                                                     style={{
                                                         backgroundColor: 'black',
                                                         color: 'white',
-                                                        width: '40px',
-                                                        height: '40px',
+                                                        width: '30px',
+                                                        height: '30px',
                                                         borderRadius: '50%',
                                                         display: 'flex',
                                                         alignItems: 'center',
                                                         justifyContent: 'center',
                                                         marginRight: '15px',
-                                                        flexShrink: 0
+                                                        flexShrink: 0,
+                                                        fontSize: '14px'
                                                     }}
                                                 >
                                                     {index + 1}
@@ -188,8 +180,24 @@ export default function ProvidersPage() {
                                         </Card.Body>
                                     </Card>
                                 ))}
-                            </Col>
-                        </Row>
+                                            </Col>
+                                        </Row>
+                                    </Card.Body>
+                                </Col>
+                                <Col md={6}>
+                                    <Card.Img
+                                        src={SeventhPhoto}
+                                        alt="Earnings Potential"
+                                        style={{
+                                            borderRadius: '0 10px 10px 0',
+                                            height: '500px',
+                                            width: '700px',
+                                            objectFit: 'cover'
+                                        }}
+                                    />
+                                </Col>
+                            </Row>
+                        </Card>
                     </Col>
                 </Row>
 
@@ -199,76 +207,85 @@ export default function ProvidersPage() {
                         <h2 className="text-center mb-5">Why become a provider at Hetyra?</h2>
                         <Row className="justify-content-center">
                             <Col md={10}>
-                                {[
-                                    {
-                                        title: "Earn More, On Your Terms",
-                                        description: "Earn 2 to 3 times more than the industry standard while keeping up to 90% of each payment. Get fast payment processing and receive 100% of your tips directly through the app."
-                                    },
-                                    {
-                                        title: "Ultimate Flexibility",
-                                        description: "Take control of your business by setting your own services and prices. Choose when and where to accept appointments, even while traveling."
-                                    },
-                                    {
-                                        title: "Grow Your Business",
-                                        description: "Gain exclusive access to a vast network of wellness clients and app features designed to help you secure more bookings and expand your business."
-                                    },
-                                    {
-                                        title: "Safety at the Forefront",
-                                        description: "Our proprietary check-in/check-out system ensures your safety during appointments. Plus, our Trust & Safety team is always ready to support you."
-                                    },
-                                    {
-                                        title: "Support When You Need It",
-                                        description: "Our dedicated Provider Support team is available 365 days a year via the app, phone, text, or email—whenever you need assistance."
-                                    },
-                                    {
-                                        title: "Manage Everything with Ease",
-                                        description: "Run your business effortlessly using the Hetyra Provider app, available on both iOS and Android, giving you full control at your fingertips."
-                                    }
-                                ].map((item, index) => (
-                                    <Card 
-                                        key={index}
-                                        className="mb-3"
-                                        style={{ 
-                                            border: 'none',
-                                            transition: 'transform 0.2s',
-                                            cursor: 'default',
-                                            fontSize: '16px'  // Smaller font size
-                                        }}
-                                        onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
-                                        onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
-                                    >
-                                        <Card.Body className="p-3">
-                                            <div className="d-flex align-items-center mb-2">
-                                                <div
-                                                    style={{
-                                                        backgroundColor: 'black',
-                                                        color: 'white',
-                                                        width: '40px',  // Smaller bullet point
-                                                        height: '40px', // Smaller bullet point
-                                                        borderRadius: '50%',
-                                                        display: 'flex',
-                                                        alignItems: 'center',
-                                                        justifyContent: 'center',
-                                                        marginRight: '15px',
-                                                        flexShrink: 0
-                                                    }}
-                                                >
-                                                    {index + 1}
-                                                </div>
-                                                <h4 className="mb-0" style={{ fontSize: '20px' }}>{item.title}</h4>
-                                            </div>
-                                            <p style={{
-                                                fontSize: '16px',
-                                                lineHeight: '1.4',
-                                                marginLeft: '55px',
-                                                marginBottom: 0,
-                                                color: '#666'
-                                            }}>
-                                                {item.description}
-                                            </p>
-                                        </Card.Body>
-                                    </Card>
-                                ))}
+                                <Row>
+                                    {[
+                                        {
+                                            icon: <DollarOutlined style={{ fontSize: '24px' }} />,
+                                            title: "Earn More, On Your Terms",
+                                            description: "Earn 2 to 3 times more than the industry standard while keeping up to 90% of each payment. Get fast payment processing and receive 100% of your tips directly through the app."
+                                        },
+                                        {
+                                            icon: <CalendarOutlined style={{ fontSize: '24px' }} />,
+                                            title: "Ultimate Flexibility",
+                                            description: "Take control of your business by setting your own services and prices. Choose when and where to accept appointments, even while traveling."
+                                        },
+                                        {
+                                            icon: <BuildOutlined style={{ fontSize: '24px' }} />,
+                                            title: "Grow Your Business",
+                                            description: "Gain exclusive access to a vast network of wellness clients and app features designed to help you secure more bookings and expand your business."
+                                        },
+                                        {
+                                            icon: <TeamOutlined style={{ fontSize: '24px' }} />,
+                                            title: "Safety at the Forefront",
+                                            description: "Our proprietary check-in/check-out system ensures your safety during appointments. Plus, our Trust & Safety team is always ready to support you."
+                                        },
+                                        {
+                                            icon: <ShakeOutlined style={{ fontSize: '24px' }} />,
+                                            title: "Support When You Need It",
+                                            description: "Our dedicated Provider Support team is available 365 days a year via the app, phone, text, or email—whenever you need assistance."
+                                        },
+                                        {
+                                            icon: <SafetyCertificateOutlined style={{ fontSize: '24px' }} />,
+                                            title: "Manage Everything with Ease",
+                                            description: "Run your business effortlessly using the Hetyra Provider app, available on both iOS and Android, giving you full control at your fingertips."
+                                        }
+                                    ].map((item, index) => (
+                                        <Col md={4} key={index} className="mb-4">
+                                            <Card 
+                                                style={{ 
+                                                    border: 'none',
+                                                    transition: 'transform 0.2s',
+                                                    cursor: 'default',
+                                                    height: '100%'
+                                                }}
+                                                onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
+                                                onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+                                            >
+                                                <Card.Body className="p-4">
+                                                    <div className="d-flex align-items-center mb-3">
+                                                        <div
+                                                            style={{
+                                                                backgroundColor: 'black',
+                                                                color: 'white',
+                                                                width: '50px',
+                                                                height: '50px',
+                                                                borderRadius: '50%',
+                                                                display: 'flex',
+                                                                alignItems: 'center',
+                                                                justifyContent: 'center',
+                                                                marginRight: '15px',
+                                                                flexShrink: 0
+                                                            }}
+                                                        >
+                                                            {item.icon}
+                                                        </div>
+                                                        <h4 className="mb-0" style={{ fontSize: '20px' }}>
+                                                            {item.title}
+                                                        </h4>
+                                                    </div>
+                                                    <p style={{
+                                                        fontSize: '16px',
+                                                        lineHeight: '1.4',
+                                                        marginBottom: 0,
+                                                        color: '#666'
+                                                    }}>
+                                                        {item.description}
+                                                    </p>
+                                                </Card.Body>
+                                            </Card>
+                                        </Col>
+                                    ))}
+                                </Row>
                             </Col>
                         </Row>
                     </Col>
