@@ -91,7 +91,7 @@ export default function Footer() {
                             </Nav.Link>
                             <Nav.Link 
                                 as={Link} 
-                                to="/privacy#terms" 
+                                to="/terms" 
                                 className="text-white d-inline"
                                 style={{ padding: 0 }}
                             >

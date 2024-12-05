@@ -88,7 +88,9 @@ export default function InHomeServicesPage() {
                                             borderRadius: '0 10px 10px 0',
                                             height: '500px',
                                             width: '800px',
-                                            objectFit: 'cover'
+                                            objectFit: 'cover',
+                                            maxWidth: '100%',
+                                            height: 'auto'
                                         }}
                                     />
                                 </Col>

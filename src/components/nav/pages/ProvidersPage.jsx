@@ -39,8 +39,7 @@ export default function ProvidersPage() {
                                 src={FifthPhoto}
                                 alt="Be Your Own Boss"
                                 style={{
-                                    width: '100%',
-                                    maxWidth: '600px',
+                                    maxWidth: '100%',
                                     height: 'auto',
                                     objectFit: 'cover',
                                     borderRadius: '10px'
@@ -72,7 +71,9 @@ export default function ProvidersPage() {
                                             height: '500px',
                                             width: '700px',
                                             objectFit: 'cover',
-                                            marginRight: '30px'
+                                            marginRight: '30px',
+                                            maxWidth: '100%',
+                                            height: 'auto'
                                         }}
                                     />
                                 </Col>
@@ -192,7 +193,9 @@ export default function ProvidersPage() {
                                             borderRadius: '0 10px 10px 0',
                                             height: '500px',
                                             width: '700px',
-                                            objectFit: 'cover'
+                                            objectFit: 'cover',
+                                            maxWidth: '100%',
+                                            height: 'auto'
                                         }}
                                     />
                                 </Col>

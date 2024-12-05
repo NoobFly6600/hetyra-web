@@ -63,7 +63,7 @@ export default function AboutUsPage() {
                                 fontSize: '18px',
                                 lineHeight: '1.6'
                             }}>
-                                Founded in 2024, HETYRA is transforming the massage therapy industry through technology. 
+                                Founded in 2024, Hetyra is transforming the massage therapy industry through technology. 
                                 We connect certified massage therapists with clients seeking professional massage services, 
                                 making wellness accessible to everyone.
                             </p>

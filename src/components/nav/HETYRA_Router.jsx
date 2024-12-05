@@ -10,9 +10,12 @@ import HowItWorksPage from "./pages/HowItWorksPage";
 import HelpPage from "./pages/HelpPage";
 import NoMatchPage from "./pages/NoMatchPage";
 import PrivacyPage from "./pages/PrivacyPage";
+import TermsPage from "./pages/TermsPage";
+import ScrollToTop from '../ScrollToTop';
 
 export default function HETYRA_Router() {
     return <BrowserRouter>
+        <ScrollToTop />
         <Routes>
             <Route path="/" element={<HETYRA />}>
                 <Route index element={<LandingPage />} />
@@ -23,6 +26,7 @@ export default function HETYRA_Router() {
                 <Route path="/how-it-works" element={<HowItWorksPage />} />
                 <Route path="/help" element={<HelpPage />} />
                 <Route path="/privacy" element={<PrivacyPage />} />
+                <Route path="/terms" element={<TermsPage />} />
                 <Route path="*" element={<NoMatchPage />} />
             </Route>
         </Routes>

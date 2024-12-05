@@ -44,7 +44,7 @@ export default function LandingPage(props) {
     return (
         <div style={{ backgroundColor: 'white', minHeight: 'calc(100vh - 200px)' }}>
             <Container style={{
-                maxWidth: '1600px',
+                maxWidth: '1200px',
                 margin: '0 auto',
                 padding: '80px 20px 40px'
             }}>
@@ -107,6 +107,7 @@ export default function LandingPage(props) {
                                         alt="In-Home Massage Service"
                                         style={{
                                             borderRadius: '10px 0 0 10px',
+                                            maxWidth: '100%',
                                             height: '450px',
                                             width: '650px',
                                             objectFit: 'cover',
@@ -184,6 +185,7 @@ export default function LandingPage(props) {
                                         alt="Be Your Own Boss"
                                         style={{
                                             borderRadius: '0 10px 10px 0',
+                                            maxWidth: '100%',
                                             height: '100%',
                                             objectFit: 'cover'
                                         }}
