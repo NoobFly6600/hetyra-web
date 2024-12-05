@@ -44,7 +44,7 @@ export default function LandingPage(props) {
     return (
         <div style={{ backgroundColor: 'white', minHeight: 'calc(100vh - 200px)' }}>
             <Container style={{
-                maxWidth: '1200px',
+                maxWidth: '1250px',
                 margin: '0 auto',
                 padding: '80px 20px 40px'
             }}>
