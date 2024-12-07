@@ -106,12 +106,10 @@ export default function LandingPage(props) {
                                         src={InHomeService}
                                         alt="In-Home Massage Service"
                                         style={{
-                                            borderRadius: '10px 0 0 10px',
+                                            borderRadius: '0 10px 10px 0',
                                             maxWidth: '100%',
-                                            height: '450px',
-                                            width: '650px',
-                                            objectFit: 'cover',
-                                            marginRight: '30px'
+                                            height: '100%',
+                                            objectFit: 'cover'
                                         }}
                                     />
                                 </Col>

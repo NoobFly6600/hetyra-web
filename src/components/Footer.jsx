@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <Container fluid={true} style={{ backgroundColor: 'black', color: 'white', padding: '20px' }}>
             <Row className="mb-2 justify-content-center">
-                <Col md={2} style={{ padding: '0 15px' }}>
+                <Col md={2} style={{ padding: '0 0px' }}>
                     <h5 className="mb-2">Individuals</h5>
                     <Nav className="flex-column" style={{ margin: 0, padding: 0 }}>
                         <Nav.Link 
@@ -53,7 +53,7 @@ export default function Footer() {
                         </Nav.Link>
                     </Nav>
                 </Col>
-                <Col md={2} style={{ padding: '0 15px' }}>
+                <Col md={2} style={{ padding: '0 30px' }}>
                     <h5 className="mb-2">About</h5>
                     <Nav className="flex-column" style={{ margin: 0, padding: 0 }}>
                         <Nav.Link 
@@ -77,7 +77,7 @@ export default function Footer() {
             </Row>
             <hr style={{ backgroundColor: '#333', margin: '10px 0' }} />
             <Row className="justify-content-center">
-                <Col md={8} style={{ padding: '0 15px' }}>
+                <Col md={8} style={{ padding: '0 0px' }}>
                     <div className="d-flex justify-content-between align-items-center">
                         <span style={{ marginLeft: '0' }}>©2024 Hetyra Inc.</span>
                         <div>

@@ -86,7 +86,6 @@ export default function InHomeServicesPage() {
                                         alt="Massage Benefits"
                                         style={{
                                             borderRadius: '0 10px 10px 0',
-                                            height: '500px',
                                             width: '800px',
                                             objectFit: 'cover',
                                             maxWidth: '100%',

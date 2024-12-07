@@ -68,7 +68,6 @@ export default function ProvidersPage() {
                                         alt="Provider Benefits"
                                         style={{
                                             borderRadius: '10px 0 0 10px',
-                                            height: '500px',
                                             width: '700px',
                                             objectFit: 'cover',
                                             marginRight: '30px',
@@ -84,20 +83,13 @@ export default function ProvidersPage() {
                                             lineHeight: '1.8',
                                             marginBottom: '20px'
                                         }}>
-                                            As part of a growing community of massage and bodywork professionals, 
-                                            you have the freedom to offer services on your terms—set your own prices 
-                                            and customize your offerings. Choose from in-home table massage, spa 
-                                            opportunities, or chair massage for offices and events.
+                                            As part of a growing community of massage and bodywork professionals, you have the freedom to offer services on your terms—set your own prices and customize your offerings. 
                                         </p>
                                         <p style={{ 
                                             fontSize: '18px', 
                                             lineHeight: '1.8' 
                                         }}>
-                                            With Hetyra, you can earn up to 90% of the payment for each session, 
-                                            including 100% of the tips. Take control of your schedule by accepting 
-                                            as many or as few appointments as you like—no minimums, no pressure. 
-                                            Get paid weekly and enjoy the ultimate flexibility to grow your business 
-                                            on your own terms.
+                                            With Hetyra, you can earn up to 90% of the payment for each session, including 100% of the tips. Take control of your schedule by accepting as many appointments as you like. Get paid bimonthly and enjoy the ultimate flexibility to grow your business on your own terms.
                                         </p>
                                     </Card.Body>
                                 </Col>
@@ -191,7 +183,6 @@ export default function ProvidersPage() {
                                         alt="Earnings Potential"
                                         style={{
                                             borderRadius: '0 10px 10px 0',
-                                            height: '500px',
                                             width: '700px',
                                             objectFit: 'cover',
                                             maxWidth: '100%',
