@@ -18,8 +18,9 @@ export default function Footer() {
                             In-Home Services
                         </Nav.Link>
                     </Nav>
+                    <br/>
                 </Col>
-                <Col md={2} style={{ padding: '0 15px' }}>
+                <Col md={2} style={{ padding: '0 0px' }}>
                     <h5 className="mb-2">Providers</h5>
                     <Nav className="flex-column" style={{ margin: 0, padding: 0 }}>
                         <Nav.Link 
@@ -31,8 +32,9 @@ export default function Footer() {
                             Become a Provider
                         </Nav.Link>
                     </Nav>
+                    <br/>
                 </Col>
-                <Col md={2} style={{ padding: '0 15px' }}>
+                <Col md={2} style={{ padding: '0 0px' }}>
                     <h5 className="mb-2">Support</h5>
                     <Nav className="flex-column" style={{ margin: 0, padding: 0 }}>
                         <Nav.Link 
@@ -52,8 +54,9 @@ export default function Footer() {
                             Help
                         </Nav.Link>
                     </Nav>
+                    <br/>
                 </Col>
-                <Col md={2} style={{ padding: '0 30px' }}>
+                <Col md={2} style={{ padding: '0 0px' }}>
                     <h5 className="mb-2">About</h5>
                     <Nav className="flex-column" style={{ margin: 0, padding: 0 }}>
                         <Nav.Link 
@@ -73,6 +76,7 @@ export default function Footer() {
                             How Hetyra Works
                         </Nav.Link>
                     </Nav>
+                    <br/>
                 </Col>
             </Row>
             <hr style={{ backgroundColor: '#333', margin: '10px 0' }} />

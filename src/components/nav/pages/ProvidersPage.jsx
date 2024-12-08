@@ -17,7 +17,7 @@ export default function ProvidersPage() {
         <div style={{ backgroundColor: 'white' }}>
             {/* Banner Section */}
             <Container fluid style={{ backgroundColor: 'black', color: 'white', padding: '60px 0' }}>
-                <Container>
+                <Container style={{ maxWidth: '1200px', margin: '0 auto' }}>
                     <Row className="align-items-center">
                         <Col md={6}>
                             <h1 style={{ 
@@ -39,10 +39,11 @@ export default function ProvidersPage() {
                                 src={FifthPhoto}
                                 alt="Be Your Own Boss"
                                 style={{
-                                    maxWidth: '100%',
+                                    maxWidth: '600px',
                                     height: 'auto',
                                     objectFit: 'cover',
-                                    borderRadius: '10px'
+                                    borderRadius: '10px',
+                                    width: '100%'
                                 }}
                             />
                         </Col>
@@ -51,7 +52,7 @@ export default function ProvidersPage() {
             </Container>
 
             {/* Body Section */}
-            <Container className="py-5">
+            <Container fluid className="py-5">
                 {/* Join Network Section */}
                 <Row className="mb-5">
                     <Col>

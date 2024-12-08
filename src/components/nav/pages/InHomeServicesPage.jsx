@@ -47,7 +47,7 @@ export default function InHomeServicesPage() {
             </Container>
 
             {/* Body Section */}
-            <Container className="py-5">
+            <Container fluid className="py-5">
                 {/* Steps Section */}
                 <Row className="mb-5">
                     <Col>
@@ -85,11 +85,11 @@ export default function InHomeServicesPage() {
                                         src={AppPhoto}
                                         alt="Massage Benefits"
                                         style={{
-                                            borderRadius: '0 10px 10px 0',
-                                            width: '800px',
+                                            borderRadius: '10px',
+                                            width: '100%',
                                             objectFit: 'cover',
-                                            maxWidth: '100%',
-                                            height: 'auto'
+                                            maxWidth: '600px',
+                                            height: 'auto',
                                         }}
                                     />
                                 </Col>

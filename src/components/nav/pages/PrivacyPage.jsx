@@ -19,10 +19,15 @@ export default function PrivacyPage() {
           <ol className="mb-5">
             <li><a href="#personal-info" className="text-decoration-none">Personal Information We Collect</a></li>
             <li><a href="#how-we-use" className="text-decoration-none">How We Use Your Personal Information</a></li>
+            <li><a href="#how-we-share" className="text-decoration-none">How We Share Your Personal Information</a></li>
             <li><a href="#your-choices" className="text-decoration-none">Your Choices</a></li>
+            <li><a href="#other-sites" className="text-decoration-none">Other Sites and Services</a></li>
+            <li><a href="#security" className="text-decoration-none">Security</a></li>
+            <li><a href="#international" className="text-decoration-none">International Data Transfer</a></li>
             <li><a href="#children" className="text-decoration-none">Children</a></li>
             <li><a href="#changes" className="text-decoration-none">Changes to This Privacy Policy</a></li>
             <li><a href="#contact" className="text-decoration-none">How to Contact Us</a></li>
+
           </ol>
         </section>
 

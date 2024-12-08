@@ -8,7 +8,7 @@ export default function TrustSafetyPage() {
         <div style={{ backgroundColor: 'white' }}>
             {/* Banner Section */}
             <Container fluid style={{ backgroundColor: 'black', color: 'white', padding: '60px 0' }}>
-                <Container>
+                <Container style={{ maxWidth: '1200px', margin: '0 auto' }}>
                     <Row className="align-items-center">
                         <Col md={6}>
                             <h1 style={{ 
