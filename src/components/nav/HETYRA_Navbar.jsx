@@ -75,8 +75,8 @@ export default function HETYRA_Navbar(props) {
                             className="mx-3"
                         >
                             <NavDropdown.Item>English</NavDropdown.Item>
-                            <NavDropdown.Item>Español</NavDropdown.Item>
-                            <NavDropdown.Item>中文</NavDropdown.Item>
+                            {/* <NavDropdown.Item>Español</NavDropdown.Item>
+                            <NavDropdown.Item>中文</NavDropdown.Item> */}
                         </NavDropdown>
                         <Nav.Link 
                             as={Link} 
