@@ -197,7 +197,7 @@ export default function ProvidersPage() {
                 </Row>
 
                 {/* Why Become a Provider Section */}
-                <Row className="mt-5">
+                <Row className="mt-5" style={{ maxWidth: '2000px', margin: '0 auto' }}>
                     <Col>
                         <h2 className="text-center mb-5">Why become a provider at Hetyra?</h2>
                         <Row className="justify-content-center">

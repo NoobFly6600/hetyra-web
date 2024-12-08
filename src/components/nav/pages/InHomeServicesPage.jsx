@@ -102,8 +102,8 @@ export default function InHomeServicesPage() {
                 <Row className="mt-5">
                     <Col>
                         <h2 className="text-center mb-5">Main Benefits</h2>
-                        <Row className="g-4">
-                            <Col md={4}>
+                        <Row className="g-4 justify-content-center">
+                            <Col md={3}>
                                 <Card className="h-100" style={{ 
                                     border: 'none',
                                     padding: '20px'
@@ -122,7 +122,7 @@ export default function InHomeServicesPage() {
                                 </Card>
                             </Col>
 
-                            <Col md={4}>
+                            <Col md={3}>
                                 <Card className="h-100" style={{ 
                                     border: 'none',
                                     padding: '20px'
@@ -141,7 +141,7 @@ export default function InHomeServicesPage() {
                                 </Card>
                             </Col>
 
-                            <Col md={4}>
+                            <Col md={3}>
                                 <Card className="h-100" style={{ 
                                     border: 'none',
                                     padding: '20px'
