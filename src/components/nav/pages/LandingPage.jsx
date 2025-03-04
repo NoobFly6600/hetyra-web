@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import InHomeService from '../../../Photos/InHomeServices.png';
 import BeYourOwnBoss from '../../../Photos/BeYourOwnBoss.png';
+import UserQR from '../../../Photos/userQR.png';
+import ProviderQR from '../../../Photos/providerQR.png';
 
 export default function LandingPage(props) {
     const [titleSize, setTitleSize] = useState('120px');
@@ -209,7 +211,7 @@ export default function LandingPage(props) {
                                     <Card.Body className="d-flex flex-row align-items-center p-4">
                                         <div className="me-4">
                                             <img 
-                                                src="/src/Photos/userQR.png" 
+                                                src={UserQR} 
                                                 alt="Hetyra User App QR Code" 
                                                 style={{ 
                                                     width: '150px', 
@@ -234,7 +236,7 @@ export default function LandingPage(props) {
                                     <Card.Body className="d-flex flex-row align-items-center p-4">
                                         <div className="me-4">
                                             <img 
-                                                src="/src/Photos/providerQR.png" 
+                                                src={ProviderQR} 
                                                 alt="Hetyra Provider App QR Code" 
                                                 style={{ 
                                                     width: '150px', 
