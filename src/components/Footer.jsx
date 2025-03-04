@@ -84,16 +84,16 @@ export default function Footer() {
 
             {/* App Download Links Section - Side by Side */}
             <Row className="mb-4">
-                <Col md={{ span: 8, offset: 2 }} style={{ paddingLeft: '10px' }}>
+                <Col md={{ span: 8, offset: 2 }} style={{ paddingLeft: '0' }}>
                     <Row>
                         <Col md={6} className="mb-3 mb-md-0" style={{ paddingLeft: '0' }}>
                             <h5 className="mb-3">Download Client App</h5>
                             <div className="d-flex">
                                 <a href="https://apps.apple.com/ca/app/hetyra/id6741908357" target="_blank" rel="noopener noreferrer" className="me-3">
-                                    <Image src={GetApple} alt="Download on App Store" style={{ height: '40px' }} />
+                                    <Image src={GetApple} alt="Download on App Store" style={{ height: '40px', borderRadius: '6px' }} />
                                 </a>
                                 <a href="https://play.google.com/store/apps/details?id=com.hetyra" target="_blank" rel="noopener noreferrer">
-                                    <Image src={GetAndroid} alt="Get it on Google Play" style={{ height: '40px' }} />
+                                    <Image src={GetAndroid} alt="Get it on Google Play" style={{ height: '40px', borderRadius: '6px' }} />
                                 </a>
                             </div>
                         </Col>
@@ -101,10 +101,10 @@ export default function Footer() {
                             <h5 className="mb-3">Download Provider App</h5>
                             <div className="d-flex">
                                 <a href="https://apps.apple.com/ca/app/htr-provider/id6741950460" target="_blank" rel="noopener noreferrer" className="me-3">
-                                    <Image src={GetApple} alt="Download on App Store" style={{ height: '40px' }} />
+                                    <Image src={GetApple} alt="Download on App Store" style={{ height: '40px', borderRadius: '6px' }} />
                                 </a>
                                 <a href="https://play.google.com/store/apps/details?id=com.htr_provider" target="_blank" rel="noopener noreferrer">
-                                    <Image src={GetAndroid} alt="Get it on Google Play" style={{ height: '40px' }} />
+                                    <Image src={GetAndroid} alt="Get it on Google Play" style={{ height: '40px', borderRadius: '6px' }} />
                                 </a>
                             </div>
                         </Col>
