@@ -193,6 +193,65 @@ export default function LandingPage(props) {
                         </Card>
                     </Col>
                 </Row>
+
+                {/* Do more in the app Section */}
+                <Row className="mt-5 pt-5">
+                    <Col className="text-center mb-5">
+                        <h2 style={{ marginBottom: '50px' }}>Do more in the app</h2>
+                        <Row className="justify-content-center">
+                            <Col md={6} className="mb-4">
+                                <Card style={{ 
+                                    border: 'none', 
+                                    boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+                                    borderRadius: '10px',
+                                    height: '100%'
+                                }}>
+                                    <Card.Body className="d-flex flex-row align-items-center p-4">
+                                        <div className="me-4">
+                                            <img 
+                                                src="/src/Photos/userQR.png" 
+                                                alt="Hetyra User App QR Code" 
+                                                style={{ 
+                                                    width: '150px', 
+                                                    height: '150px'
+                                                }} 
+                                            />
+                                        </div>
+                                        <div className="text-start">
+                                            <h4 className="mb-2">Download the Hetyra app</h4>
+                                            <p className="text-muted">Scan to download</p>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col md={6} className="mb-4">
+                                <Card style={{ 
+                                    border: 'none', 
+                                    boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+                                    borderRadius: '10px',
+                                    height: '100%'
+                                }}>
+                                    <Card.Body className="d-flex flex-row align-items-center p-4">
+                                        <div className="me-4">
+                                            <img 
+                                                src="/src/Photos/providerQR.png" 
+                                                alt="Hetyra Provider App QR Code" 
+                                                style={{ 
+                                                    width: '150px', 
+                                                    height: '150px'
+                                                }} 
+                                            />
+                                        </div>
+                                        <div className="text-start">
+                                            <h4 className="mb-2">Download the Provider app</h4>
+                                            <p className="text-muted">Scan to download</p>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
             </Container>
         </div>
     );

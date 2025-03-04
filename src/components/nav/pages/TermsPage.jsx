@@ -59,6 +59,10 @@ export default function TermsPage() {
             <li><a href="#registration" className="text-decoration-none">Registration, Accounts, Passwords, and Security</a></li>
             <li><a href="#responsibilities" className="text-decoration-none">Your Responsibilities</a></li>
             <li><a href="#medical-disclaimers" className="text-decoration-none">Medical-Related Disclaimers</a></li>
+            <li><a href="#incident-reporting" className="text-decoration-none">Incident Reporting and Legal Support</a></li>
+            <li><a href="#service-scope" className="text-decoration-none">Service Scope and Compliance</a></li>
+            <li><a href="#anti-poaching" className="text-decoration-none">Anti-Poaching Policy</a></li>
+            <li><a href="#limitations-liability" className="text-decoration-none">Limitations of Liability</a></li>
             <li><a href="#booking" className="text-decoration-none">Booking Treatments and Medical Treatments</a></li>
             <li><a href="#referral-program" className="text-decoration-none">Referral Program</a></li>
             <li><a href="#providing-treatments" className="text-decoration-none">Providing Treatments</a></li>
@@ -83,7 +87,6 @@ export default function TermsPage() {
             <li><a href="#waiver" className="text-decoration-none">Waiver</a></li>
             <li><a href="#assignment" className="text-decoration-none">Assignment</a></li>
             <li><a href="#third-party-beneficiaries" className="text-decoration-none">Third-Party Beneficiaries</a></li>
-            
           </ol>
           <a href="#apple-notice" className="text-decoration-none">Notice Regarding Apple</a>
         </section>
@@ -278,8 +281,49 @@ export default function TermsPage() {
           </p>
         </section>
 
+        <section id="incident-reporting" className="mb-5">
+          <h2 className="h4 mb-3">5. Incident Reporting and Legal Support</h2>
+          
+          <p className="mb-4">
+            Hetyra takes the safety of users and providers seriously. In the event of any criminal activity during a session, including but not limited to 
+            assault, harassment, or abuse, Hetyra will cooperate with law enforcement and provide relevant data to support legal proceedings. Additionally, 
+            we will assist in seeking compensation for the victim from the responsible party. Any user or provider reported for such conduct will face 
+            immediate and permanent account termination.
+          </p>
+        </section>
+
+        <section id="service-scope" className="mb-5">
+          <h2 className="h4 mb-3">6. Service Scope and Compliance</h2>
+          
+          <p className="mb-4">
+            Providers are strictly limited to offering the services they have listed on the platform. All services must be lawful and accurately represented. 
+            Any attempt to provide unlisted or unauthorized services—whether during or outside of a booked session—without explicit agreement from the client 
+            is a violation. For example, if a provider offers additional services outside the scope of a scheduled 60-minute relaxation massage, this constitutes 
+            a breach of policy. Such actions may result in an immediate account ban or financial penalties.
+          </p>
+        </section>
+
+        <section id="anti-poaching" className="mb-5">
+          <h2 className="h4 mb-3">7. Anti-Poaching Policy</h2>
+          
+          <p className="mb-4">
+            To protect the integrity of the platform, poaching—defined as offering or accepting services for payment outside the platform with clients met 
+            through Hetyra—is strictly prohibited. If poaching is identified, both the user and provider will face permanent account suspension. Additionally, 
+            violators may be subject to a financial penalty of up to $5,000 and potential legal action.
+          </p>
+        </section>
+
+        <section id="limitations-liability" className="mb-5">
+          <h2 className="h4 mb-3">8. Limitations of Liability</h2>
+          
+          <p className="mb-4">
+            Hetyra is not responsible for any interactions or incidents that occur between users and providers outside of officially booked sessions on the 
+            platform. We will not intervene, take action, or assume any liability for matters that arise beyond the scope of our services.
+          </p>
+        </section>
+
         <section id="booking" className="mb-5">
-          <h2 className="h4 mb-3">5. Booking Treatments and Medical Treatments</h2>
+          <h2 className="h4 mb-3">9. Booking Treatments and Medical Treatments</h2>
           
           <p className="mb-4">
             As a condition of being permitted to make appointments for Treatments or Medical Treatments through the Service, 
@@ -392,7 +436,7 @@ export default function TermsPage() {
         </section>
 
         <section id="referral-program" className="mb-5">
-          <h2 className="h4 mb-3">6. Referral Program</h2>
+          <h2 className="h4 mb-3">10. Referral Program</h2>
           
           <p className="mb-4">
             You may be able to earn free Treatments by inviting friends to book through Hetyra using the promo code assigned to you by Hetyra 
@@ -418,7 +462,7 @@ export default function TermsPage() {
         </section>
 
         <section id="providing-treatments" className="mb-5">
-          <h2 className="h4 mb-3">7. Providing Treatments</h2>
+          <h2 className="h4 mb-3">11. Providing Treatments</h2>
           
           <p className="mb-4">
             The terms governing Providers with respect to providing Treatments are set forth in the Provider Agreement. The terms governing 
@@ -427,7 +471,7 @@ export default function TermsPage() {
         </section>
 
         <section id="electronic-communications" className="mb-5">
-          <h2 className="h4 mb-3">8. Consent to Electronic Communications</h2>
+          <h2 className="h4 mb-3">12. Consent to Electronic Communications</h2>
           
           <p className="mb-4">
             a. Consent to Electronic Communications<br />
@@ -481,7 +525,7 @@ export default function TermsPage() {
         </section>
 
         <section id="content-submission" className="mb-5">
-          <h2 className="h4 mb-3">9. Content Submitted to Hetyra</h2>
+          <h2 className="h4 mb-3">13. Content Submitted to Hetyra</h2>
           
           <p className="mb-4">
             a. Submission of Materials<br />
@@ -545,7 +589,7 @@ export default function TermsPage() {
         </section>
 
         <section id="contests" className="mb-5">
-          <h2 className="h4 mb-3">10. Contests</h2>
+          <h2 className="h4 mb-3">14. Contests</h2>
           
           <p className="mb-4">
             Hetyra may provide contests on the Service. The rules, regulations, and procedures governing such contests ("Contest Rules") will be 
@@ -556,7 +600,7 @@ export default function TermsPage() {
         </section>
 
         <section id="term-and-termination" className="mb-5">
-          <h2 className="h4 mb-3">11. Term and Termination</h2>
+          <h2 className="h4 mb-3">15. Term and Termination</h2>
           
           <p className="mb-4">
             a. Term of Agreement<br />
@@ -579,7 +623,7 @@ export default function TermsPage() {
         </section>
 
         <section id="ownership" className="mb-5">
-          <h2 className="h4 mb-3">12. Ownership</h2>
+          <h2 className="h4 mb-3">16. Ownership</h2>
           
           <p className="mb-4">
             a. Proprietary Information<br />
@@ -606,7 +650,7 @@ export default function TermsPage() {
         </section>
 
         <section id="copyright-infringement" className="mb-5">
-          <h2 className="h4 mb-3">13. Claims of Copyright Infringement</h2>
+          <h2 className="h4 mb-3">17. Claims of Copyright Infringement</h2>
           
           <p className="mb-4">
             The Copyright Modernization Act (CMA) provides recourse for copyright owners who believe that material appearing on the Internet infringes 
@@ -640,7 +684,7 @@ export default function TermsPage() {
         </section>
 
         <section id="indemnification" className="mb-5">
-          <h2 className="h4 mb-3">14. Indemnification and Release</h2>
+          <h2 className="h4 mb-3">18. Indemnification and Release</h2>
           
           <p className="mb-4">
             a. To the fullest extent permitted by law, you agree to defend, indemnify, and hold harmless Hetyra, its parents, subsidiaries, affiliates, 
@@ -665,7 +709,7 @@ export default function TermsPage() {
         </section>
 
         <section id="warranty-disclaimer" className="mb-5">
-          <h2 className="h4 mb-3">15. Disclaimer of Warranty</h2>
+          <h2 className="h4 mb-3">19. Disclaimer of Warranty</h2>
           
           <p className="mb-4">
             a. For Individual Users of the Service (Including Hetyra Members)<br />
@@ -729,7 +773,7 @@ export default function TermsPage() {
         </section>
 
         <section id="limitation-of-liability" className="mb-5">
-          <h2 className="h4 mb-3">16. Limitation of Liability</h2>
+          <h2 className="h4 mb-3">20. Limitation of Liability</h2>
           
           <p className="mb-4">
             a. Disclaimer of Certain Damages<br />
@@ -758,7 +802,7 @@ export default function TermsPage() {
         </section>
 
         <section id="third-party-disputes" className="mb-5">
-          <h2 className="h4 mb-3">17. Third-Party Disputes</h2>
+          <h2 className="h4 mb-3">21. Third-Party Disputes</h2>
           
           <p className="mb-4">
             Hetyra is not affiliated with any carrier, service provider, or third-party service. Any dispute you have with a carrier, service provider, 
@@ -770,7 +814,7 @@ export default function TermsPage() {
         </section>
 
         <section id="force-majeure" className="mb-5">
-          <h2 className="h4 mb-3">18. Force Majeure</h2>
+          <h2 className="h4 mb-3">22. Force Majeure</h2>
           
           <p className="mb-4">
             Hetyra shall not be held liable for any delay or failure to perform its obligations under these Terms if such delay or failure is caused by 
@@ -780,7 +824,7 @@ export default function TermsPage() {
         </section>
 
         <section id="indemnification-release" className="mb-5">
-          <h2 className="h4 mb-3">19. Indemnification and Release</h2>
+          <h2 className="h4 mb-3">23. Indemnification and Release</h2>
           
           <p className="mb-4">
             a. To the fullest extent allowed by law, you agree to defend, indemnify, and hold Hetyra, its licensors, and their respective parent companies, 
@@ -802,7 +846,7 @@ export default function TermsPage() {
         </section>
 
         <section id="additional-features" className="mb-5">
-          <h2 className="h4 mb-3">20. Additional Service Features</h2>
+          <h2 className="h4 mb-3">24. Additional Service Features</h2>
           
           <p className="mb-4">
             The Service may include information about products and services offered by third parties, including Providers, as well as links (including advertisements) 
@@ -814,7 +858,7 @@ export default function TermsPage() {
         </section>
 
         <section id="dispute-resolution" className="mb-5">
-          <h2 className="h4 mb-3">21. Dispute Resolution</h2>
+          <h2 className="h4 mb-3">25. Dispute Resolution</h2>
           
           <p className="mb-4">
             a. Mandatory Arbitration<br />
@@ -889,7 +933,7 @@ export default function TermsPage() {
         </section>
 
         <section id="feedback" className="mb-5">
-          <h2 className="h4 mb-3">22. Feedback</h2>
+          <h2 className="h4 mb-3">26. Feedback</h2>
           
           <p className="mb-4">
             While our team continually works on developing and assessing our own product ideas and features, we value and carefully consider the interests, 
@@ -913,7 +957,7 @@ export default function TermsPage() {
         </section>
 
         <section id="entire-agreement" className="mb-5">
-          <h2 className="h4 mb-3">23. Entire Agreement; Modification</h2>
+          <h2 className="h4 mb-3">27. Entire Agreement; Modification</h2>
           
           <p className="mb-4">
             These Terms, along with any licenses contained in Hetyra's products, represent the complete and exclusive agreement between Hetyra and you 
@@ -926,7 +970,7 @@ export default function TermsPage() {
         </section>
 
         <section id="severability" className="mb-5">
-          <h2 className="h4 mb-3">24. Severability</h2>
+          <h2 className="h4 mb-3">28. Severability</h2>
           
           <p className="mb-4">
             If any provision of these Terms is found to be invalid, illegal, or unenforceable, that provision will be amended or, if modification is not 
@@ -936,7 +980,7 @@ export default function TermsPage() {
         </section>
 
         <section id="relationship" className="mb-5">
-          <h2 className="h4 mb-3">25. Relationship of the Parties</h2>
+          <h2 className="h4 mb-3">29. Relationship of the Parties</h2>
           
           <p className="mb-4">
             Nothing in these Terms will be construed to establish an employer-employee relationship, nor create an agency, joint venture, or partnership 
@@ -945,7 +989,7 @@ export default function TermsPage() {
         </section>
 
         <section id="waiver" className="mb-5">
-          <h2 className="h4 mb-3">26. Waiver</h2>
+          <h2 className="h4 mb-3">30. Waiver</h2>
           
           <p className="mb-4">
             No delay, omission, or failure to exercise any right or remedy under these Terms will be considered a waiver of that right or remedy, nor an 
@@ -955,7 +999,7 @@ export default function TermsPage() {
         </section>
 
         <section id="assignment" className="mb-5">
-          <h2 className="h4 mb-3">27. Assignment</h2>
+          <h2 className="h4 mb-3">31. Assignment</h2>
           
           <p className="mb-4">
             You may not assign or transfer these Terms or any rights granted hereunder, either voluntarily or by operation of law, without Hetyra's prior 
@@ -965,7 +1009,7 @@ export default function TermsPage() {
         </section>
 
         <section id="third-party-beneficiaries" className="mb-5">
-          <h2 className="h4 mb-3">28. Third-Party Beneficiaries</h2>
+          <h2 className="h4 mb-3">32. Third-Party Beneficiaries</h2>
           
           <p className="mb-4">
             The provisions in these Terms that pertain to Hetyra's content providers are intended to benefit those providers, and they will be entitled to 

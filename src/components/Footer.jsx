@@ -1,6 +1,8 @@
 import React from 'react';
-import { Container, Row, Col, Nav } from 'react-bootstrap';
+import { Container, Row, Col, Nav, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import GetAndroid from '../Photos/GetAndroid.png';
+import GetApple from '../Photos/GetApple.png';
 
 export default function Footer() {
     return (
@@ -79,16 +81,47 @@ export default function Footer() {
                     <br/>
                 </Col>
             </Row>
+
+            {/* App Download Links Section - Side by Side */}
+            <Row className="mb-4">
+                <Col md={{ span: 8, offset: 2 }} style={{ paddingLeft: '10px' }}>
+                    <Row>
+                        <Col md={6} className="mb-3 mb-md-0" style={{ paddingLeft: '0' }}>
+                            <h5 className="mb-3">Download Client App</h5>
+                            <div className="d-flex">
+                                <a href="https://apps.apple.com/ca/app/hetyra/id6741908357" target="_blank" rel="noopener noreferrer" className="me-3">
+                                    <Image src={GetApple} alt="Download on App Store" style={{ height: '40px' }} />
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.hetyra" target="_blank" rel="noopener noreferrer">
+                                    <Image src={GetAndroid} alt="Get it on Google Play" style={{ height: '40px' }} />
+                                </a>
+                            </div>
+                        </Col>
+                        <Col md={6}>
+                            <h5 className="mb-3">Download Provider App</h5>
+                            <div className="d-flex">
+                                <a href="https://apps.apple.com/ca/app/htr-provider/id6741950460" target="_blank" rel="noopener noreferrer" className="me-3">
+                                    <Image src={GetApple} alt="Download on App Store" style={{ height: '40px' }} />
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.htr_provider" target="_blank" rel="noopener noreferrer">
+                                    <Image src={GetAndroid} alt="Get it on Google Play" style={{ height: '40px' }} />
+                                </a>
+                            </div>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
+
             <hr style={{ backgroundColor: '#333', margin: '10px 0' }} />
             <Row className="justify-content-center">
                 <Col md={8} style={{ padding: '0 0px' }}>
                     <div className="d-flex justify-content-between align-items-center">
-                        <span style={{ marginLeft: '0' }}>©2024 Hetyra Inc.</span>
+                        <span>©2024 Hetyra Inc.</span>
                         <div>
                             <Nav.Link 
                                 as={Link} 
                                 to="/privacy" 
-                                className="text-white d-inline me-3"
+                                className="text-white d-inline me-4"
                                 style={{ padding: 0 }}
                             >
                                 Privacy Policy
