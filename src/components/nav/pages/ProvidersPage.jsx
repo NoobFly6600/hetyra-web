@@ -78,7 +78,7 @@ export default function ProvidersPage() {
                                     />
                                 </Col>
                                 <Col md={6} className="d-flex justify-content-start">
-                                    <Card.Body className="p-5" style={{ marginLeft: '60px' }}>
+                                    <Card.Body className="p-5" style={{ marginLeft: '10px' }}>
                                         <p style={{
                                             fontSize: '18px',
                                             lineHeight: '1.8',
@@ -139,7 +139,7 @@ export default function ProvidersPage() {
                                                         onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
                                                         onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
                                                     >
-                                                        <Card.Body className="p-3">
+                                                        <Card.Body className="p-2">
                                                             <div className="d-flex align-items-center mb-2">
                                                                 <div
                                                                     style={{
@@ -165,7 +165,7 @@ export default function ProvidersPage() {
                                                             <p style={{
                                                                 fontSize: '16px',
                                                                 lineHeight: '1.4',
-                                                                marginLeft: '55px',
+                                                                marginLeft: '50px',
                                                                 marginBottom: 0,
                                                                 color: '#666'
                                                             }}>
