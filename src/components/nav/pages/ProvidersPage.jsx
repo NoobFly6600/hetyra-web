@@ -3,13 +3,13 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import FifthPhoto from '../../../Photos/FifthPhoto.png';
 import SixthPhoto from '../../../Photos/SixthPhoto.png';
 import SeventhPhoto from '../../../Photos/SeventhPhoto.png';
-import { 
-    DollarOutlined, 
-    CalendarOutlined, 
+import {
+    DollarOutlined,
+    CalendarOutlined,
     BuildOutlined,
     TeamOutlined,
     ShakeOutlined,
-    SafetyCertificateOutlined 
+    SafetyCertificateOutlined
 } from '@ant-design/icons';
 
 export default function ProvidersPage() {
@@ -20,14 +20,14 @@ export default function ProvidersPage() {
                 <Container style={{ maxWidth: '1200px', margin: '0 auto' }}>
                     <Row className="align-items-center">
                         <Col md={6}>
-                            <h1 style={{ 
-                                fontSize: '48px', 
+                            <h1 style={{
+                                fontSize: '48px',
                                 fontWeight: 'bold',
                                 marginBottom: '30px'
                             }}>
                                 Be your own boss
                             </h1>
-                            <p style={{ 
+                            <p style={{
                                 fontSize: '18px',
                                 lineHeight: '1.6'
                             }}>
@@ -35,7 +35,7 @@ export default function ProvidersPage() {
                             </p>
                         </Col>
                         <Col md={6} className="d-flex justify-content-center">
-                            <img 
+                            <img
                                 src={FifthPhoto}
                                 alt="Be Your Own Boss"
                                 style={{
@@ -57,7 +57,7 @@ export default function ProvidersPage() {
                 <Row className="mb-5">
                     <Col>
                         <h2 className="text-center mb-5">Join the Hetyra Provider Network</h2>
-                        <Card style={{ 
+                        <Card style={{
                             border: 'none',
                             maxWidth: '1100px',
                             margin: '0 auto'
@@ -79,16 +79,16 @@ export default function ProvidersPage() {
                                 </Col>
                                 <Col md={6} className="d-flex justify-content-start">
                                     <Card.Body className="p-5" style={{ marginLeft: '60px' }}>
-                                        <p style={{ 
-                                            fontSize: '18px', 
+                                        <p style={{
+                                            fontSize: '18px',
                                             lineHeight: '1.8',
                                             marginBottom: '20px'
                                         }}>
-                                            As part of a growing community of massage and bodywork professionals, you have the freedom to offer services on your terms—set your own prices and customize your offerings. 
+                                            As part of a growing community of massage and bodywork professionals, you have the freedom to offer services on your terms—set your own prices and customize your offerings.
                                         </p>
-                                        <p style={{ 
-                                            fontSize: '18px', 
-                                            lineHeight: '1.8' 
+                                        <p style={{
+                                            fontSize: '18px',
+                                            lineHeight: '1.8'
                                         }}>
                                             With Hetyra, you can earn up to 90% of the payment for each session, including 100% of the tips. Take control of your schedule by accepting as many appointments as you like. Get paid bimonthly and enjoy the ultimate flexibility to grow your business on your own terms.
                                         </p>
@@ -102,8 +102,8 @@ export default function ProvidersPage() {
                 {/* Get Started Steps - Moved to second section */}
                 <Row className="mb-5">
                     <Col>
-                        <h2 className="text-center mb-5">Get Started in 3 Easy Steps</h2>
-                        <Card style={{ 
+                        <h2 className="text-center mb-4">Get Started in 3 Easy Steps</h2>
+                        <Card style={{
                             border: 'none',
                             maxWidth: '1100px',
                             margin: '0 auto'
@@ -127,53 +127,53 @@ export default function ProvidersPage() {
                                                         description: "Take appointments on your schedule with the Hetyra Provider app. Our support team is always here for you."
                                                     }
                                                 ].map((step, index) => (
-                                    <Card 
-                                        key={index}
-                                        className="mb-3"
-                                        style={{ 
-                                            border: 'none',
-                                            transition: 'transform 0.2s',
-                                            cursor: 'default',
-                                            fontSize: '16px'
-                                        }}
-                                        onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
-                                        onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
-                                    >
-                                        <Card.Body className="p-3">
-                                            <div className="d-flex align-items-center mb-2">
-                                                <div
-                                                    style={{
-                                                        backgroundColor: 'black',
-                                                        color: 'white',
-                                                        width: '30px',
-                                                        height: '30px',
-                                                        borderRadius: '50%',
-                                                        display: 'flex',
-                                                        alignItems: 'center',
-                                                        justifyContent: 'center',
-                                                        marginRight: '15px',
-                                                        flexShrink: 0,
-                                                        fontSize: '14px'
-                                                    }}
-                                                >
-                                                    {index + 1}
-                                                </div>
-                                                <h4 className="mb-0" style={{ fontSize: '20px' }}>
-                                                    {step.title}
-                                                </h4>
-                                            </div>
-                                            <p style={{
-                                                fontSize: '16px',
-                                                lineHeight: '1.4',
-                                                marginLeft: '55px',
-                                                marginBottom: 0,
-                                                color: '#666'
-                                            }}>
-                                                {step.description}
-                                            </p>
-                                        </Card.Body>
-                                    </Card>
-                                ))}
+                                                    <Card
+                                                        key={index}
+                                                        className="mb-3"
+                                                        style={{
+                                                            border: 'none',
+                                                            transition: 'transform 0.2s',
+                                                            cursor: 'default',
+                                                            fontSize: '16px'
+                                                        }}
+                                                        onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-3px)'}
+                                                        onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+                                                    >
+                                                        <Card.Body className="p-3">
+                                                            <div className="d-flex align-items-center mb-2">
+                                                                <div
+                                                                    style={{
+                                                                        backgroundColor: 'black',
+                                                                        color: 'white',
+                                                                        width: '30px',
+                                                                        height: '30px',
+                                                                        borderRadius: '50%',
+                                                                        display: 'flex',
+                                                                        alignItems: 'center',
+                                                                        justifyContent: 'center',
+                                                                        marginRight: '15px',
+                                                                        flexShrink: 0,
+                                                                        fontSize: '14px'
+                                                                    }}
+                                                                >
+                                                                    {index + 1}
+                                                                </div>
+                                                                <h4 className="mb-0" style={{ fontSize: '20px' }}>
+                                                                    {step.title}
+                                                                </h4>
+                                                            </div>
+                                                            <p style={{
+                                                                fontSize: '16px',
+                                                                lineHeight: '1.4',
+                                                                marginLeft: '55px',
+                                                                marginBottom: 0,
+                                                                color: '#666'
+                                                            }}>
+                                                                {step.description}
+                                                            </p>
+                                                        </Card.Body>
+                                                    </Card>
+                                                ))}
                                             </Col>
                                         </Row>
                                     </Card.Body>
@@ -236,8 +236,8 @@ export default function ProvidersPage() {
                                         }
                                     ].map((item, index) => (
                                         <Col md={4} key={index} className="mb-4">
-                                            <Card 
-                                                style={{ 
+                                            <Card
+                                                style={{
                                                     border: 'none',
                                                     transition: 'transform 0.2s',
                                                     cursor: 'default',

@@ -84,7 +84,7 @@ export default function Footer() {
 
             {/* App Download Links Section - Side by Side */}
             <Row className="mb-4">
-                <Col md={{ span: 8, offset: 2 }} style={{ paddingLeft: '0' }}>
+                <Col md={{ span: 8, offset: 2 }} style={{ paddingLeft: '10' }}>
                     <Row>
                         <Col md={6} className="mb-3 mb-md-0" style={{ paddingLeft: '0' }}>
                             <h5 className="mb-3">Download Client App</h5>
@@ -97,7 +97,7 @@ export default function Footer() {
                                 </a>
                             </div>
                         </Col>
-                        <Col md={6} style={{ paddingLeft: '0' }}>
+                        <Col md={6} style={{ paddingLeft: '10' }}>
                             <h5 className="mb-3">Download Provider App</h5>
                             <div className="d-flex">
                                 <a href="https://apps.apple.com/ca/app/htr-provider/id6741950460" target="_blank" rel="noopener noreferrer" className="me-3">
