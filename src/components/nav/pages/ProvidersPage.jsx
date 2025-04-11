@@ -90,7 +90,7 @@ export default function ProvidersPage() {
                                             fontSize: '18px',
                                             lineHeight: '1.8'
                                         }}>
-                                            With Hetyra, you can earn up to 90% of the payment for each session, including 100% of the tips. Take control of your schedule by accepting as many appointments as you like. Get paid bimonthly and enjoy the ultimate flexibility to grow your business on your own terms.
+                                            With Hetyra, you can earn 90% of the payment for each session, including 100% of the tips. Take control of your schedule by accepting as many appointments as you like. Get paid bimonthly and enjoy the ultimate flexibility to grow your business on your own terms.
                                         </p>
                                     </Card.Body>
                                 </Col>
@@ -207,7 +207,7 @@ export default function ProvidersPage() {
                                         {
                                             icon: <DollarOutlined style={{ fontSize: '24px' }} />,
                                             title: "Earn More, On Your Terms",
-                                            description: "Earn 2 to 3 times more than the industry standard while keeping up to 90% of each payment. Get fast payment processing and receive 100% of your tips directly through the app."
+                                            description: "Earn 2 to 3 times more than the industry standard while keeping 90% of each payment. Get fast payment processing and receive 100% of your tips directly through the app."
                                         },
                                         {
                                             icon: <CalendarOutlined style={{ fontSize: '24px' }} />,
@@ -298,7 +298,7 @@ export default function ProvidersPage() {
                             color: '#666',
                             textAlign: 'center'
                         }}>
-                            Interested in joining the Hetyra Provider community? Send your resume to <a href="mailto:providers@hetyra.com">providers@hetyra.com</a> and take the first step toward offering your services on our platform. We look forward to welcoming you!
+                            Interested in joining the Hetyra Provider community? Send your application to <a href="mailto:providers@hetyra.com">providers@hetyra.com</a> and take the first step toward offering your services on our platform. We look forward to welcoming you!
                         </p>
                     </Col>
                 </Row>

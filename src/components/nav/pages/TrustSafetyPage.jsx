@@ -22,9 +22,7 @@ export default function TrustSafetyPage() {
                                 fontSize: '18px',
                                 lineHeight: '1.6'
                             }}>
-                                At Hetyra, ensuring access to vital health and wellness services is our top priority. 
-                                We are committed to making this process as seamless, safe, and efficient as possible 
-                                for both clients and providers.
+                                At Hetyra, we are deeply committed to maintaining a safe, respectful, and supportive environment for all users and providers. 
                             </p>
                         </Col>
                         <Col md={6} className="d-flex justify-content-center">
@@ -107,17 +105,34 @@ export default function TrustSafetyPage() {
                                     <TeamOutlined style={{ fontSize: '24px', marginRight: '15px', color: 'black' }} />
                                     <h2 className="mb-0">For Providers</h2>
                                 </div>
-                                <h3 className="h4 mb-3">Safety & Support</h3>
                                 <p className="mb-4">
-                                    Hetyra providers have the right to decline any appointment based on a safety concern, 
-                                    even after the appointment has started. Our Support and Trust & Safety teams are 
-                                    available to assist providers at any time during an appointment.
+                                Your safety is our priority. At Hetyra, we are deeply committed to maintaining a safe, respectful, and supportive environment for all providers. We’ve implemented systems and resources to ensure your safety and peace of mind with every appointment.
                                 </p>
-                                <p>
-                                    If a provider has a safety concern during or after an appointment, we recommend 
-                                    they report it immediately to our Trust & Safety team by reaching out to Support 
-                                    through the app or emailing <a href="mailto:help@hetyra.com">help@hetyra.com</a>.
+                                <h3 className="h4 mb-3">Safety Features</h3>
+                                <p className="mb-4">
+                                We provide immediate emergency support if you ever feel unsafe during an appointment. Our built-in check-in and check-out system allows us to track your well-being throughout each session. In addition, our dedicated Provider Support team is available every day of the year to assist you with anything you need.
                                 </p>
+                                <h3 className="h4 mb-3">Verified Clients</h3>
+                                <p className="mb-4">
+                                All clients and patients on the Hetyra platform are verified before they can book appointments. However, please note that while we confirm identity, Hetyra does not conduct background checks on clients or patients.
+
+                                </p>
+                                <h3 className="h4 mb-3">Booking Transparency</h3>
+                                <p className="mb-4">
+                                As soon as a client books an appointment with you, their name, address, phone number, and rating will be visible in the app. You’ll also have access to any notes or special instructions they’ve included with the booking. We encourage you to reach out to clients directly by phone before the appointment to confirm details and discuss any specific needs or expectations.
+
+                                </p>
+                                <h3 className="h4 mb-3">Provider Feedback</h3>
+                                <p className="mb-4">
+                                After each appointment, providers are encouraged to rate their experience with the client directly in the app. Open communication is highly valued—if you have any concerns about a client or their environment, please don’t hesitate to share your feedback with the Hetyra team so we can respond appropriately and ensure a safe experience for everyone.
+                                </p>
+
+
+                                <h3 className="h4 mb-3">Trust & Safety</h3>
+                                <p className="mb-4">
+                                You always have the right to decline or end an appointment at any time if you feel there’s a trust or safety issue. If any concern rises to the level of personal safety, please report the client immediately to our Trust & Safety team. You can contact us by emailing <a href="mailto:providers@hetyra.com">providers@hetyra.com</a> or by calling your dedicated account manager.
+                                </p>
+                             
                             </Card.Body>
                         </Card>
                     </Col>

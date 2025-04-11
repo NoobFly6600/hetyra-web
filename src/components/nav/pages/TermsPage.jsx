@@ -304,7 +304,7 @@ export default function TermsPage() {
         </section>
 
         <section id="anti-poaching" className="mb-5">
-          <h2 className="h4 mb-3">7. Anti-Poaching Policy</h2>
+          <h2 className="h4 mb-3">7. No-Poaching Agreement</h2>
           
           <p className="mb-4">
             To protect the integrity of the platform, poaching—defined as offering or accepting services for payment outside the platform with clients met 
