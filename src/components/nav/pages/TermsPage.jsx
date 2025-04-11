@@ -61,7 +61,7 @@ export default function TermsPage() {
             <li><a href="#medical-disclaimers" className="text-decoration-none">Medical-Related Disclaimers</a></li>
             <li><a href="#incident-reporting" className="text-decoration-none">Incident Reporting and Legal Support</a></li>
             <li><a href="#service-scope" className="text-decoration-none">Service Scope and Compliance</a></li>
-            <li><a href="#anti-poaching" className="text-decoration-none">Anti-Poaching Policy</a></li>
+            <li><a href="#anti-poaching" className="text-decoration-none">No-Poaching Agreement</a></li>
             <li><a href="#limitations-liability" className="text-decoration-none">Limitations of Liability</a></li>
             <li><a href="#booking" className="text-decoration-none">Booking Treatments and Medical Treatments</a></li>
             <li><a href="#referral-program" className="text-decoration-none">Referral Program</a></li>
@@ -309,7 +309,7 @@ export default function TermsPage() {
           <p className="mb-4">
             To protect the integrity of the platform, poaching—defined as offering or accepting services for payment outside the platform with clients met 
             through Hetyra—is strictly prohibited. If poaching is identified, both the user and provider will face permanent account suspension. Additionally, 
-            violators may be subject to a financial penalty of up to $5,000 and potential legal action.
+            violators may be subject to a financial penalty and potential legal action.
           </p>
         </section>
 
