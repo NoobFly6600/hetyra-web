@@ -31,7 +31,7 @@ export default function ProvidersPage() {
                                 fontSize: '18px',
                                 lineHeight: '1.6'
                             }}>
-                                Set your own services and prices. Earn on your own schedule.
+                                Set your own services. Earn on your own schedule.
                             </p>
                         </Col>
                         <Col md={6} className="d-flex justify-content-center">
@@ -84,13 +84,13 @@ export default function ProvidersPage() {
                                             lineHeight: '1.8',
                                             marginBottom: '20px'
                                         }}>
-                                            As part of a growing community of massage and bodywork professionals, you have the freedom to offer services on your terms—set your own prices and customize your offerings.
+                                            As part of a growing community of massage and bodywork professionals, you have the freedom to customize your offerings.
                                         </p>
                                         <p style={{
                                             fontSize: '18px',
                                             lineHeight: '1.8'
                                         }}>
-                                            With Hetyra, you can earn 90% of the payment for each session, including 100% of the tips. Take control of your schedule by accepting as many appointments as you like. Get paid bimonthly and enjoy the ultimate flexibility to grow your business on your own terms.
+                                            With Hetyra, you can earn 83% of the payment for each session, including 100% of the tips. Take control of your schedule by accepting as many appointments as you like. Get paid bimonthly and enjoy the ultimate flexibility to grow your business on your own terms.
                                         </p>
                                     </Card.Body>
                                 </Col>
@@ -116,7 +116,7 @@ export default function ProvidersPage() {
                                                 {[
                                                     {
                                                         title: "Submit Your Application",
-                                                        description: "We'll review your details and verify your identity, insurance, credentials, and experience."
+                                                        description: "We'll review your application and verify your identity, license, and experience."
                                                     },
                                                     {
                                                         title: "Join the Team",
@@ -207,12 +207,12 @@ export default function ProvidersPage() {
                                         {
                                             icon: <DollarOutlined style={{ fontSize: '24px' }} />,
                                             title: "Earn More, On Your Terms",
-                                            description: "Earn 2 to 3 times more than the industry standard while keeping 90% of each payment. Get fast payment processing and receive 100% of your tips directly through the app."
+                                            description: "Earn 2 to 3 times more than the industry standard while keeping 83% of each payment. Get fast payment processing and receive 100% of your tips directly through the app."
                                         },
                                         {
                                             icon: <CalendarOutlined style={{ fontSize: '24px' }} />,
                                             title: "Ultimate Flexibility",
-                                            description: "Take control of your business by setting your own services and prices. Choose when and where to accept appointments, even while traveling."
+                                            description: "Take control of your business by setting your own services. Choose when and where to accept appointments, even while traveling."
                                         },
                                         {
                                             icon: <BuildOutlined style={{ fontSize: '24px' }} />,

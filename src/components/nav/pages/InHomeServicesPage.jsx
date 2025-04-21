@@ -63,14 +63,13 @@ export default function InHomeServicesPage() {
                                         <div style={{ fontSize: '18px', lineHeight: '1.8' }}>
                                             <div className="mb-4">
                                                 <h3 className="h4 mb-3">1. Choose Your Preferred Provider</h3>
-                                                <p>Browse and select from skilled, independent massage therapists 
-                                                and bodyworkers nearby. With providers available 24/7, you can 
+                                                <p>Browse and select from skilled, massage therapists nearby. With providers available 24/7, you can 
                                                 schedule your appointment at a time that works best for you.</p>
                                             </div>
                                             <div className="mb-4">
                                                 <h3 className="h4 mb-3">2. Your Provider Comes to You</h3>
                                                 <p>A vetted, background-checked professional arrives at your chosen 
-                                                location, fully equipped to deliver an exceptional experience.</p>
+                                                location within the hour, fully equipped to deliver an exceptional experience.</p>
                                             </div>
                                             <div>
                                                 <h3 className="h4 mb-3">3. Unwind and Enjoy</h3>

@@ -87,8 +87,8 @@ export default function LandingPage(props) {
                             margin: '0 auto',
                             padding: '0 20px'
                         }}>
-                            A platform that connects you with massage therapists and bodyworkers
-                        </h4>
+North America’s leading in-home massage platform, offering on-demand, professional therapeutic and wellness services.
+</h4>
                     </Col>
                 </Row>
 
@@ -124,8 +124,7 @@ export default function LandingPage(props) {
                                             marginBottom: '30px'
                                         }}>
                                             Bring relaxation and rejuvenation straight to your doorstep!
-                                            With Hetyra, you can easily book skilled massage therapists and
-                                            bodyworkers at a time and place that fits your schedule.
+                                            With Hetyra, you can easily book skilled massage therapists at a time and place that fits your schedule.
                                         </Card.Text>
                                         <Link to="/in-home-services">
                                             <Button
