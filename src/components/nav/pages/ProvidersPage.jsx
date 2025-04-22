@@ -90,7 +90,7 @@ export default function ProvidersPage() {
                                             fontSize: '18px',
                                             lineHeight: '1.8'
                                         }}>
-                                            With Hetyra, you can earn 83% of the payment for each session, including 100% of the tips. Take control of your schedule by accepting as many appointments as you like. Get paid bimonthly and enjoy the ultimate flexibility to grow your business on your own terms.
+                                            With Hetyra, you can earn 83% of the payment for each session, including 100% of the tips. Take control of your schedule by accepting as many appointments as you like. Get paid instantly and enjoy the ultimate flexibility to grow your business on your own terms.
                                         </p>
                                     </Card.Body>
                                 </Col>
