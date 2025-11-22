@@ -1,8 +1,8 @@
-import './App.css'
-import HETYRA_Router from './components/nav/HETYRA_Router'
+import "./App.css";
+import MaySage_Router from "./components/nav/MaySage_Router";
 
 function App() {
-  return <HETYRA_Router/>
+  return <MaySage_Router />;
 }
 
-export default App
+export default App;
