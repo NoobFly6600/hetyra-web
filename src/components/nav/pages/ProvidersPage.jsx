@@ -64,7 +64,7 @@ export default function ProvidersPage() {
         <Row className="mb-5">
           <Col>
             <h2 className="text-center mb-5">
-              Join the MaySage Provider Network
+              Join the Mayple Provider Network
             </h2>
             <Card
               style={{
@@ -107,7 +107,7 @@ export default function ProvidersPage() {
                         lineHeight: "1.8",
                       }}
                     >
-                      With MaySage, you can earn 83% of the payment for each
+                      With Mayple, you can earn 83% of the payment for each
                       session, including 100% of the tips. Take control of your
                       schedule by accepting as many appointments as you like.
                       Get paid instantly and enjoy the ultimate flexibility to
@@ -150,7 +150,7 @@ export default function ProvidersPage() {
                           {
                             title: "Begin Earning",
                             description:
-                              "Take appointments on your schedule with the MaySage Provider app. Our support team is always here for you.",
+                              "Take appointments on your schedule with the Mayple Provider app. Our support team is always here for you.",
                           },
                         ].map((step, index) => (
                           <Card
@@ -237,7 +237,7 @@ export default function ProvidersPage() {
         <Row className="mt-5" style={{ maxWidth: "2000px", margin: "0 auto" }}>
           <Col>
             <h2 className="text-center mb-5">
-              Why become a provider at MaySage?
+              Why become a provider at Mayple?
             </h2>
             <Row className="justify-content-center">
               <Col md={10}>
@@ -281,7 +281,7 @@ export default function ProvidersPage() {
                       ),
                       title: "Manage Everything with Ease",
                       description:
-                        "Run your business effortlessly using the MaySage Provider app, available on both iOS and Android, giving you full control at your fingertips.",
+                        "Run your business effortlessly using the Mayple Provider app, available on both iOS and Android, giving you full control at your fingertips.",
                     },
                   ].map((item, index) => (
                     <Col md={4} key={index} className="mb-4">
@@ -355,11 +355,11 @@ export default function ProvidersPage() {
                 textAlign: "center",
               }}
             >
-              Interested in joining the MaySage Provider community? Send your
+              Interested in joining the Mayple Provider community? Send your
               application to{" "}
-              <a href="mailto:providers@MaySage.com">providers@MaySage.com</a>{" "}
-              and take the first step toward offering your services on our
-              platform. We look forward to welcoming you!
+              <a href="mailto:providers@Mayple.com">providers@Mayple.com</a> and
+              take the first step toward offering your services on our platform.
+              We look forward to welcoming you!
             </p>
           </Col>
         </Row>

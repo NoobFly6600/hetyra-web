@@ -84,7 +84,7 @@ export default function LandingPage(props) {
                 padding: "0 20px",
               }}
             >
-              anytime with MaySage
+              anytime with Mayple
             </h1>
             <h4
               style={{
@@ -146,9 +146,8 @@ export default function LandingPage(props) {
                       }}
                     >
                       Bring relaxation and rejuvenation straight to your
-                      doorstep! With MaySage, you can easily book skilled
-                      massage therapists at a time and place that fits your
-                      schedule.
+                      doorstep! With Mayple, you can easily book skilled massage
+                      therapists at a time and place that fits your schedule.
                     </Card.Text>
                     <Link to="/in-home-services">
                       <Button
@@ -187,10 +186,10 @@ export default function LandingPage(props) {
                         marginBottom: "30px",
                       }}
                     >
-                      Join MaySage and take control of your business. Set your
+                      Join Mayple and take control of your business. Set your
                       availability, define your service areas, manage
                       appointments, and maximize your earning potential—all with
-                      ease through the MaySage Provider App.
+                      ease through the Mayple Provider App.
                     </Card.Text>
                     <Link to="/providers">
                       <Button
@@ -242,7 +241,7 @@ export default function LandingPage(props) {
                     <div className="me-4">
                       <img
                         src={UserQR}
-                        alt="MaySage User App QR Code"
+                        alt="Mayple User App QR Code"
                         style={{
                           width: "150px",
                           height: "150px",
@@ -250,7 +249,7 @@ export default function LandingPage(props) {
                       />
                     </div>
                     <div className="text-start">
-                      <h4 className="mb-2">Download the MaySage app</h4>
+                      <h4 className="mb-2">Download the Mayple app</h4>
                       <p className="text-muted">Scan to download</p>
                     </div>
                   </Card.Body>
@@ -269,7 +268,7 @@ export default function LandingPage(props) {
                     <div className="me-4">
                       <img
                         src={ProviderQR}
-                        alt="MaySage Provider App QR Code"
+                        alt="Mayple Provider App QR Code"
                         style={{
                           width: "150px",
                           height: "150px",

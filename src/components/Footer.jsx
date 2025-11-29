@@ -78,7 +78,7 @@ export default function Footer() {
               className="text-white py-1"
               style={{ padding: 0 }}
             >
-              How MaySage Works
+              How Mayple Works
             </Nav.Link>
           </Nav>
           <br />
@@ -93,7 +93,7 @@ export default function Footer() {
               <h5 className="mb-3">Download Client App</h5>
               <div className="d-flex">
                 <a
-                  href="https://apps.apple.com/ca/app/MaySage/id6741908357"
+                  href="https://apps.apple.com/ca/app/Mayple/id6741908357"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="me-3"
@@ -105,7 +105,7 @@ export default function Footer() {
                   />
                 </a>
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.MaySage"
+                  href="https://play.google.com/store/apps/details?id=com.Mayple"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -153,7 +153,7 @@ export default function Footer() {
       <Row className="justify-content-center">
         <Col md={8} style={{ padding: "0 0px" }}>
           <div className="d-flex justify-content-between align-items-center">
-            <span>©2025 MaySage Inc.</span>
+            <span>©2025 May Platform Inc.</span>
             <div>
               <Nav.Link
                 as={Link}

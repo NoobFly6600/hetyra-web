@@ -36,7 +36,7 @@ export default function InHomeServicesPage() {
                 }}
               >
                 Relax, rejuvenate, and recharge with a professional massage
-                experience in the comfort of your own home. With MaySage, your
+                experience in the comfort of your own home. With Mayple, your
                 journey to wellness begins right at your doorstep.
               </p>
             </Col>
@@ -63,7 +63,7 @@ export default function InHomeServicesPage() {
         <Row className="mb-5">
           <Col>
             <h2 className="text-center mb-5">
-              Book anywhere, anytime on MaySage app
+              Book anywhere, anytime on Mayple app
             </h2>
             <Card
               style={{

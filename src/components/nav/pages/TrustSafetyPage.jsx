@@ -34,7 +34,7 @@ export default function TrustSafetyPage() {
                   lineHeight: "1.6",
                 }}
               >
-                At MaySage, we are deeply committed to maintaining a safe,
+                At Mayple, we are deeply committed to maintaining a safe,
                 respectful, and supportive environment for all users and
                 providers.
               </p>
@@ -83,7 +83,7 @@ export default function TrustSafetyPage() {
                 </p>
                 <h3 className="h4 mb-3">Cleanliness Practices</h3>
                 <p>
-                  MaySage providers follow CDC guidelines on hand hygiene,
+                  Mayple providers follow CDC guidelines on hand hygiene,
                   including washing hands or using hand sanitizer with at least
                   60% alcohol content. Providers adhere to industry best
                   practices, which include disinfecting all equipment and
@@ -115,12 +115,12 @@ export default function TrustSafetyPage() {
                 <p className="mb-4">
                   Our network consists of licensed and insured massage
                   therapists, professional bodyworkers, and other wellness
-                  practitioners. All MaySage providers are thoroughly evaluated
+                  practitioners. All Mayple providers are thoroughly evaluated
                   to ensure the highest quality service.
                 </p>
                 <h3 className="h4 mb-3">Provider Booking and Reviews</h3>
                 <p>
-                  When booking an appointment through MaySage, clients receive a
+                  When booking an appointment through Mayple, clients receive a
                   confirmation with their provider's name, photo, bio,
                   credentials. We encourage clients to reach out to our support
                   team if they have any issues or concerns.
@@ -148,7 +148,7 @@ export default function TrustSafetyPage() {
                   <h2 className="mb-0">For Providers</h2>
                 </div>
                 <p className="mb-4">
-                  Your safety is our priority. At MaySage, we are deeply
+                  Your safety is our priority. At Mayple, we are deeply
                   committed to maintaining a safe, respectful, and supportive
                   environment for all providers. We’ve implemented systems and
                   resources to ensure your safety and peace of mind with every
@@ -165,9 +165,9 @@ export default function TrustSafetyPage() {
                 </p>
                 <h3 className="h4 mb-3">Verified Clients</h3>
                 <p className="mb-4">
-                  All clients and patients on the MaySage platform are verified
+                  All clients and patients on the Mayple platform are verified
                   before they can book appointments. However, please note that
-                  while we confirm identity, MaySage does not conduct background
+                  while we confirm identity, Mayple does not conduct background
                   checks on clients or patients.
                 </p>
                 <h3 className="h4 mb-3">Booking Transparency</h3>
@@ -186,7 +186,7 @@ export default function TrustSafetyPage() {
                   experience with the client directly in the app. Open
                   communication is highly valued—if you have any concerns about
                   a client or their environment, please don’t hesitate to share
-                  your feedback with the MaySage team so we can respond
+                  your feedback with the Mayple team so we can respond
                   appropriately and ensure a safe experience for everyone.
                 </p>
 
@@ -197,9 +197,7 @@ export default function TrustSafetyPage() {
                   concern rises to the level of personal safety, please report
                   the client immediately to our Trust & Safety team. You can
                   contact us by emailing{" "}
-                  <a href="mailto:providers@MaySage.com">
-                    providers@MaySage.com
-                  </a>{" "}
+                  <a href="mailto:providers@Mayple.com">providers@Mayple.com</a>{" "}
                   or by calling your dedicated account manager.
                 </p>
               </Card.Body>

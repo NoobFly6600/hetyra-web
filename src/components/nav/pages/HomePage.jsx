@@ -27,7 +27,7 @@ export default function HomePage(props) {
                 lineHeight: "1.6",
               }}
             >
-              Adhering to the 'Wellness + Technology' strategy, MaySage commits
+              Adhering to the 'Wellness + Technology' strategy, Mayple commits
               to its mission that 'We help people relax better, feel better'.
             </h4>
 
@@ -39,11 +39,11 @@ export default function HomePage(props) {
                 lineHeight: "1.8",
               }}
             >
-              Since its establishment in 2024, MaySage has advanced the digital
+              Since its establishment in 2024, Mayple has advanced the digital
               transformation of massage services by connecting certified
               therapists with customers. Through our innovative platform, we
               provide high-quality on-demand massage services that bring
-              relaxation and wellness directly to your location. MaySage
+              relaxation and wellness directly to your location. Mayple
               prioritizes customer satisfaction and therapist safety,
               continuously investing in new technologies to enhance the massage
               service experience.
@@ -56,7 +56,7 @@ export default function HomePage(props) {
           <Col md={8}>
             <img
               src="/path-to-your-illustration.png"
-              alt="MaySage Service Illustration"
+              alt="Mayple Service Illustration"
               style={{ width: "100%", maxWidth: "1200px" }}
             />
           </Col>

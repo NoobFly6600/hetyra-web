@@ -13,7 +13,7 @@ export default function TermsPage() {
           <p className="mb-4">
             These Terms of Use (the "Terms") establish the terms and conditions
             that apply when you use the Service (as defined below), which is
-            made available to you by MaySage Networks, Inc. ("MaySage", "we",
+            made available to you by Mayple Networks, Inc. ("Mayple", "we",
             "our", or "us") and its affiliates. By using the Service, you
             indicate your acceptance of these Terms and your agreement to be
             bound by them, as well as all applicable laws and regulations. If
@@ -22,7 +22,7 @@ export default function TermsPage() {
           </p>
 
           <p className="mb-4">
-            MaySage may change, modify, supplement, and/or update these Terms at
+            Mayple may change, modify, supplement, and/or update these Terms at
             any time. While we will attempt to provide prior notice of any
             material changes, your continued use of the Service after the
             modification of these Terms means that you accept all such changes.
@@ -46,15 +46,15 @@ export default function TermsPage() {
               Refund Policy for Treatments and Medical Treatments
             </h3>
             <p className="mb-2">
-              As detailed in Section 5(g), MaySage will not refund you for any
+              As detailed in Section 5(g), Mayple will not refund you for any
               reason if you receive a Treatment or Medical Treatment (as defined
-              below), except as determined at MaySage's sole discretion.
+              below), except as determined at Mayple's sole discretion.
               Specifically, if you engage in conduct deemed inappropriate or
               unsafe by a Provider (e.g., making inappropriate requests or
               engaging in inappropriate behavior), including inappropriate
               touching or perceived threats to the Provider's safety or
               well-being, and this leads to the Provider ending the Treatment or
-              Medical Treatment early, MaySage will not provide a refund.
+              Medical Treatment early, Mayple will not provide a refund.
             </p>
           </div>
         </section>
@@ -128,7 +128,7 @@ export default function TermsPage() {
             </li>
             <li>
               <a href="#content-submission" className="text-decoration-none">
-                Content Submitted to MaySage
+                Content Submitted to Mayple
               </a>
             </li>
             <li>
@@ -243,8 +243,8 @@ export default function TermsPage() {
             1. Use of Website, Mobile Applications, and Our Service
           </h2>
           <p className="mb-4">
-            a. The "Service" refers to MaySage's website located at
-            www.MaySage.com, mobile applications, and any related services or
+            a. The "Service" refers to Mayple's website located at
+            www.Mayple.com, mobile applications, and any related services or
             platforms (including through networks, embeddable widgets,
             downloadable software, and tablet computer applications), and all
             intellectual property contained therein. The Service connects health
@@ -253,7 +253,7 @@ export default function TermsPage() {
             "Treatment"). These Treatments may be provided in-person or
             virtually, through a video communications platform. Any person who
             accesses or uses the Service to book a Treatment, either for
-            themselves or on behalf of others, will be referred to as a "MaySage
+            themselves or on behalf of others, will be referred to as a "Mayple
             Member".
           </p>
           <p className="mb-4">
@@ -263,11 +263,11 @@ export default function TermsPage() {
           </p>
           <p className="mb-4">
             b. License to Use the Service. Subject to the terms and conditions
-            of these Terms, MaySage grants you a limited, revocable,
+            of these Terms, Mayple grants you a limited, revocable,
             non-exclusive, non-transferable license to access and use the
             Service, solely for its intended purpose. Unless otherwise specified
             in writing, the Service is for your personal use only and not for
-            resale. MaySage reserves the right, at its sole discretion, to:
+            resale. Mayple reserves the right, at its sole discretion, to:
             <ul>
               <li>
                 (i) restrict or terminate your access to the Service (or any
@@ -280,10 +280,10 @@ export default function TermsPage() {
             </ul>
           </p>
           <p className="mb-4">
-            c. Privacy Policy. MaySage's policy regarding the collection and use
+            c. Privacy Policy. Mayple's policy regarding the collection and use
             of your personally identifiable information is outlined in our
             Privacy Policy. By agreeing to these Terms, you acknowledge your
-            acceptance of MaySage's Privacy Policy.
+            acceptance of Mayple's Privacy Policy.
           </p>
         </section>
 
@@ -293,17 +293,17 @@ export default function TermsPage() {
           </h2>
 
           <p className="mb-4">
-            a. MaySage Members. To become a MaySage Member, you must complete
-            the registration process by providing MaySage with current,
-            complete, and accurate information, as prompted by the applicable
-            registration form.
+            a. Mayple Members. To become a Mayple Member, you must complete the
+            registration process by providing Mayple with current, complete, and
+            accurate information, as prompted by the applicable registration
+            form.
           </p>
 
           <p className="mb-4">
             b. Providers. To become a Provider, you must enter into the
-            Agreement Between MaySage and Provider for Use of MaySage Services
+            Agreement Between Mayple and Provider for Use of Mayple Services
             (the "Provider Agreement") and provide any necessary information to
-            MaySage to verify your identity and credentials, or as otherwise
+            Mayple to verify your identity and credentials, or as otherwise
             outlined in the Provider Agreement. Providers offering virtual
             wellness services must also sign an addendum governing audiovisual
             usage.
@@ -311,8 +311,8 @@ export default function TermsPage() {
 
           <p className="mb-4">
             c. Accuracy of Information. You acknowledge that if you provide any
-            untrue, inaccurate, outdated, or incomplete information to MaySage,
-            MaySage may terminate these Terms and your continued access to the
+            untrue, inaccurate, outdated, or incomplete information to Mayple,
+            Mayple may terminate these Terms and your continued access to the
             Service.
           </p>
 
@@ -322,8 +322,8 @@ export default function TermsPage() {
             years of age, that you have not been previously suspended or removed
             from the Service, and that you possess the legal right and ability
             to enter into these Terms. THE SERVICE IS NOT FOR PERSONS UNDER
-            MaySage'S STATED AGE MINIMUMS OR ANY USERS WHO HAVE BEEN PREVIOUSLY
-            SUSPENDED OR REMOVED FROM THE SERVICE BY MaySage.
+            Mayple'S STATED AGE MINIMUMS OR ANY USERS WHO HAVE BEEN PREVIOUSLY
+            SUSPENDED OR REMOVED FROM THE SERVICE BY Mayple.
           </p>
 
           <p className="mb-4 ps-4">
@@ -369,15 +369,15 @@ export default function TermsPage() {
             e. Credentials. As part of the registration process, you will be
             asked to select a username and password. You are entirely
             responsible for maintaining the security and confidentiality of your
-            account and password. You agree to notify MaySage immediately of any
+            account and password. You agree to notify Mayple immediately of any
             unauthorized use of your account or any other breach of security. To
-            notify us, contact us at www.MaySage.com. You are responsible for
-            all activities under your username. If your password is hacked or
-            stolen, you must notify MaySage immediately. MaySage is not liable
-            for any loss incurred due to someone else using your password or
+            notify us, contact us at www.Mayple.com. You are responsible for all
+            activities under your username. If your password is hacked or
+            stolen, you must notify Mayple immediately. Mayple is not liable for
+            any loss incurred due to someone else using your password or
             account, with or without your knowledge. You may be held liable for
-            any losses incurred by MaySage or any other party due to
-            unauthorized use of your account or password.
+            any losses incurred by Mayple or any other party due to unauthorized
+            use of your account or password.
           </p>
         </section>
 
@@ -442,15 +442,15 @@ export default function TermsPage() {
             </li>
             <li className="mb-2">
               m. Access or tamper with non-public areas of the Service or
-              MaySage's systems;
+              Mayple's systems;
             </li>
             <li className="mb-2">
               n. Harass, abuse, harm, or incite harm to any individual or group,
-              including MaySage employees or other users;
+              including Mayple employees or other users;
             </li>
             <li className="mb-2">
               o. Create a new account if your previous account was disabled by
-              MaySage, without prior written consent;
+              Mayple, without prior written consent;
             </li>
             <li className="mb-2">
               p. Solicit personal information from other users, except as
@@ -508,10 +508,10 @@ export default function TermsPage() {
           </p>
 
           <p className="mb-4">
-            c. MaySage does not recommend or endorse any specific tests,
+            c. Mayple does not recommend or endorse any specific tests,
             products, procedures, opinions, or other information that may be
             mentioned on the service. You acknowledge and agree that the use of
-            any information provided by MaySage or other visitors to the service
+            any information provided by Mayple or other visitors to the service
             is solely at your own risk. The service may contain health- or
             medical-related materials that some may consider sexually explicit.
             If you find these materials offensive, you may not want to use the
@@ -519,9 +519,9 @@ export default function TermsPage() {
           </p>
 
           <p className="mb-4">
-            d. The service is continually updated, and MaySage makes no warranty
+            d. The service is continually updated, and Mayple makes no warranty
             of any kind, implied or express, as to its accuracy or completeness.
-            MaySage makes no warranty that the information available on the
+            Mayple makes no warranty that the information available on the
             service includes the most recent findings.
           </p>
 
@@ -535,24 +535,23 @@ export default function TermsPage() {
           </p>
 
           <p className="mb-4">
-            f. Although MaySage provides information about various providers on
-            the service, MaySage does not recommend any of the providers and
-            does not provide the services rendered by such providers. MaySage
-            requests copies of providers' licenses, certifications, and other
-            background information, but MaySage does not and cannot guarantee
-            the accuracy or completeness of any such information-gathering or
-            that a particular provider is qualified to perform any given
-            service.
+            f. Although Mayple provides information about various providers on
+            the service, Mayple does not recommend any of the providers and does
+            not provide the services rendered by such providers. Mayple requests
+            copies of providers' licenses, certifications, and other background
+            information, but Mayple does not and cannot guarantee the accuracy
+            or completeness of any such information-gathering or that a
+            particular provider is qualified to perform any given service.
           </p>
 
           <p className="mb-4">
-            g. It is solely the responsibility of each MaySage member, and not
-            MaySage, to determine whether a given provider is qualified and
-            capable of rendering services. Further, MaySage does not and cannot
+            g. It is solely the responsibility of each Mayple member, and not
+            Mayple, to determine whether a given provider is qualified and
+            capable of rendering services. Further, Mayple does not and cannot
             guarantee that its identity verification processes (whether of
-            MaySage members or providers) are accurate, and, to the fullest
-            extent permitted by law, MaySage disclaims any liability arising out
-            of MaySage's failure to accurately verify the identity of a MaySage
+            Mayple members or providers) are accurate, and, to the fullest
+            extent permitted by law, Mayple disclaims any liability arising out
+            of Mayple's failure to accurately verify the identity of a Mayple
             member or provider. You should exercise common sense and caution to
             protect your and others' personal property and personal safety. You
             agree that it is your responsibility to take reasonable precautions
@@ -571,7 +570,7 @@ export default function TermsPage() {
             you make before, during, and after your appointment. You represent
             that you have independently investigated the advisability of using
             the service or receiving the treatments or medical treatments made
-            available to you by MaySage and the possible risks involved in using
+            available to you by Mayple and the possible risks involved in using
             such services. You agree to maintain your own insurance covering
             such risks and will look solely to such insurance for reimbursement
             of any resulting damages.
@@ -582,10 +581,10 @@ export default function TermsPage() {
           <h2 className="h4 mb-3">5. Incident Reporting and Legal Support</h2>
 
           <p className="mb-4">
-            MaySage takes the safety of users and providers seriously. In the
+            Mayple takes the safety of users and providers seriously. In the
             event of any criminal activity during a session, including but not
-            limited to assault, harassment, or abuse, MaySage will cooperate
-            with law enforcement and provide relevant data to support legal
+            limited to assault, harassment, or abuse, Mayple will cooperate with
+            law enforcement and provide relevant data to support legal
             proceedings. Additionally, we will assist in seeking compensation
             for the victim from the responsible party. Any user or provider
             reported for such conduct will face immediate and permanent account
@@ -615,7 +614,7 @@ export default function TermsPage() {
           <p className="mb-4">
             To protect the integrity of the platform, poaching—defined as
             offering or accepting services for payment outside the platform with
-            clients met through MaySage—is strictly prohibited. If poaching is
+            clients met through Mayple—is strictly prohibited. If poaching is
             identified, both the user and provider will face permanent account
             suspension. Additionally, violators may be subject to a financial
             penalty and potential legal action.
@@ -626,7 +625,7 @@ export default function TermsPage() {
           <h2 className="h4 mb-3">8. Limitations of Liability</h2>
 
           <p className="mb-4">
-            MaySage is not responsible for any interactions or incidents that
+            Mayple is not responsible for any interactions or incidents that
             occur between users and providers outside of officially booked
             sessions on the platform. We will not intervene, take action, or
             assume any liability for matters that arise beyond the scope of our
@@ -641,22 +640,22 @@ export default function TermsPage() {
 
           <p className="mb-4">
             As a condition of being permitted to make appointments for
-            Treatments or Medical Treatments through the Service, MaySage
-            Members agree to the following terms for all appointments booked on
-            the Service.
+            Treatments or Medical Treatments through the Service, Mayple Members
+            agree to the following terms for all appointments booked on the
+            Service.
           </p>
 
           <p className="mb-4">
             a. Treatments Booked Through the Service
             <br />
-            MaySage Members understand that Providers and Healthcare Providers
+            Mayple Members understand that Providers and Healthcare Providers
             providing the Services are highly trained, certified, and licensed
             and specialize in medical, massage therapy, personal training,
             assisted stretch, yoga, mindfulness, and other health and wellness
-            techniques, as applicable. MaySage does not tolerate any requests
+            techniques, as applicable. Mayple does not tolerate any requests
             deemed sexual or inappropriate in nature. Users reported for
             inappropriate behavior will be immediately removed from the Service.
-            MaySage Members agree that Treatments are for therapeutic purposes
+            Mayple Members agree that Treatments are for therapeutic purposes
             only and should not be used if the person who will receive the
             Treatment is on any medication that would be expected to weaken bone
             structure and/or connective tissue or lead to enhanced bleeding;
@@ -664,11 +663,11 @@ export default function TermsPage() {
             inflammatory condition in the acute stage; have acute phlebitis
             and/or deep venous thrombosis; have had an acute trauma or recent
             surgery; are in the first trimester of pregnancy; or where Treatment
-            is otherwise contraindicated. A MaySage Member who uses the Service
+            is otherwise contraindicated. A Mayple Member who uses the Service
             to book a Treatment or Medical Treatment on his or her own behalf
             should consult a physician if uncertain as to whether a Treatment or
-            Medical Treatment is appropriate for such MaySage Member, and a
-            MaySage Member who uses the Service to book a Treatment or Medical
+            Medical Treatment is appropriate for such Mayple Member, and a
+            Mayple Member who uses the Service to book a Treatment or Medical
             Treatment on behalf of a third party should encourage that third
             party to do the same.
           </p>
@@ -677,7 +676,7 @@ export default function TermsPage() {
             b. Prices
             <br />
             The fees listed on the Service are the standard fees for the listed
-            service, which MaySage may change at any time in its sole discretion
+            service, which Mayple may change at any time in its sole discretion
             by posting it on the Service. In addition, fees for services
             provided by a Provider or Healthcare Provider may vary depending on
             a variety of factors such as length, day, time, or location of
@@ -687,7 +686,7 @@ export default function TermsPage() {
           <p className="mb-4">
             c. No Liability
             <br />
-            To the fullest extent permitted by law, MaySage will not have any
+            To the fullest extent permitted by law, Mayple will not have any
             liability whatsoever for any of the services provided by Providers
             or Healthcare Providers. Providers and Healthcare Providers bear
             sole liability for all of the services provided, including those
@@ -695,23 +694,23 @@ export default function TermsPage() {
           </p>
 
           <p className="mb-4">
-            d. Exclusive Booking through MaySage
+            d. Exclusive Booking through Mayple
             <br />
             In order to receive pre-negotiated rates with Providers or
-            Healthcare Providers, MaySage Members agree that once a MaySage
-            Member has made an appointment with a Provider through the MaySage
-            Network, all subsequent appointments with the Provider or Healthcare
-            Provider will be made through MaySage, for as long as: (i) the
-            Provider or Healthcare Provider is an active participant in the
-            MaySage Network, and (ii) the MaySage Member continues to keep its
-            account with MaySage active and in good standing.
+            Healthcare Providers, Mayple Members agree that once a Mayple Member
+            has made an appointment with a Provider through the Mayple Network,
+            all subsequent appointments with the Provider or Healthcare Provider
+            will be made through Mayple, for as long as: (i) the Provider or
+            Healthcare Provider is an active participant in the Mayple Network,
+            and (ii) the Mayple Member continues to keep its account with Mayple
+            active and in good standing.
           </p>
 
           <p className="mb-4">
             e. Responsibility for Payment
             <br />
             You will be charged the Fee following your receipt of a Treatment by
-            a Provider. You agree to pay to MaySage all Fees, whether or not you
+            a Provider. You agree to pay to Mayple all Fees, whether or not you
             dispute the amount of the charge or the quality or nature of the
             services provided. You acknowledge that Treatments obtained through
             the Service in all likelihood will not be covered under your health
@@ -719,16 +718,16 @@ export default function TermsPage() {
             Notwithstanding the foregoing, Medical Treatments may be
             reimbursable under your benefit plan or any health insurance plan,
             whether government-sponsored or private, although reimbursement is
-            solely up to the applicable plan or program. MaySage will have no
+            solely up to the applicable plan or program. Mayple will have no
             liability in connection with your ability to secure reimbursement
             for any such Medical Treatment. You acknowledge and agree that
-            MaySage will not file any claims with your insurance benefit plan,
+            Mayple will not file any claims with your insurance benefit plan,
             the Medicare program or any other third-party medical benefits
-            program, and that the services you receive from or through MaySage
+            program, and that the services you receive from or through Mayple
             may not be eligible for reimbursement under such plans. You
             acknowledge, understand, and agree that when using the Service, you
             may be responsible for standard phone, data, and messaging charges
-            from your wireless carrier. Under no circumstances will MaySage be
+            from your wireless carrier. Under no circumstances will Mayple be
             responsible for any wireless email, data, phone, or text messaging
             charges incurred by you or by a person that has access to your
             wireless device, telephone number, or email address.
@@ -738,37 +737,36 @@ export default function TermsPage() {
             f. Cancellations
             <br />
             If you cancel before your scheduled Treatment or Medical Treatment,
-            then MaySage may charge you a cancellation fee, which will be set
+            then Mayple may charge you a cancellation fee, which will be set
             forth in the Cancellation Policy.
           </p>
 
           <p className="mb-4">
             g. Dispute Resolution
             <br />
-            Although MaySage retains the right to mediate any dispute between
-            you and a Provider or a Healthcare Provider, all disputes between
-            you and such Provider or Healthcare Provider must ultimately be
-            resolved between you and the Provider or Healthcare Provider
-            directly. All sales booked through the Service are final and MaySage
-            provides no refunds, except as determined in MaySage's sole
-            discretion. For the avoidance of doubt, MaySage will not refund you
-            for any reason if you receive a Treatment or Medical Treatment,
-            except as determined in its sole discretion. If you engage in
-            conduct deemed inappropriate or unsafe by a Provider or Healthcare
-            Provider, as determined in the Provider's sole discretion,
-            including, but not limited to, making inappropriate requests,
-            engaging in inappropriate touching, or the Provider or Healthcare
-            Provider perceives a threat to his/her safety or well-being, and
-            such conduct results in a Provider or Healthcare Provider ending the
-            Treatment or Medical Treatment prior to the end of the allotted
-            time, MaySage will not refund you.
+            Although Mayple retains the right to mediate any dispute between you
+            and a Provider or a Healthcare Provider, all disputes between you
+            and such Provider or Healthcare Provider must ultimately be resolved
+            between you and the Provider or Healthcare Provider directly. All
+            sales booked through the Service are final and Mayple provides no
+            refunds, except as determined in Mayple's sole discretion. For the
+            avoidance of doubt, Mayple will not refund you for any reason if you
+            receive a Treatment or Medical Treatment, except as determined in
+            its sole discretion. If you engage in conduct deemed inappropriate
+            or unsafe by a Provider or Healthcare Provider, as determined in the
+            Provider's sole discretion, including, but not limited to, making
+            inappropriate requests, engaging in inappropriate touching, or the
+            Provider or Healthcare Provider perceives a threat to his/her safety
+            or well-being, and such conduct results in a Provider or Healthcare
+            Provider ending the Treatment or Medical Treatment prior to the end
+            of the allotted time, Mayple will not refund you.
           </p>
 
           <p className="mb-4">
             h. Concierge Bookings
             <br />
-            If a MaySage Member is a concierge that books Treatments on behalf
-            of third parties, including Guests ("Concierge Member"), then this
+            If a Mayple Member is a concierge that books Treatments on behalf of
+            third parties, including Guests ("Concierge Member"), then this
             paragraph applies to such Concierge Member's use of the Service in
             addition to all other terms and conditions in these Terms.
           </p>
@@ -788,12 +786,12 @@ export default function TermsPage() {
             <br />
             Concierge Members will receive a tip for any Treatments booked
             through the Service in an amount set forth on the Service, which
-            amount MaySage may change from time to time in its sole discretion
-            ("Concierge Tip"). The Concierge Member must provide to MaySage any
-            information and/or documentation that MaySage needs to pay the
+            amount Mayple may change from time to time in its sole discretion
+            ("Concierge Tip"). The Concierge Member must provide to Mayple any
+            information and/or documentation that Mayple needs to pay the
             Concierge Tip to the Concierge Member (including, without
             limitation, a W-9 form and any other tax-related information).
-            MaySage will pay the Concierge Tip to the Concierge Member on a
+            Mayple will pay the Concierge Tip to the Concierge Member on a
             weekly basis through the Automated Clearing House. With respect to
             each Treatment the Concierge Member books through the Service, the
             Concierge Member must include all information required by the
@@ -809,9 +807,9 @@ export default function TermsPage() {
             <br />
             You agree to use commercially reasonable efforts to determine
             whether your employer or commercial or residential building has
-            stored massage tables or other equipment for MaySage. You further
-            agree to promptly provide such information to MaySage upon MaySage's
-            request. MaySage may retrieve any such tables or other equipment at
+            stored massage tables or other equipment for Mayple. You further
+            agree to promptly provide such information to Mayple upon Mayple's
+            request. Mayple may retrieve any such tables or other equipment at
             any time in its sole discretion, without prior notice or liability
             to you.
           </p>
@@ -822,7 +820,7 @@ export default function TermsPage() {
 
           <p className="mb-4">
             You may be able to earn free Treatments by inviting friends to book
-            through MaySage using the promo code assigned to you by MaySage
+            through Mayple using the promo code assigned to you by Mayple
             ("Code"). Codes are for personal and non-commercial use only and may
             not be duplicated, sold, or transferred in any manner. This means
             that you are welcome to share your Code with friends, family, and
@@ -840,7 +838,7 @@ export default function TermsPage() {
 
           <ul className="mb-4">
             <li>
-              (a) may only be used pursuant to the specific terms that MaySage
+              (a) may only be used pursuant to the specific terms that Mayple
               establishes for such Code;
             </li>
             <li>(b) are not valid for cash; and</li>
@@ -848,9 +846,9 @@ export default function TermsPage() {
           </ul>
 
           <p className="mb-4">
-            MaySage reserves the right to withhold or deduct Credits or other
+            Mayple reserves the right to withhold or deduct Credits or other
             features or benefits obtained through the use of Codes by you or any
-            other user in the event that MaySage determines or believes that the
+            other user in the event that Mayple determines or believes that the
             use or redemption of the Code was in error, fraudulent, illegal, or
             in violation of the applicable Code terms or these Terms.
           </p>
@@ -863,7 +861,7 @@ export default function TermsPage() {
             The terms governing Providers with respect to providing Treatments
             are set forth in the Provider Agreement. The terms governing
             Healthcare Providers providing Medical Treatments are subject to a
-            separate written agreement between MaySage and the applicable
+            separate written agreement between Mayple and the applicable
             Practice.
           </p>
         </section>
@@ -889,11 +887,11 @@ export default function TermsPage() {
           <p className="mb-4">
             b. SMS Text Messages and Push Notifications
             <br />
-            When you register with MaySage, MaySage will send you an SMS text
+            When you register with Mayple, Mayple will send you an SMS text
             message containing a 6-digit code in order to verify your phone
             number and will send SMS text messages and push notifications
             (Messages and Notifications) to keep you informed about the Service.
-            For example, MaySage will send you a text message to confirm or
+            For example, Mayple will send you a text message to confirm or
             remind you of your scheduled appointment(s). By using the Service,
             you agree to receive Messages and Notifications regarding your use
             of the Service. SMS text messages are for transactional purposes
@@ -918,18 +916,18 @@ export default function TermsPage() {
             d. Carrier Charges
             <br />
             Depending on your current carrier plan, you may incur charges for
-            these Messages and Notifications and agree to not hold MaySage
-            liable for any charges incurred. You acknowledge that any terms
-            between you and any third-party provider (such as, for example,
-            Apple®, Android™, or Verizon) create no obligation or responsibility
-            on the part of MaySage, and that MaySage is not responsible for any
-            failure of warranty by any such third party.
+            these Messages and Notifications and agree to not hold Mayple liable
+            for any charges incurred. You acknowledge that any terms between you
+            and any third-party provider (such as, for example, Apple®,
+            Android™, or Verizon) create no obligation or responsibility on the
+            part of Mayple, and that Mayple is not responsible for any failure
+            of warranty by any such third party.
           </p>
 
           <p className="mb-4">
             e. Delivery Limitations
             <br />
-            MaySage cannot control certain factors relating to message delivery.
+            Mayple cannot control certain factors relating to message delivery.
             You acknowledge that, depending on your mobile carrier's service, it
             may not be possible to transmit a text message to you successfully.
             We have no liability for transmission delays or message failures.
@@ -940,7 +938,7 @@ export default function TermsPage() {
             <br />
             Consent to receive marketing text messages, which are subject to
             separate consent terms, are not a condition of purchasing any of
-            MaySage's goods or Services, and you are free to opt-out at any time
+            Mayple's goods or Services, and you are free to opt-out at any time
             of marketing text messages as set forth immediately above in Section
             12(c). Note that we may confirm your opt-out by text message. If you
             subscribe to multiple types of text messages from us, we may
@@ -954,7 +952,7 @@ export default function TermsPage() {
         </section>
 
         <section id="content-submission" className="mb-5">
-          <h2 className="h4 mb-3">13. Content Submitted to MaySage</h2>
+          <h2 className="h4 mb-3">13. Content Submitted to Mayple</h2>
 
           <p className="mb-4">
             a. Submission of Materials
@@ -962,16 +960,16 @@ export default function TermsPage() {
             By sending or transmitting to us information, opinions, creative
             suggestions, ideas, notes, concepts, or other materials
             (collectively, "Materials"), or by posting such Materials to any
-            area of the Service, you grant MaySage and its designees a
-            worldwide, non-exclusive, sublicensable (through multiple tiers),
-            assignable, royalty-free, perpetual, irrevocable right to use,
-            reproduce, distribute (through multiple tiers), create derivative
-            works of, publicly perform, publicly display, digitally perform,
-            make, have made, sell, offer for sale, and import such Materials in
-            any media now known or hereafter developed to enhance and develop
-            the Service, including by marketing and advertising the Service,
-            without compensation to you. Provided that we will never use your
-            name in connection with any of your Materials that we use in our own
+            area of the Service, you grant Mayple and its designees a worldwide,
+            non-exclusive, sublicensable (through multiple tiers), assignable,
+            royalty-free, perpetual, irrevocable right to use, reproduce,
+            distribute (through multiple tiers), create derivative works of,
+            publicly perform, publicly display, digitally perform, make, have
+            made, sell, offer for sale, and import such Materials in any media
+            now known or hereafter developed to enhance and develop the Service,
+            including by marketing and advertising the Service, without
+            compensation to you. Provided that we will never use your name in
+            connection with any of your Materials that we use in our own
             advertising and marketing materials without obtaining your prior
             consent. Furthermore, if you are a Provider, the use of certain
             Materials (for example, your biography, photo, and other information
@@ -979,13 +977,13 @@ export default function TermsPage() {
             the Provider Agreement. None of the Materials will be subject to any
             obligation, whether of confidentiality, attribution, or otherwise,
             on our part, and we will not be liable for any use or disclosure of
-            any Materials. MaySage may remove or alter any Materials at any time
+            any Materials. Mayple may remove or alter any Materials at any time
             for any reason. We neither endorse nor are responsible for any
             opinion, advice, information, or statement made or displayed on the
             Service by any user. We are not responsible for any errors or
             omissions in articles or postings, for hyperlinks embedded in
             messages, or for any results obtained from the use of such
-            information. Under no circumstances will MaySage and/or its
+            information. Under no circumstances will Mayple and/or its
             affiliates, suppliers, or agents be liable for any loss or damage
             caused by your reliance on such information obtained through the
             Service. We cannot and do not take responsibility for the veracity,
@@ -998,15 +996,15 @@ export default function TermsPage() {
             <br />
             The opinions expressed on the Service by users reflect solely the
             opinions of the users who post them and do not reflect the opinions
-            of MaySage. You acknowledge and agree that we have the right (but
-            not the obligation) to monitor the Service and Materials; to alter
-            or remove any Materials; and to disclose Materials and the
+            of Mayple. You acknowledge and agree that we have the right (but not
+            the obligation) to monitor the Service and Materials; to alter or
+            remove any Materials; and to disclose Materials and the
             circumstances surrounding their transmission to any third party in
             order to operate the Service properly; to protect ourselves, our
             sponsors, and our members and visitors; and to comply with legal
             obligations or governmental requests. If you believe a message
-            violates our member policies, please contact MaySage immediately at
-            www.MaySage.com.
+            violates our member policies, please contact Mayple immediately at
+            www.Mayple.com.
           </p>
 
           <p className="mb-4">
@@ -1050,22 +1048,22 @@ export default function TermsPage() {
           <p className="mb-4">
             d. Sending Messages
             <br />
-            The Service may allow Providers and MaySage Members to exchange
+            The Service may allow Providers and Mayple Members to exchange
             messages ("Messages") with each other. Sending Messages is a
-            privilege, not a right, and MaySage may terminate such privileges of
+            privilege, not a right, and Mayple may terminate such privileges of
             any user at any time and for any reason, without any liability to
             such user. Harmful, obscene, or offensive communications are not
             welcome in any Messages. If a user sends you an objectionable
-            Message, please notify us by sending an email to help@MaySage.com.
+            Message, please notify us by sending an email to help@Mayple.com.
             You should exercise discretion, good sense, and sound judgment when
             sending a Message. You are solely responsible for the content of any
-            Message you send. You agree that MaySage may monitor Messages for
+            Message you send. You agree that Mayple may monitor Messages for
             compliance with these Terms, and therefore, Messages should not be
             considered confidential or proprietary. You hereby grant us an
             assignable, sublicensable, irrevocable license to reproduce and
             transmit your Messages in connection with facilitating transfer to
             the intended recipient through the Service and for such other
-            purposes as MaySage may deem appropriate in its sole discretion.
+            purposes as Mayple may deem appropriate in its sole discretion.
           </p>
         </section>
 
@@ -1073,7 +1071,7 @@ export default function TermsPage() {
           <h2 className="h4 mb-3">14. Contests</h2>
 
           <p className="mb-4">
-            MaySage may provide contests on the Service. The rules, regulations,
+            Mayple may provide contests on the Service. The rules, regulations,
             and procedures governing such contests ("Contest Rules") will be
             accessible through a hypertext link displayed on the web page where
             the contest or game may be located. By entering or participating in
@@ -1094,28 +1092,28 @@ export default function TermsPage() {
             The term of these Terms (the "Term") will commence on the date on
             which you first access or utilize the Service in any way (the
             "Effective Date") and will continue as long as you continue to
-            access or utilize the Service; provided that MaySage reserves the
+            access or utilize the Service; provided that Mayple reserves the
             right to take whatever lawful actions it may deem appropriate in
             response to actual or suspected violations of these Terms,
             including, without limitation, the suspension or termination of the
             user's access and/or account, or blocking the user from access to
-            the Service. MaySage may cooperate with legal authorities and/or
+            the Service. Mayple may cooperate with legal authorities and/or
             third parties in the investigation of any suspected or alleged crime
             or civil wrong. Except as may be expressly limited by the Privacy
-            Policy, MaySage reserves the right at all times to disclose any
-            information as MaySage deems necessary to satisfy any applicable
-            law, regulation, legal process, or governmental request, or to edit,
+            Policy, Mayple reserves the right at all times to disclose any
+            information as Mayple deems necessary to satisfy any applicable law,
+            regulation, legal process, or governmental request, or to edit,
             refuse to post, or remove any information or materials, in whole or
-            in part, at MaySage's sole discretion.
+            in part, at Mayple's sole discretion.
           </p>
 
           <p className="mb-4">
             b. Effect of Termination
             <br />
             Payments by you, which accrue or are due before termination of your
-            Massage MaySage Membership, will continue to be payable by you, and
-            amounts owed to MaySage at the time of such termination or
-            expiration will continue to be owed by you, after such expiration or
+            Massage Mayple Membership, will continue to be payable by you, and
+            amounts owed to Mayple at the time of such termination or expiration
+            will continue to be owed by you, after such expiration or
             termination.
           </p>
         </section>
@@ -1133,12 +1131,12 @@ export default function TermsPage() {
                 modifications, enhancements, and updates, and any originals and
                 copies thereof, in whole or in part, and all intellectual
                 property rights therein (collectively, "Proprietary
-                Information"), is owned by MaySage and its licensors, as
+                Information"), is owned by Mayple and its licensors, as
                 applicable;
               </li>
               <li>
                 (ii) the Proprietary Information contains valuable copyrighted
-                and proprietary material of MaySage;
+                and proprietary material of Mayple;
               </li>
               <li>
                 (iii) the Proprietary Information is licensed, rather than sold,
@@ -1155,17 +1153,16 @@ export default function TermsPage() {
           <p className="mb-4">
             b. Trademarks
             <br />
-            You acknowledge that MaySage has acquired, and is the owner of,
-            trademark rights in the name and word mark "MaySage"Ⓡ and in the
+            You acknowledge that Mayple has acquired, and is the owner of,
+            trademark rights in the name and word mark "Mayple"Ⓡ and in the
             other marks and design marks displayed on the Service. You
             acknowledge that this name and these marks are famous and
             internationally known. You will not, at any time or for any reason,
-            challenge the validity of, or MaySage's ownership of, the foregoing
+            challenge the validity of, or Mayple's ownership of, the foregoing
             name and marks, and you waive any rights you may have at any time to
             do so. All use of the foregoing name and marks by you will insure
-            exclusively to the benefit of MaySage. All marks shown on the
-            Service but not owned by MaySage are the property of their
-            respective owners.
+            exclusively to the benefit of Mayple. All marks shown on the Service
+            but not owned by Mayple are the property of their respective owners.
           </p>
         </section>
 
@@ -1176,7 +1173,7 @@ export default function TermsPage() {
             The Copyright Modernization Act (CMA) provides recourse for
             copyright owners who believe that material appearing on the Internet
             infringes their rights under Canadian copyright law. If you believe
-            in good faith that materials hosted by MaySage infringe your
+            in good faith that materials hosted by Mayple infringe your
             copyright, you (or your agent) may send us a notice requesting that
             the material be removed or access to it blocked. The notice must
             include the following information:
@@ -1198,7 +1195,7 @@ export default function TermsPage() {
               <li>
                 c. Identification of the material that is claimed to be
                 infringing or the subject of infringing activity, along with
-                information reasonably sufficient to allow MaySage to locate the
+                information reasonably sufficient to allow Mayple to locate the
                 material on the Service;
               </li>
               <li>
@@ -1223,13 +1220,13 @@ export default function TermsPage() {
           <p className="mb-4">
             If you believe in good faith that a notice of copyright infringement
             has been wrongly filed against you, the CMA permits you to send
-            MaySage a counter-notice. Notices and counter-notices must meet the
+            Mayple a counter-notice. Notices and counter-notices must meet the
             then-current statutory requirements imposed by the CMA. For more
             details, please consult the appropriate legal guidelines. Notices
             and counter-notices with respect to the Service should be sent to
             Janice Bader, Symbus Law Group, P.O. Box 933, Culpeper, Virginia
             22701, or by email at jbader@symbus.com with the subject line
-            "MaySage CMA Notice" or "MaySage CMA Counter-notice," as applicable.
+            "Mayple CMA Notice" or "Mayple CMA Counter-notice," as applicable.
             We suggest that you consult your legal advisor before filing a
             notice or counter-notice. Also, be aware that there can be penalties
             for false claims under the CMA.
@@ -1241,25 +1238,25 @@ export default function TermsPage() {
 
           <p className="mb-4">
             a. To the fullest extent permitted by law, you agree to defend,
-            indemnify, and hold harmless MaySage, its parents, subsidiaries,
+            indemnify, and hold harmless Mayple, its parents, subsidiaries,
             affiliates, officers, employees, agents, partners, suppliers, and
-            licensors (each, a "MaySage Party" and collectively, the "MaySage
+            licensors (each, a "Mayple Party" and collectively, the "Mayple
             Parties") from any loss or damage of any kind (including, but not
             limited to, attorneys' fees and lost revenues) arising from: (i) any
             breaches by you of these Terms or any representation, warranty, or
             covenant contained herein; (ii) any use of the Service not
             specifically authorized under these Terms or on the Service; and
-            (iii) any claims or actions against MaySage by other parties to whom
+            (iii) any claims or actions against Mayple by other parties to whom
             you provide access to the Service.
           </p>
 
           <p className="mb-4">
             b. To the fullest extent permitted by law, you also waive, release,
-            and forever discharge the MaySage Parties from any and all liability
+            and forever discharge the Mayple Parties from any and all liability
             for injuries or damages resulting from your Treatments, Medical
             Treatments, Telehealth Services, or any other service obtained
             through the use of the Service, including injuries or damages caused
-            by the negligent acts or omissions of the MaySage Parties, or in any
+            by the negligent acts or omissions of the Mayple Parties, or in any
             way arising out of or connected with the Service.
           </p>
 
@@ -1276,7 +1273,7 @@ export default function TermsPage() {
           <h2 className="h4 mb-3">19. Disclaimer of Warranty</h2>
 
           <p className="mb-4">
-            a. For Individual Users of the Service (Including MaySage Members)
+            a. For Individual Users of the Service (Including Mayple Members)
             <br />
             Certain jurisdictions' laws may not permit the exclusion or
             limitation of legal warranties, conditions, liability, or certain
@@ -1286,7 +1283,7 @@ export default function TermsPage() {
           </p>
 
           <p className="mb-4">
-            MaySage makes no representations, warranties, or conditions, express
+            Mayple makes no representations, warranties, or conditions, express
             or implied, including but not limited to warranties of
             merchantability, satisfactory quality, fitness for a particular
             purpose, title, compatibility, security, accuracy, non-infringement,
@@ -1300,9 +1297,9 @@ export default function TermsPage() {
 
           <p className="mb-4">
             You agree that any claims or actions arising from the conduct of any
-            providers (or healthcare providers) or MaySage members will be
+            providers (or healthcare providers) or Mayple members will be
             exclusively between you and the provider (or healthcare provider) or
-            MaySage member, and not MaySage. The products and services are
+            Mayple member, and not Mayple. The products and services are
             provided "as is," and you agree to use them, including any
             telehealth services, at your own risk. You assume full
             responsibility and risk for any loss resulting from your use of the
@@ -1311,16 +1308,16 @@ export default function TermsPage() {
           </p>
 
           <p className="mb-4">
-            You understand and acknowledge that MaySage merely provides a
+            You understand and acknowledge that Mayple merely provides a
             platform for communication between providers (or healthcare
-            providers) and MaySage members, and therefore, MaySage disclaims any
+            providers) and Mayple members, and therefore, Mayple disclaims any
             liability regarding your interactions with any provider(s) (or
-            healthcare provider(s)) or other MaySage member(s). Any
+            healthcare provider(s)) or other Mayple member(s). Any
             representations made by providers (or healthcare providers) are
-            solely at their discretion, and MaySage has no obligation to monitor
+            solely at their discretion, and Mayple has no obligation to monitor
             or validate, and is not responsible for, any representations or
             statements made by them. You further understand and acknowledge that
-            MaySage shall not be held liable for any statements or
+            Mayple shall not be held liable for any statements or
             representations made by the provider(s) (or healthcare provider(s))
             as a result of your use of the Service.
           </p>
@@ -1332,9 +1329,9 @@ export default function TermsPage() {
           </p>
 
           <p className="mb-4">
-            b. For Corporate MaySage Members and Providers
+            b. For Corporate Mayple Members and Providers
             <br />
-            MaySage makes no representations, warranties, or conditions, express
+            Mayple makes no representations, warranties, or conditions, express
             or implied, including but not limited to warranties of
             merchantability, satisfactory quality, fitness for a particular
             purpose, title, compatibility, security, accuracy, non-infringement,
@@ -1348,23 +1345,22 @@ export default function TermsPage() {
 
           <p className="mb-4">
             You agree that any claims or actions arising from the conduct of any
-            providers (or healthcare providers) or MaySage members will be
-            exclusively between you and the provider or MaySage member, and not
-            MaySage. The Services are provided "as is," and you agree to use
-            them solely at your own risk. You assume full responsibility and
-            risk for any loss resulting from your use of the Services. You
-            understand and acknowledge that MaySage merely provides a platform
-            for communication between providers (or healthcare providers) and
-            MaySage members, and MaySage disclaims any liability regarding your
-            interactions with any provider(s) (or healthcare provider(s)) or
-            other MaySage member(s). Any representations made by providers (or
-            healthcare providers) are solely at their discretion, and MaySage
-            has no obligation to monitor or validate, and is not responsible
-            for, any representations or statements made by the providers (or
-            healthcare providers). You further understand and acknowledge that
-            MaySage shall not be held liable for any statements or
-            representations made by the provider(s) (or healthcare provider(s))
-            as a result of your use of the Service.
+            providers (or healthcare providers) or Mayple members will be
+            exclusively between you and the provider or Mayple member, and not
+            Mayple. The Services are provided "as is," and you agree to use them
+            solely at your own risk. You assume full responsibility and risk for
+            any loss resulting from your use of the Services. You understand and
+            acknowledge that Mayple merely provides a platform for communication
+            between providers (or healthcare providers) and Mayple members, and
+            Mayple disclaims any liability regarding your interactions with any
+            provider(s) (or healthcare provider(s)) or other Mayple member(s).
+            Any representations made by providers (or healthcare providers) are
+            solely at their discretion, and Mayple has no obligation to monitor
+            or validate, and is not responsible for, any representations or
+            statements made by the providers (or healthcare providers). You
+            further understand and acknowledge that Mayple shall not be held
+            liable for any statements or representations made by the provider(s)
+            (or healthcare provider(s)) as a result of your use of the Service.
           </p>
 
           <p className="mb-4">
@@ -1380,12 +1376,12 @@ export default function TermsPage() {
           <p className="mb-4">
             a. Disclaimer of Certain Damages
             <br />
-            You acknowledge and agree that, under no circumstances, will MaySage
+            You acknowledge and agree that, under no circumstances, will Mayple
             or its affiliates be liable for any loss of profits, revenue, data,
             or any indirect, incidental, special, or consequential damages. This
             includes damages or costs due to loss of production, use, business
             interruptions, or the procurement of substitute goods or services.
-            This applies whether or not MaySage was advised of the potential for
+            This applies whether or not Mayple was advised of the potential for
             such damages, and arises from: (1) the use or inability to use the
             service; (2) the costs of obtaining substitute goods or services
             from transactions made through the service; (3) unauthorized access
@@ -1394,29 +1390,29 @@ export default function TermsPage() {
             available through the service; or (5) any other matter related to
             the service, whether based on warranty, copyright, contract, tort
             (including negligence), or any other legal theory. The limitation on
-            liability does not apply to MaySage's liability for (a) death or
-            personal injury caused by MaySage's negligence or (b) injury caused
-            by MaySage's fraud or fraudulent misrepresentation.
+            liability does not apply to Mayple's liability for (a) death or
+            personal injury caused by Mayple's negligence or (b) injury caused
+            by Mayple's fraud or fraudulent misrepresentation.
           </p>
 
           <p className="mb-4">
             b. Cap on Liability
             <br />
-            Under no circumstances will MaySage or its affiliates be liable to
+            Under no circumstances will Mayple or its affiliates be liable to
             you for more than the greater of: (a) the total amount you have paid
-            to MaySage in the one-month period before the event giving rise to
+            to Mayple in the one-month period before the event giving rise to
             the liability, or (b) the remedy or penalty required by the
             applicable statute under which the claim arises. This limitation of
-            liability does not apply to MaySage's liability for (a) death or
-            personal injury caused by MaySage's negligence or (b) injury caused
-            by MaySage's fraud or fraudulent misrepresentation.
+            liability does not apply to Mayple's liability for (a) death or
+            personal injury caused by Mayple's negligence or (b) injury caused
+            by Mayple's fraud or fraudulent misrepresentation.
           </p>
 
           <p className="mb-4">
             c. Basis of the Bargain
             <br />
             The limitations on damages outlined above are a fundamental part of
-            the agreement between you and MaySage.
+            the agreement between you and Mayple.
           </p>
         </section>
 
@@ -1424,12 +1420,12 @@ export default function TermsPage() {
           <h2 className="h4 mb-3">21. Third-Party Disputes</h2>
 
           <p className="mb-4">
-            MaySage is not affiliated with any carrier, service provider, or
+            Mayple is not affiliated with any carrier, service provider, or
             third-party service. Any dispute you have with a carrier, service
             provider, third-party service, or any other third party arising from
             your use of the service, including disputes with other users or your
             employer, is solely between you and that third party. You hereby
-            irrevocably release MaySage, along with its officers, directors,
+            irrevocably release Mayple, along with its officers, directors,
             agents, subsidiaries, joint ventures, and employees, from any and
             all claims, demands, and damages (both actual and consequential),
             whether known or unknown, arising from or related to such disputes.
@@ -1440,12 +1436,12 @@ export default function TermsPage() {
           <h2 className="h4 mb-3">22. Force Majeure</h2>
 
           <p className="mb-4">
-            MaySage shall not be held liable for any delay or failure to perform
+            Mayple shall not be held liable for any delay or failure to perform
             its obligations under these Terms if such delay or failure is caused
-            by unforeseen events beyond MaySage's reasonable control, including
+            by unforeseen events beyond Mayple's reasonable control, including
             but not limited to strikes, blockades, war, terrorism, riots,
             natural disasters, epidemics, or government actions, to the extent
-            that such events prevent or delay MaySage from fulfilling its
+            that such events prevent or delay Mayple from fulfilling its
             obligations.
           </p>
         </section>
@@ -1455,19 +1451,19 @@ export default function TermsPage() {
 
           <p className="mb-4">
             a. To the fullest extent allowed by law, you agree to defend,
-            indemnify, and hold MaySage, its licensors, and their respective
+            indemnify, and hold Mayple, its licensors, and their respective
             parent companies, subsidiaries, affiliates, officers, directors,
             members, employees, attorneys, and agents harmless from any loss or
             damage, including but not limited to legal fees and lost revenue,
             arising from: (i) any breach by you of these Terms or any
             representation, warranty, or covenant herein; (ii) any unauthorized
             use of the Service; and (iii) any claims or actions brought against
-            MaySage by others to whom you provide access to the Service.
+            Mayple by others to whom you provide access to the Service.
           </p>
 
           <p className="mb-4">
             b. To the fullest extent permitted by law, you also waive, release,
-            and forever discharge the MaySage Parties from any liability or
+            and forever discharge the Mayple Parties from any liability or
             responsibility for injuries or damages resulting from your
             treatments or any other services obtained through the Service,
             including those caused by the negligence of the Released Parties, or
@@ -1491,14 +1487,14 @@ export default function TermsPage() {
             offered by third parties, including Providers, as well as links
             (including advertisements) to third-party websites. These products,
             services, and links are provided solely for the convenience of
-            users. MaySage does not review, control, or endorse this
-            information, nor does it make any representations or warranties,
-            either express or implied, regarding such products, services, or
-            websites. The inclusion of any third-party content in the Service
-            does not signify MaySage's endorsement, authorization, sponsorship,
-            or affiliation with any third party, its website, or its offerings.
-            MaySage is not obligated to maintain any link on the Service and may
-            remove links at its sole discretion and for any reason.
+            users. Mayple does not review, control, or endorse this information,
+            nor does it make any representations or warranties, either express
+            or implied, regarding such products, services, or websites. The
+            inclusion of any third-party content in the Service does not signify
+            Mayple's endorsement, authorization, sponsorship, or affiliation
+            with any third party, its website, or its offerings. Mayple is not
+            obligated to maintain any link on the Service and may remove links
+            at its sole discretion and for any reason.
           </p>
         </section>
 
@@ -1508,7 +1504,7 @@ export default function TermsPage() {
           <p className="mb-4">
             a. Mandatory Arbitration
             <br />
-            Please read carefully, as this affects your rights. YOU AND MaySage,
+            Please read carefully, as this affects your rights. YOU AND Mayple,
             ALONG WITH OUR RESPECTIVE CORPORATE PARENTS, SUBSIDIARIES,
             AFFILIATES, SUCCESSORS, PREDECESSORS, AND ASSIGNS, AGREE TO
             ARBITRATION (EXCEPT FOR MATTERS THAT MAY BE TAKEN TO SMALL CLAIMS
@@ -1525,11 +1521,11 @@ export default function TermsPage() {
             <br />A party seeking arbitration must first send a written notice
             of intent to arbitrate (a "Notice") to the other party, either by
             mail or electronic mail. If a mailing address is not provided by you
-            to MaySage, MaySage may use any available method, including email.
-            If you are required to pay a filing fee to initiate arbitration,
-            MaySage will reimburse you promptly upon receipt of your Notice and
-            filing fee receipt, unless your Demand is over $1,000 or was filed
-            in bad faith.
+            to Mayple, Mayple may use any available method, including email. If
+            you are required to pay a filing fee to initiate arbitration, Mayple
+            will reimburse you promptly upon receipt of your Notice and filing
+            fee receipt, unless your Demand is over $1,000 or was filed in bad
+            faith.
           </p>
 
           <p className="mb-4">
@@ -1537,7 +1533,7 @@ export default function TermsPage() {
             <br />
             The arbitration will be conducted in English. A single impartial
             arbitrator will be appointed according to the Rules, modified as per
-            these Terms. You and MaySage agree to streamline the dispute
+            these Terms. You and Mayple agree to streamline the dispute
             resolution process by following these rules: (A) the arbitration may
             be conducted by phone, online, or be based solely on written
             submissions, as chosen by the party initiating the arbitration; (B)
@@ -1549,7 +1545,7 @@ export default function TermsPage() {
           <p className="mb-4">
             iii. No Class Actions
             <br />
-            YOU AND MaySage AGREE THAT YOU AND MaySage MAY ONLY BRING CLAIMS
+            YOU AND Mayple AGREE THAT YOU AND Mayple MAY ONLY BRING CLAIMS
             AGAINST EACH OTHER IN INDIVIDUAL CAPACITY, NOT AS A PLAINTIFF OR
             CLASS MEMBER IN ANY CLASS OR REPRESENTATIVE PROCEEDING. FURTHER, YOU
             AGREE THAT THE ARBITRATOR CANNOT CONSOLIDATE CLAIMS OR PRESIDE OVER
@@ -1568,7 +1564,7 @@ export default function TermsPage() {
             The award will include reasons for the decision and will apply
             Canadian law. You agree that the transaction is interstate commerce,
             governed by the Canadian Arbitration Act. If the dispute is resolved
-            in your favor, MaySage will pay the highest of: (A) the amount
+            in your favor, Mayple will pay the highest of: (A) the amount
             awarded by the arbitrator; (B) the last written settlement offer
             before the award; or (C) $1,000.
           </p>
@@ -1576,9 +1572,9 @@ export default function TermsPage() {
           <p className="mb-4">
             b. Equitable Relief
             <br />
-            The above provisions do not apply to claims where MaySage seeks
+            The above provisions do not apply to claims where Mayple seeks
             equitable relief. You acknowledge that, in the event of a breach by
-            MaySage or a third party, your only remedy will be monetary damages,
+            Mayple or a third party, your only remedy will be monetary damages,
             not injunctive or other equitable relief.
           </p>
 
@@ -1595,17 +1591,17 @@ export default function TermsPage() {
             d. Improperly Filed Claims
             <br />
             All claims must be resolved in accordance with this Section 19. If a
-            claim is filed contrary to this section, MaySage may recover up to
-            $5,000 in attorneys' fees and costs, provided MaySage notified you
-            in writing and you did not promptly withdraw the claim.
+            claim is filed contrary to this section, Mayple may recover up to
+            $5,000 in attorneys' fees and costs, provided Mayple notified you in
+            writing and you did not promptly withdraw the claim.
           </p>
 
           <p className="mb-4">
             e. Modifications
             <br />
-            If MaySage changes the Mandatory Arbitration provision (other than a
-            change to MaySage's address), you may reject the change by sending
-            written notice to MaySage within 30 days. If you reject the change,
+            If Mayple changes the Mandatory Arbitration provision (other than a
+            change to Mayple's address), you may reject the change by sending
+            written notice to Mayple within 30 days. If you reject the change,
             your account and service access will be terminated, and this section
             will survive termination.
           </p>
@@ -1636,18 +1632,17 @@ export default function TermsPage() {
           </p>
 
           <p className="mb-4">
-            a. MaySage will exclusively own all known or later discovered rights
+            a. Mayple will exclusively own all known or later discovered rights
             to the Feedback;
           </p>
 
           <p className="mb-4">
-            b. MaySage will not be bound by any obligation of confidentiality
-            and will not be liable for any use or disclosure of the Feedback;
-            and
+            b. Mayple will not be bound by any obligation of confidentiality and
+            will not be liable for any use or disclosure of the Feedback; and
           </p>
 
           <p className="mb-4">
-            c. MaySage will have the right to use the Feedback for any purpose,
+            c. Mayple will have the right to use the Feedback for any purpose,
             whether commercial or otherwise, without compensating you or any
             other party.
           </p>
@@ -1657,18 +1652,18 @@ export default function TermsPage() {
           <h2 className="h4 mb-3">27. Entire Agreement; Modification</h2>
 
           <p className="mb-4">
-            These Terms, along with any licenses contained in MaySage's
-            products, represent the complete and exclusive agreement between
-            MaySage and you regarding the Service. However, please note the
-            following exceptions: (1) Providers must also agree to the Provider
-            Agreement, and may sometimes be required to sign an addendum to the
-            Provider Agreement; (2) MaySage may enter into additional agreements
-            with you, such as the Massage MaySage Membership Program Agreement.
-            In the event of a conflict between these Terms and the Provider
-            Agreement, the Provider Agreement will take precedence. Similarly,
-            if there is a conflict between these Terms and the Massage MaySage
-            Membership Program Agreement, the Massage MaySage Membership Program
-            Agreement will govern.
+            These Terms, along with any licenses contained in Mayple's products,
+            represent the complete and exclusive agreement between Mayple and
+            you regarding the Service. However, please note the following
+            exceptions: (1) Providers must also agree to the Provider Agreement,
+            and may sometimes be required to sign an addendum to the Provider
+            Agreement; (2) Mayple may enter into additional agreements with you,
+            such as the Massage Mayple Membership Program Agreement. In the
+            event of a conflict between these Terms and the Provider Agreement,
+            the Provider Agreement will take precedence. Similarly, if there is
+            a conflict between these Terms and the Massage Mayple Membership
+            Program Agreement, the Massage Mayple Membership Program Agreement
+            will govern.
           </p>
         </section>
 
@@ -1690,7 +1685,7 @@ export default function TermsPage() {
           <p className="mb-4">
             Nothing in these Terms will be construed to establish an
             employer-employee relationship, nor create an agency, joint venture,
-            or partnership between MaySage and you. Neither party has the
+            or partnership between Mayple and you. Neither party has the
             authority to bind the other to any obligations or incur liabilities
             on behalf of the other.
           </p>
@@ -1714,8 +1709,8 @@ export default function TermsPage() {
           <p className="mb-4">
             You may not assign or transfer these Terms or any rights granted
             hereunder, either voluntarily or by operation of law, without
-            MaySage's prior written consent. Any attempt to do so without
-            permission will be void. MaySage, however, may assign or transfer
+            Mayple's prior written consent. Any attempt to do so without
+            permission will be void. Mayple, however, may assign or transfer
             these Terms at any time without your consent.
           </p>
         </section>
@@ -1724,7 +1719,7 @@ export default function TermsPage() {
           <h2 className="h4 mb-3">32. Third-Party Beneficiaries</h2>
 
           <p className="mb-4">
-            The provisions in these Terms that pertain to MaySage's content
+            The provisions in these Terms that pertain to Mayple's content
             providers are intended to benefit those providers, and they will be
             entitled to enforce those provisions as third-party beneficiaries,
             even though they are not signatories to these Terms.
@@ -1735,7 +1730,7 @@ export default function TermsPage() {
           <h2 className="h4 mb-3">Notice Regarding Apple</h2>
 
           <p className="mb-4">
-            You acknowledge that these Terms are between you and MaySage only,
+            You acknowledge that these Terms are between you and Mayple only,
             and not with Apple. Apple is not responsible for the Service or its
             content. Apple does not have any obligation to provide maintenance
             and support services for the Service. In the event of any failure of
@@ -1789,7 +1784,7 @@ export default function TermsPage() {
           </ol>
 
           <p className="mb-4">
-            If MaySage provides a translation of these Terms in a language other
+            If Mayple provides a translation of these Terms in a language other
             than English, the translation is for convenience only. The English
             version of these Terms will prevail.
           </p>

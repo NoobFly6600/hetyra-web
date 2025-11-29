@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import MaySage from "../MaySage";
+import Mayple from "../Mayple";
 import LandingPage from "./pages/LandingPage";
 import InHomeServicesPage from "./pages/InHomeServicesPage";
 import ProvidersPage from "./pages/ProvidersPage";
@@ -13,12 +13,12 @@ import PrivacyPage from "./pages/PrivacyPage";
 import TermsPage from "./pages/TermsPage";
 import ScrollToTop from "../ScrollToTop";
 
-export default function MaySage_Router() {
+export default function Mayple_Router() {
   return (
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<MaySage />}>
+        <Route path="/" element={<Mayple />}>
           <Route index element={<LandingPage />} />
           <Route path="/in-home-services" element={<InHomeServicesPage />} />
           <Route path="/providers" element={<ProvidersPage />} />

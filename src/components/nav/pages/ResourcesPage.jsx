@@ -16,10 +16,10 @@ export default function ResourcesPage(props) {
       url: "https://www.ncbtmb.org/",
     },
     {
-      author: "MaySageo Clinic",
+      author: "Maypleo Clinic",
       year: "2023",
       title: "Massage: Get in touch with its many health benefits",
-      url: "https://www.MaySageoclinic.org/healthy-lifestyle/stress-management/in-depth/massage/art-20045743",
+      url: "https://www.Maypleoclinic.org/healthy-lifestyle/stress-management/in-depth/massage/art-20045743",
     },
     {
       author: "WebMD",

@@ -28,7 +28,7 @@ export default function HelpPage() {
                 color: "black",
               }}
             >
-              Welcome to MaySage Support
+              Welcome to Mayple Support
             </h1>
             <p
               style={{
@@ -49,14 +49,14 @@ export default function HelpPage() {
             >
               Simply send your inquiries to{" "}
               <a
-                href="mailto:help@MaySage.com"
+                href="mailto:help@Mayple.com"
                 style={{
                   color: "black",
                   textDecoration: "underline",
                   fontWeight: "bold",
                 }}
               >
-                help@MaySage.com
+                help@Mayple.com
               </a>
               .
             </p>
