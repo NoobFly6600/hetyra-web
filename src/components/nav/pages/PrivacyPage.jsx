@@ -9,7 +9,7 @@ export default function PrivacyPage() {
         <p className="mb-4">Effective Date: November 26, 2024.</p>
 
         <p className="mb-4">
-          May Platform Inc. ("Mayple," "we," "us" or "our"), connects massage
+          MaySage Inc. ("MaySage," "we," "us" or "our"), connects massage
           therapists and bodyworkers with clients seeking on-demand wellness
           services. This Privacy Policy outlines how we collect and use your
           personal information when you use our websites (collectively referred
@@ -170,7 +170,7 @@ export default function PrivacyPage() {
 
           <h3 className="h4 mb-3">Automatic Data Collection</h3>
           <p className="mb-3">
-            We, along with our service providers and business partners, Mayple
+            We, along with our service providers and business partners, MaySage
             automatically collect information about you, your device, and your
             activity over time through our sites and online services, such as:
           </p>
@@ -534,7 +534,7 @@ export default function PrivacyPage() {
             If you have any questions or concerns about this Privacy Policy,
             please contact us at:
           </p>
-          <p className="mb-2">Mayple Support Team</p>
+          <p className="mb-2">MaySage Support Team</p>
           <p className="mb-4">
             Email:{" "}
             <a

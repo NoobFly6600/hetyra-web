@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
 
-import Mayple_Navbar from "./nav/Mayple_Navbar";
+import MaySage_Navbar from "./nav/MaySage_Navbar";
 import GlobalContext from "../contexts/GlobalContext";
 import Footer from "./Footer";
 
-export default function Mayple() {
+export default function MaySage() {
   return (
     <div
       style={{
@@ -14,7 +14,7 @@ export default function Mayple() {
         backgroundColor: "#ffffff",
       }}
     >
-      <Mayple_Navbar />
+      <MaySage_Navbar />
       <div style={{ flex: "1", backgroundColor: "#ffffff" }}>
         <GlobalContext.Provider>
           <Outlet />

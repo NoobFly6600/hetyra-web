@@ -6,7 +6,7 @@ import SectionRight from "./SectionRight";
 export default function CooperatePage() {
   const sectionsData = [
     {
-      title: "Benefits of Partnering with Mayple",
+      title: "Benefits of Partnering with MaySage",
       photo: "",
       text: "Join our platform and enjoy flexible working hours, competitive earnings, and a steady stream of clients. Our therapists earn 70-80% of service fees, with bonuses for high ratings and consistent performance. We provide insurance coverage and professional development opportunities.",
       text2:
@@ -17,7 +17,7 @@ export default function CooperatePage() {
       photo: "",
       text: "We maintain high standards to ensure client safety and satisfaction. Requirements include: valid massage therapy license, minimum 2 years of professional experience, clean background check, and professional liability insurance.",
       text2:
-        "All therapists must complete Mayple's safety and service quality training program. We value professionalism, punctuality, and commitment to customer satisfaction.",
+        "All therapists must complete MaySage's safety and service quality training program. We value professionalism, punctuality, and commitment to customer satisfaction.",
     },
     {
       title: "Join Our Network",
@@ -36,7 +36,7 @@ export default function CooperatePage() {
           <br />
           <p className="lead">
             Are you a licensed massage therapist looking to grow your practice?
-            Join Mayple's network of professional therapists and connect with
+            Join MaySage's network of professional therapists and connect with
             clients seeking quality massage services.
           </p>
         </Col>
@@ -67,7 +67,7 @@ export default function CooperatePage() {
       <Row className="text-center my-5">
         <Col>
           <h3>Ready to Join?</h3>
-          <p>Start your journey with Mayple today</p>
+          <p>Start your journey with MaySage today</p>
           <button
             className="btn btn-primary btn-lg"
             style={{

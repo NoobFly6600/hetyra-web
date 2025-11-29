@@ -2,7 +2,7 @@ import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-export default function Mayple_Navbar(props) {
+export default function MaySage_Navbar(props) {
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -23,7 +23,7 @@ export default function Mayple_Navbar(props) {
             color: "white",
           }}
         >
-          Mayple
+          MaySage
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbar-nav" />
@@ -62,7 +62,7 @@ export default function Mayple_Navbar(props) {
                 About Us
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/how-it-works">
-                How Mayple Works
+                How MaySage Works
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

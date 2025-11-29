@@ -1,8 +1,8 @@
 import "./App.css";
-import Mayple_Router from "./components/nav/Mayple_Router";
+import MaySage_Router from "./components/nav/MaySage_Router";
 
 function App() {
-  return <Mayple_Router />;
+  return <MaySage_Router />;
 }
 
 export default App;

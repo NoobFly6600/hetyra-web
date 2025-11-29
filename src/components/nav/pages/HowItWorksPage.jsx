@@ -49,7 +49,7 @@ export default function HowItWorksPage() {
                 marginBottom: "30px",
               }}
             >
-              How to use the Mayple app
+              How to use the MaySage app
             </h1>
             <p
               style={{

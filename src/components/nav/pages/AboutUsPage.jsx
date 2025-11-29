@@ -8,7 +8,7 @@ export default function AboutUsPage() {
     {
       title: "Our Mission",
       photo: "",
-      text: "Mayple is dedicated to redefining the massage therapy industry by empowering clients and therapists alike through our state-of-the-art platform. Our mission is to make high-quality, professional massage services universally accessible, ensuring convenience, safety, and satisfaction at every step.",
+      text: "MaySage is dedicated to redefining the massage therapy industry by empowering clients and therapists alike through our state-of-the-art platform. Our mission is to make high-quality, professional massage services universally accessible, ensuring convenience, safety, and satisfaction at every step.",
     },
     {
       title: "Our Vision",
@@ -18,12 +18,12 @@ export default function AboutUsPage() {
     {
       title: "Our Values",
       photo: "",
-      text: "At Mayple, our core values shape everything we do. Excellence is at the heart of our mission, driving us to deliver unparalleled service to both therapists and clients. Accessibility guides our commitment to making professional wellness services available to everyone, anytime, anywhere. Safety is foundational to our platform, ensuring a secure and reliable environment for all users. Innovation fuels our journey as we adapt and evolve with advanced technology to meet the ever-changing needs of the wellness industry. Finally, we believe in Empowerment—supporting therapists to build successful careers while enriching clients' lives with easy access to care.",
+      text: "At MaySage, our core values shape everything we do. Excellence is at the heart of our mission, driving us to deliver unparalleled service to both therapists and clients. Accessibility guides our commitment to making professional wellness services available to everyone, anytime, anywhere. Safety is foundational to our platform, ensuring a secure and reliable environment for all users. Innovation fuels our journey as we adapt and evolve with advanced technology to meet the ever-changing needs of the wellness industry. Finally, we believe in Empowerment—supporting therapists to build successful careers while enriching clients' lives with easy access to care.",
     },
     {
       title: "Our Technology",
       photo: "",
-      text: "Mayple is powered by advanced technology, designed to simplify and elevate the massage therapy experience. Our smart matching system uses sophisticated algorithms to connect clients with therapists who best suit their unique preferences and requirements. Real-time booking functionality allows users to schedule appointments effortlessly, avoiding delays and conflicts. We prioritize financial security through robust, seamless transaction systems. Safety is enhanced with tools like identity verification, location tracking, and emergency assistance, ensuring trust and reliability for everyone involved. Constant innovation keeps Mayple ahead, with our team continuously refining the platform and introducing new features to meet the evolving needs of our users.",
+      text: "MaySage is powered by advanced technology, designed to simplify and elevate the massage therapy experience. Our smart matching system uses sophisticated algorithms to connect clients with therapists who best suit their unique preferences and requirements. Real-time booking functionality allows users to schedule appointments effortlessly, avoiding delays and conflicts. We prioritize financial security through robust, seamless transaction systems. Safety is enhanced with tools like identity verification, location tracking, and emergency assistance, ensuring trust and reliability for everyone involved. Constant innovation keeps MaySage ahead, with our team continuously refining the platform and introducing new features to meet the evolving needs of our users.",
     },
   ];
 
@@ -31,12 +31,12 @@ export default function AboutUsPage() {
     {
       title: "Safety First",
       photo: "",
-      text: "At Mayple, safety is our highest priority. We conduct thorough background checks, verify licenses, and continuously monitor the performance of all therapists to ensure professionalism and trust. Our platform features real-time appointment tracking, giving clients and therapists transparency and peace of mind throughout the service. Additionally, integrated emergency assistance tools are in place to address unexpected situations quickly and effectively, ensuring a safe and secure experience for everyone.",
+      text: "At MaySage, safety is our highest priority. We conduct thorough background checks, verify licenses, and continuously monitor the performance of all therapists to ensure professionalism and trust. Our platform features real-time appointment tracking, giving clients and therapists transparency and peace of mind throughout the service. Additionally, integrated emergency assistance tools are in place to address unexpected situations quickly and effectively, ensuring a safe and secure experience for everyone.",
     },
     {
       title: "Uncompromising Quality",
       photo: "",
-      text: "Quality defines every aspect of our service. All therapists on the Mayple platform are certified professionals with extensive training and proven experience. To maintain excellence, we provide regular training sessions and skill development workshops. We also actively gather and analyze client feedback to refine our services continuously. By upholding rigorous standards, we ensure that every session delivered through Mayple exceeds expectations and provides unparalleled relaxation and wellness.",
+      text: "Quality defines every aspect of our service. All therapists on the MaySage platform are certified professionals with extensive training and proven experience. To maintain excellence, we provide regular training sessions and skill development workshops. We also actively gather and analyze client feedback to refine our services continuously. By upholding rigorous standards, we ensure that every session delivered through MaySage exceeds expectations and provides unparalleled relaxation and wellness.",
     },
     {
       title: "Dedicated Customer Support",
@@ -70,7 +70,7 @@ export default function AboutUsPage() {
                   lineHeight: "1.6",
                 }}
               >
-                Founded in 2024, Mayple is transforming the massage therapy
+                Founded in 2024, MaySage is transforming the massage therapy
                 industry through technology. We connect certified massage
                 therapists with clients seeking professional massage services,
                 making wellness accessible to everyone.
@@ -79,7 +79,7 @@ export default function AboutUsPage() {
             <Col md={6} className="d-flex justify-content-center">
               <img
                 src={AboutUsPhoto}
-                alt="About Mayple"
+                alt="About MaySage"
                 style={{
                   width: "100%",
                   maxWidth: "500px",
@@ -100,7 +100,7 @@ export default function AboutUsPage() {
           <Col>
             <h2 className="mb-4">Our Foundation</h2>
             <p className="mb-5" style={{ fontSize: "18px", lineHeight: "1.6" }}>
-              At Mayple, we believe in transforming the way people experience
+              At MaySage, we believe in transforming the way people experience
               wellness and relaxation by seamlessly blending innovation,
               professionalism, and accessibility.
             </p>
@@ -150,7 +150,7 @@ export default function AboutUsPage() {
             <p
               style={{ fontSize: "16px", lineHeight: "1.6", marginTop: "20px" }}
             >
-              Mayple stands apart as a trusted and innovative platform,
+              MaySage stands apart as a trusted and innovative platform,
               delivering safety, quality, and care in every interaction. Through
               our unwavering dedication to these values, we make wellness
               accessible, reliable, and exceptional for all.
